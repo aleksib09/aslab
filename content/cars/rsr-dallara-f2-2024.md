@@ -2,7 +2,7 @@
 title: "Dallara F2 2024"
 meta_title: ""
 description: "Dallara F2 2024 - Formula RSS 2 V6 2024 (rss_formula_rss_2_v6_2024) by RSS"
-date: 2025-05-22T23:00:00Z
+date: 2025-05-22T21:00:00Z
 thumb: rRFbm4t
 mainimage: gHrxqe6
 cargallery: ["I9MUc5Z", "GSNBT5Z"]

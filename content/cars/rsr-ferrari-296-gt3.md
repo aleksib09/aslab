@@ -30,7 +30,7 @@ version: "1.1"
 csp: "0.2.7"
 carname: "Ferrari 296 GT3"
 realname: GT-M Furiano 96 V6
-livery: "Yes"
+livery: "Included"
 r2r: 1
 host: mods
 ---

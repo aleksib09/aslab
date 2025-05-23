@@ -29,7 +29,7 @@ version: "1.1"
 csp: "0.2.7"
 carname: "Ford Mustang GT3"
 realname: GT-M Hyperion V8
-livery: "Yes"
+livery: "Included"
 r2r: 1
 host: mods
 ---
