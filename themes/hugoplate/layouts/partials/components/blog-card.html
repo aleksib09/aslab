@@ -1,0 +1,66 @@
+<a href="{{ .RelPermalink }}" class="bg-body dark:bg-darkmode-body rounded-xl transform transition-transform duration-300 block" style="margin-bottom:6px">
+    {{ $image:= .Params.image }}
+    <div class="relative">
+  {{ if $.Params.thumb }}
+          <img src="https://i.imgur.com/{{.Params.thumb}}.jpg" alt="{{ .Title }}"/>
+      {{ else if $image }}
+    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded" "Style" "margin-bottom:2px;") }}
+    <div class="absolute top-2 right-2 flex flex-col items-end content-start">
+      {{ if .Params.class | or .Params.trackcreator }}
+      {{ if .Params.class }}
+      <a href="/tags/{{ .Params.class }}" target="_blank"><span class="bg-white text-black text-xs font-bold px-4 py-1 rounded drop-shadow-lg">
+        {{ if in .Params.class "GTE"}} LM{{end }} {{ .Params.class}} 
+       
+      </span></a>
+      {{ else }}
+      <a href="/tags/{{ .Params.tracklocation }}" target="_blank"><span class="bg-white text-black text-xs font-bold px-2 py-1 rounded drop-shadow-lg">
+        <i class="fa-solid fa-earth-americas fa-xs" style="padding-right: 2px;"></i> {{ .Params.tracklocation }}  
+       </span></a>
+       {{ end }}
+       {{else}}
+       <span class="bg-white text-black text-xs font-bold px-4 py-1 rounded drop-shadow-lg">
+        v{{ .Params.version }}
+       </span>
+       {{end}}
+      {{ if .Params.power | or .Params.trackclass  }} 
+      {{ if .Params.power }}
+      <span style="margin-top: 4px;" class="bg-white text-black text-xs font-bold px-3 py-1 rounded drop-shadow-lg">
+       <i class="fa fa-bolt fa-xs" style="padding-right: 2px;"></i> {{ .Params.power }}
+      </span>
+      {{ else }}
+      <span style="margin-top: 4px;" class="bg-white text-black text-xs font-bold px-2 py-1 rounded drop-shadow-lg">
+        FIA Grade {{ .Params.trackclass }}
+       </span>
+       {{end}}
+       {{end}}
+       {{ if .Params.weight }}
+       <span style="margin-top: 4px;" class="bg-white text-black text-xs font-bold px-2 py-1 rounded drop-shadow-lg">
+        <i class="fa fa-star"></i> Featured
+       </span>
+       {{ end }} 
+     </div>
+    </div>
+  {{ end }}
+  <ul style="margin-left: 7px;">
+      <li class="inline-block uppercase font-bold" style="font-size:small" ><b>
+        {{ $creator:= .Params.creator}}
+        {{ $tcreator:= .Params.trackcreator}}
+        {{ $origin:= .Params.country }}
+        {{ $location:= .Params.tracklocation }}
+        {{ $creatorfull2:= .Params.creatorfull }}
+        {{ if or ($tcreator) ($creator) }}
+        <a href="/tags/{{ .Params.creator | or  .Params.trackcreator | urlize }}" target="_blank">
+          {{ .Params.creator | or  .Params.trackcreator }} {{ if $creatorfull2 }} - {{ .Params.creatorfull }} {{ end }}
+          {{end}}</a>{{ if ($location)}},
+        </li> 
+      <li class="inline-block uppercase" style="font-size:small">
+           {{.Params.tracktype }}
+          {{end}}</a></b>
+          </li>
+    </ul>
+  <p class="mb-3 font-bold" style="margin-left: 7px; font-size:large; margin-top: 0px">
+    <a href="{{ .RelPermalink }}">
+      {{ .Title }}
+    </a>
+  </p>
+</a>

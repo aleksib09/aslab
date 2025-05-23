@@ -1,0 +1,16 @@
+[build]
+publish = "public"
+command = "yarn project-setup; yarn build"
+
+[build.environment]
+HUGO_VERSION = "0.144.2"
+GO_VERSION = "1.24.0"
+
+# [[plugins]]
+#   package = "netlify-plugin-hugo-cache-resources"
+
+# 	[plugins.inputs]
+# 	# If it should show more verbose logs (optional, default = true)
+# 	debug = true
+# 	# Relative path to source directory in case you use Hugo's "--s" option
+# 	srcdir = "content/images"

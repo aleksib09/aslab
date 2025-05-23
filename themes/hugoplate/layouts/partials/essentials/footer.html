@@ -1,0 +1,61 @@
+
+<footer class="panel panel-default minusBottom" id="#foot">
+  <div class="container">
+    <div class="row items-center py-10">
+      <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left">
+        <!-- navbar brand/logo -->
+        <a
+          class="navbar-brand inline-block"
+          href="{{ site.Home.RelPermalink }}">
+          {{ partial "logo" }}
+        </a>
+      </div>
+      <div class="lg:col-6 mb-8 text-center lg:mb-0">
+        <ul>
+          {{ range site.Menus.footer }}
+            <li class="m-3 inline-block">
+              <a class="font-bold"
+                {{ if findRE `^http` .URL }}
+                  target="_blank" rel="noopener"
+                {{ end }}
+                href="{{ if findRE `^#` .URL }}
+                  {{ if not $.IsHome }}
+                    {{ site.Home.RelPermalink }}
+                  {{ end }}{{ .URL }}
+                {{ else }}
+                  {{ .URL | relLangURL }}
+                {{ end }}"
+                >{{ .Name }} </a
+              >
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right flex flex-row">
+       
+      </div>
+    </div>
+  </div>
+  <div class="border-border dark:border-darkmode-border border-t py-7">
+    <div
+      class="text-text-light dark:text-darkmode-text-light container text-center">
+      <p>
+        <i class="ml-2 fa-xl fa-brands fa-cloudflare mr-4"></i></i>{{ site.Params.copyright | markdownify }} <i class="fa-brands fa-linode ml-2 fa-lg"></i>
+      </p>
+    </div>
+  </div>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LZENPB9QSF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LZENPB9QSF');
+</script>
+  {{/*  <script type="text/javascript">
+    var ouo_token = '02NtPMiv';
+    var domains = ["modsfire.com", "sharemods.com", "vikingfile.com", "anonfile.la", "drive.usercontent.google.com"]; 
+  </script>
+  <script src="https://cdn.ouo.io/js/full-page-script.js"></script>  */}}
+</footer>

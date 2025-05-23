@@ -1,0 +1,72 @@
+<style>
+.hover-text {
+   opacity: 0;
+   transition: opacity 0.3s ease-in;
+  }
+.relative:hover .hover-text {
+   opacity: 1;
+  }
+.hover-disappear {
+  background-color: rgba ( 0, 0, 0, .6);
+   opacity: 1;
+   transition: opacity 0.3s ease;
+  }
+.relative:hover .hover-disappear {
+   opacity: 0;
+  }
+.hover-blur {
+  transition: all 400ms ease;
+  }
+.hover-blur:hover {
+  background-color: rgba ( 0, 0, 0, .6);
+  filter: blur(2px);
+  }
+  .row {
+    & > * {
+        padding-right: calc(var(--bs-gutter-x) / 4);
+        padding-left: calc(var(--bs-gutter-x) / 12);
+    }
+}
+.img-link {
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+ </style>
+
+
+<div class="thumbnail" id="grid-items">
+  <div class="grid-item-content-container">
+
+    <!-- Tile -->
+    <div class="grid-item-content-back">
+      <div class="grid-item-img-container">
+        
+        <a href="{{ .RelPermalink }}">
+          {{ $image:= .Params.image }}
+          {{ if $.Params.thumb }}
+          <img src="https://i.imgur.com/{{.Params.thumb}}.jpg" alt="{{ .Title }}"/>
+      {{ else if $image }}
+    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "vl" "Style" "") }}
+    {{ end }}
+        </a>
+      </div>
+      {{/*  <div class="stick-top-left label-overlay">
+        <!-- Corners -->
+                              <span class="label label-info"><i class="fa fa-globe"></i>New!</span>
+                            </div>  */}}
+    </div>
+    <!-- Caption -->
+    <div class="grid-item-content">
+      <p class="pt-1 pl-0.8"><span><!-- Caption -->
+      <a href="{{ .RelPermalink }}" title="{{ .Title }}" style="font-size: 14px;" class="font-bold item-desc pt-2 pr">{{ .Title }}</span>
+       <p><a href="{{ .RelPermalink }}" title="{{ .Title }}" class="font-bold btn btn-success btn-block"><b>LEARN MORE</b></a></p> </span></p>
+    </div>
+    <a href="{{ .RelPermalink }}" title="{{ .Title }}"><span class="img-link"></span></a>
+  </div>
+ 
+</div>

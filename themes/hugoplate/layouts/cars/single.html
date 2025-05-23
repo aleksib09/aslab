@@ -1,0 +1,402 @@
+{{ define "main" }}
+<div class="bg-img"></div>
+  <section class="section pt-7">
+    <div class="container">
+      <div class="row justify-center">
+        <article class="lg:col-10">
+          <style>
+            .lightbox {
+              display: none;
+              position: fixed;
+              object-position: center;
+              z-index: 1000;
+              padding: 10em 62px 0px 62px;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              overflow: auto;
+              background-color: rgba(0, 0, 0, 0.9);
+            }
+            .lightbox-content {
+              margin: auto;
+              display: block;
+              max-width: 70%;
+              height: auto;
+              cursor: pointer;
+              padding: 0 0 0 0
+            }
+            .lightbox-close {
+              position: absolute;
+              top: 15px;
+              right: 35px;
+              color: #fff;
+              font-size: 40px;
+              font-weight: bold;
+              transition: 0.3s;
+            }
+            .lightbox-close:hover,
+            .lightbox-close:focus {
+              color: #bbb;
+              text-decoration: none;
+              cursor: pointer;
+            }
+           </style>
+           <script>
+            function showImage(src) {
+              document.getElementById('main-image').src = src;
+            }
+            function openLightbox() {
+              document.getElementById('lightbox').style.display = 'block';
+              document.getElementById('lightbox-image').src = document.getElementById('main-image').src;
+            }
+            function closeLightbox() {
+              document.getElementById('lightbox').style.display = 'none';
+            }
+           </script>
+           <div class="page-header pb-4">
+            <h6>
+            <i class="fa-solid fa-car mr-2"></i> {{ .Title }}</h6> 
+          </div>
+          <div class="w-full flex mt-4 mb-1">
+            {{ $galleryimg:= .Params.cargallery }}
+            {{ if $galleryimg }}
+            <div class="flex w-auto justify-center">
+              {{/*  Display main image  */}}
+             <img id="main-image" alt="{{ .Title }}" 
+             class="thumbnail" 
+             onclick="openLightbox()"
+             {{ if .Params.mainimage }} 
+             src="https://i.imgur.com/{{ .Params.mainimage }}.jpg" {{ else }}
+             src="/{{ if .Params.image2}}{{.Params.image2}}{{else}}{{.Params.image}}{{end}}"
+             {{ end }} 
+             style="max-width:900px;max-height:555px"/>
+            </div>
+            {{/*  Display manufacturer  */}}
+            <div class="flex flex-col justify-start ml-4 mb-2 space-y-4" style="margin-bottom:10px">
+              <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-bottom: 8.45px">
+                <a href="/tags/{{ .Params.manu | urlize }}">{{if .Params.logo2 }} 
+                  <img class="cursor-pointer" src="/images/{{.Params.logo2 | urlize }}.png" {{ if eq (len .Params.cargallery) "3" }}style="max-width: 140px; max-height: 63px;" {{ else }}style="max-width: 140px; max-height: 66.6px;"{{ end }}/>
+                  {{ else if .Params.brandimgur }}
+                  <img class="cursor-pointer" src="https://i.imgur.com/{{.Params.brandimgur}}.png" {{ if eq (len .Params.cargallery) "3" }}style="max-width: 140px; max-height: 53.3px;" {{else}}style="max-width: 140px; max-height: 66.6px;"{{ end }}/>
+                  {{ else }}<img class="cursor-pointer" src="/images/{{ if .Params.brandname}}{{.Params.brandname}}{{else}}{{ .Params.manu | urlize | lower }}{{end}}.png" {{ if eq (len .Params.cargallery) "3" }}style="max-width: 140px; max-height: 53.3px;" {{else}}style="max-width: 140px; max-height: 66.6px;"{{ end }}/>
+                  {{ end }}</a>
+               </div>
+               {{ if eq (len .Params.cargallery) 1}}
+                 {{ if .Params.chassisby }}
+                 <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-left: 10.5px; padding-bottom: 8.45px; padding-right: 10.5px;">
+                  <a href="/tags/{{ .Params.chassisby | urlize }}"><img class="cursor-pointer" src="/images/{{.Params.chassisby | urlize}}.png" style="max-width: 110px; max-height: 85px;"/>
+                  </a>
+                 </div>
+                 {{ end }}
+                 {{ if .Params.championship }}
+                  <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-left: 10.5px; padding-bottom: 8.45px; padding-right: 10.5px;">
+                    <a href="/tags/{{ .Params.championship | urlize }}"><img class="cursor-pointer" src="/images/{{if .Params.champlogo}}{{.Params.champlogo}}{{else}}{{.Params.championship | urlize}}{{end}}.png" style="max-width: 110px; max-height: 85px;"/>
+                    </a>
+                  </div>
+                  {{ end }}
+                  <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-left: 10.5px; padding-bottom: 8.45px; padding-right: 10.5px;">
+                    <a href="/tags/{{ .Params.country | urlize }}"><img class="cursor-pointer" src="/images/{{.Params.country | urlize}}.png" style="max-width: 110px; max-height: 85px;"/>
+                    </a>
+                   </div>
+               {{ end }}
+               {{ if eq (len .Params.cargallery) 2}}
+                 {{ if .Params.chassisby }}
+                 <div class="flex thumbnail justify-center" style="width: 165px;padding-top: 8.5px; padding-left: 10.5px; padding-bottom: 8.45px; padding-right: 10.5px;">
+                  <a href="/tags/{{ .Params.chassisby | urlize }}"><img class="cursor-pointer" src="/images/{{.Params.chassisby | urlize}}.png" style="max-width: 110px; max-height: 85px;"/>
+                  </a>
+                 </div>
+                 {{ else if .Params.championship }}
+                  <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-left: 10.5px; padding-bottom: 8.45px; padding-right: 10.5px;">
+                    <a href="/tags/{{ .Params.championship | urlize }}"><img class="cursor-pointer" src="/images/{{if .Params.champlogo}}{{.Params.champlogo}}{{else}}{{.Params.championship | urlize}}{{end}}.png" style="max-width: 110px; max-height: 85px;"/>
+                    </a>
+                  </div>
+                  {{ else }}
+                 <div class="flex thumbnail justify-center" style="padding-top: 10.5px; padding-left: 10.5px; padding-bottom: 10.45px; padding-right: 10.5px;">
+                  <a href="/tags/{{ .Params.country | urlize }}"><img class="cursor-pointer" src="/images/{{.Params.country | urlize}}.png" style="max-width: 110px; max-height: 66.7px;"/>
+                  </a>
+                 </div>
+                 {{ end }}
+               {{ end}}
+               {{/*  Show small main image on the list gallery  */}}
+              <div class="flex justify-center" style="margin-top: 4px">
+                <img 
+                {{if .Params.mainimage }}
+                onclick="showImage(`https://i.imgur.com/{{ .Params.mainimage }}.jpg`)" {{ else }}
+                onclick="showImage(`/{{ if .Params.image2}}{{.Params.image2}}{{else}}{{.Params.image}}{{end}}`)"
+                {{ end }}
+                class="cursor-pointer"
+                {{if .Params.mainimage }}
+                src="https://i.imgur.com/{{ .Params.mainimage }}.jpg" {{ else }}
+                src="/{{ if .Params.image2 }}{{.Params.image2}}{{else}}{{.Params.image}}{{end}}" {{ end }}
+                style="width: 180px; max-height: 88px;"/>
+               </div>
+            {{ range $galleryimg }}
+             <div class="flex justify-center">
+              <img onclick="showImage(`https://i.imgur.com/{{ . }}.jpg`)" class="cursor-pointer" src="https://i.imgur.com/{{ . }}.jpg" style="max-width: 180px; max-height: 95px;"/>
+             </div>
+              {{ end }}
+
+               {{ else }}
+               <div class="flex w-auto center justify-center">
+                {{ if .Params.image2 }}
+                <img id="main-image" class="thumbnail cursor-pointer shadow-lg" onclick="openLightbox()" src="/{{.Params.image2}}" style="max-width: auto; height: 610px;"/>
+                {{ else if .Params.mainimage }}
+                <img id="main-image" alt="{{ .Title }}" 
+             class="thumbnail" 
+             onclick="openLightbox()"
+             src="https://i.imgur.com/{{ .Params.mainimage }}.jpg"
+             style="width: 1095px;max-height:auto"/>
+            {{/*  </div>  */}}
+            {{/*  Display manufacturer  */}}
+            {{/*  <div class="flex flex-col justify-start ml-4 mb-2 space-y-4" style="margin-bottom:10px">
+              <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-left: 10.5px; padding-bottom: 8.45px; padding-right: 10.5px;">
+                <a href="/tags/{{ .Params.manu | urlize }}">{{if .Params.logo2 }} 
+                  <img class="cursor-pointer" src="/images/{{.Params.logo2 | urlize }}.png" style="max-width: 140px; max-height: 53.3px;"/>
+                  {{ else if .Params.brandimgur }}
+                  <img class="cursor-pointer" src="https://i.imgur.com/{{.Params.brandimgur}}.png" style="max-width: 140px; max-height: 53.3px;"/>
+                  {{ else }}<img class="cursor-pointer" src="/images/{{ if .Params.brandname}}{{.Params.brandname}}{{else}}{{ .Params.manu | urlize | lower }}{{end}}.png" style="max-width: 140px; max-height: 60px;"/>
+                {{ end }}</a>
+               </div>
+               {{ if .Params.chassisby}}
+               <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-left: 10.5px; padding-bottom: 8.45px; padding-right: 10.5px;">
+                <a href="/tags/{{ .Params.chassisby | urlize }}"><img class="cursor-pointer" src="/images/{{.Params.chassisby | urlize }}.png" style="max-width: 140px; max-height: auto;"/>
+                </a>
+               </div>
+               {{ end }}
+               <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-left: 10.5px; padding-bottom: 8.45px; padding-right: 10.5px;">
+                <a href="/tags/{{ .Params.country | urlize }}"><img class="cursor-pointer" src="/images/{{.Params.country | urlize}}.png" style="max-width: 180px; max-height: 40px;"/>
+                </a>
+               </div>
+               {{ if .Params.championship}}
+               <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-left: 10.5px; padding-bottom: 8.45px; padding-right: 10.5px;">
+                <img class="cursor-pointer" title="{{.Params.championship}}" src="/images/{{.Params.championship | urlize }}.png" style="width: 140px; max-height: auto;"/>
+                </a> */}}
+               {{/*  </div>   */}}
+               {{/*  {{ end }}   */}}
+                {{ else }}
+                <img id="main-image" class="thumbnail cursor-pointer shadow-lg" onclick="openLightbox()" src="/{{.Params.image}}" style="max-width: 1088px; max-height: 610px;"/>
+                {{ end }}
+                
+              {{ end  }}
+            </div>
+           </div>
+           <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <img class="lightbox-content" id="lightbox-image">
+            </div>
+          {{ if eq (len .Content) 0 }} {{ else }} <hr style="margin-top:6px; margin-bottom:5px"> {{ end }}
+          {{ if .Content}}
+          <div class="content mb-4">
+            {{ .Content }}
+          </div>
+          {{ end }}
+          {{ if eq (len .Content) 0 }}  <hr style="margin-top:5px; margin-bottom:15px"> {{ else }}
+          <hr style="margin-bottom: 10px;">
+          {{ end }}
+{{/*  Car INFO  */}}
+          {{ if eq .Params.host "mods"}}
+          <div class="notice2 info2 text-light" style="margin-bottom:7px">
+              <p><i class="fa-solid fa-triangle-exclamation fa-xs" style="padding-right: 5px;"></i><b>Using an AD-Blocker like <a class="font-bold" target="_blank" href="https://ublockorigin.com/">uBlock Origin<i class="fa-solid fa-link fa-xs" style="padding-left: 3px;padding-right: 3px;"></i></a> is highly recommended when download from Mods.To</b></p></div>   
+              {{ end}}
+              
+          {{ if .Params.parentcar }}
+          <div class="notice2 info3 text-light" style="margin-bottom:7px">
+              <p><i class="fa-solid fa-circle-exclamation fa-xs" style="padding-right: 5px;"></i><b>This car requires parent car: <a class="font-bold" target="_blank" href="{{.Params.parentlink}}"><u>{{.Params.parentcar}}</u><i class="fa-solid fa-link fa-xs" style="padding-left: 3px;padding-right: 3px;"></i></a>, install to ensure it work properly</b>  
+              </div>
+              {{ end}}  
+
+          {{ $cspreq:= .Params.csp}}
+          {{ $cspreq1:= .Params.csp1}}
+          {{if or (in $cspreq "Unknown") (in $cspreq "No")}}
+          {{ else }}
+          <div class="notice2 info text-light" style="margin-bottom:4px">
+              <p><b>This car requires <a class="font-bold" target="_blank" href="/misc/csp-0210-preview1/">CSP<i class="fa-solid fa-link fa-xs" style="padding-left: 3px;padding-right: 3px;"></i></a> to work properly, build {{ .Params.csp }} or better</b></p></div>
+
+          {{ end }}
+          {{ if .Params.dlcrequired}}
+          <div class="notice2 info2" style="margin-bottom:4px;margin-top:7px;border-radius: var(--radius-sm)">
+            <p><b> DLC <a class="font-bold" target="_blank" href="{{ .Params.dlclink }}"> {{ .Params.dlcrequired }} <i class="fa-solid fa-cart-arrow-down fa-xs" style="padding-right:3px"></i></a> is required too</b></p>
+          </div>
+          {{ end }}
+          <div class="flex items-center justify-center w-full py-2">
+            <div class="overflow-x-auto w-full">
+                    <div class="flex space-x-2">
+                        <div class="text-left px-2 py-2 grid grid-cols-1 rounded-lg border content-center w-1/2" style="padding-left:23px; border-radius: var(--radius-sm)">
+                            <div>
+                                <p><i class="fa-solid fa-circle-info fa-xs" style="padding-right: 3px;"></i> Car:  <b> {{ .Params.carname}}</b></p>
+                              </div>
+                            <div>
+                              {{ if .Params.realname }}
+                              <p style="font-size:15px"><i class="fa-solid fa-car fa-xs" style="padding-right: 3px;"></i> Real name:  <b> {{ .Params.realname}}</b></p>
+                              {{ else }}
+                              <p style="font-size:15px"><i class="fa-solid fa-folder fa-xs" style="padding-right: 3px;"></i> File name:  <b> {{ .Params.folder}}</b></p>
+                              {{ end }}
+                              </div>
+                              
+                        </div>
+                        <div class="shadow-2xs text-left py-2 px-4 rounded-lg border-1 grid grid-cols-2 content-center w-1/2" style="align-content: center; border-radius: var(--radius-sm)">
+                          {{if .Params.chassisby }}
+                          <div>
+                            <p>Build by: <a class="font-bold" href="/tags/{{ .Params.chassisby | urlize }}">{{ .Params.chassisby }}</a></p>
+                            
+                            </div>
+                            {{ else  if .Params.championship }}
+                            <div>
+                              <p>Championship: <a class="font-bold" href="/tags/{{ .Params.championship | urlize }}">{{ .Params.championship }}</a></p>
+                              </div>
+
+                            {{ else }} 
+                          <div>
+                            <p>File Size: <b>{{ .Params.zipsize}}</b></p>
+                            </div>
+                            {{ end }}
+                            {{ $variant:= .Params.vars }}
+                            {{ if .Params.chassisby | and .Params.championship }}
+                            <div>
+                              <p>Championship: <a class="font-bold" href="/tags/{{ .Params.championship | urlize }}">{{ .Params.championship }}</a></p>
+                              </div>
+                      {{ else if $variant }}
+                      <div>
+                        <p>Variants: {{ range $i,$p:= $variant }}{{ if $i }}, {{ end }}<b>{{ . }}</b>{{ end }}</p> 
+                      </div>
+                      {{ else }}
+                            <div>
+                              <p>Uploaded: <b>{{ time.Format ":date_medium" .PublishDate }}</b></p>
+                              </div>
+                              {{ end }}
+                          <div>
+                            <p>Liveries: {{ $r2r:= .Params.r2r }}
+                              {{ if $r2r }}
+                              <a href="/tags/r2r"> {{ end }}<b>{{ .Params.livery }}</b></a></p>
+                          </div>
+                          <div>
+                            <p>Version: <b>{{ .Params.version }}</b></p>
+                          </div>
+                        </div>
+
+                        <div class="text-center rounded-lg border flex items-center justify-center w-1/6 hover:border-color:red" style="border-radius: var(--radius-sm)">
+                          <a href="{{ .Params.link }}" target="_blank"><img alt={{ .Params.host }} class="mx-auto" src="/images/{{ .Params.host | urlize }}.png" width="125"></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          <div class="flex items-center justify-center w-full shadow-xs">
+            <div class="overflow-x-auto w-full">
+                    <div class="flex space-x-2">
+                        <div class="text-center rounded-lg border py-4 px-8 flex items-center justify-center w-1/4 aspect-square" style="border-radius: var(--radius-sm)">
+                            <a href="/tags/{{ .Params.manu | urlize | lower }}">
+                              {{ $manufacturer:= .Params.manu }}
+                              {{ $brand:= .Params.brandname }}
+                              {{ if $brand }}
+                              <img alt={{ .Params.manu }} class="mx-auto" src="/images/{{ .Params.brandname | urlize | lower }}.png" width="auto" style="max-height: 160px">
+                              {{ else if .Params.brandimgur }}
+                              <img alt={{ .Params.manu }} class="mx-auto" src="//i.imgur.com/{{ .Params.brandimgur }}.png" width="auto" style="max-height: 160px">
+                              {{ else }}
+                              <img alt={{ .Params.manu }} class="mx-auto" src="/images/{{ .Params.manu | urlize | lower }}.png" width="auto" style="max-height: 160px">
+                            {{ end }}</a>
+                        </div>
+                        <div class="text-left px-2 py-4 items-center rounded-lg grid grid-cols-2 gap-1 border w-1/4" style="padding-left: 20px;border-radius: var(--radius-sm)">
+                            <div>
+                                <p>Nationality:</p>
+                                {{ if eq .Params.country "World"}} <a href="/tags/{{ .Params.creator | urlize }}" target="_blank" class="font-bold"> {{ .Params.country}}</a>{{ else }}
+                                <a href="/tags/{{ .Params.country | urlize }}" target="_blank" class="font-bold">{{ .Params.country}}</a> {{ end }}
+                            </div>
+                            <div style="padding-left: 7px;">
+                                <p>Year:</p>
+                                <a href="/tags/{{ .Params.year}}" target="_blank" class="font-bold">{{ .Params.year}}</a>
+                            </div>
+                            <div>
+                                <p>Class:</p>
+                                <a href='/tags/{{ .Params.class | urlize }}' class="font-bold">{{ .Params.class }}</a>
+                            </div>
+                            <div style="padding-left: 7px;">
+                                <p>Drivetrain:</p>
+                                <p class="font-bold">{{ .Params.drivetrain }}</p>
+                            </div>
+                        </div>
+                        <div class="text-left px-1 py-4 rounded-lg grid grid-cols-3 gap-1 border-1 items-center w-1/2" style="padding-left:35px; border-radius: var(--radius-sm)">
+                            <div>
+                                <p><i class="fa-solid fa-bolt fa-xs" style="padding-right: 3px;"></i> Power:</p>
+                                <p class="font-bold">{{ .Params.power }}</p>
+                            </div>
+                            <div>
+                              <p><i class="fa-solid fa-gears fa-xs" style="padding-right: 3px;"></i> Torque:</p>
+                              <p class="font-bold">{{ .Params.torque }} nm</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-solid fa-gauge fa-xs" style="padding-right: 3px;"></i> Top Speed:</p>
+                                <p class="font-bold">{{ .Params.speed }} km/h</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-solid fa-car-battery fa-xs" style="padding-right: 3px;"></i> Engine:</p>
+                                <p class="font-bold">{{ .Params.engine }}</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-solid fa-gear fa-xs" style="padding-right: 3px;"></i> Gearbox:</p>
+                                <p class="font-bold">{{ .Params.gb }}</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-solid fa-weight-hanging fa-xs" style="padding-right: 3px;"></i> Weight:</p>
+                                <p class="font-bold">{{ .Params.mass }} kg</p>
+                            </div>
+                        </div>
+                        <div class="text-left py-4 px-4 rounded-lg border grid grid-cols-1 gap-1 items-center w-1/6" style="border-radius: var(--radius-sm)">
+                            <div><p><i class="fa-solid fa-user fa-xs" style="padding-right: 3px;"></i> Credit: </p><b>{{ if or (in .Params.creator "Unknown")}}{{else}}<a href="/tags/{{ .Params.creator | urlize }}" class="font-bold">{{end}}{{ .Params.creator }} </b></a>
+                              {{ $creatorfull:= .Params.creatorfull}}
+                              {{ if .Params.creator2 }}, <a href="/tags/{{ .Params.creator2 | urlize }}" target="_blank"><b>{{ .Params.creator2 }}</b> </a>
+                              {{ else if $creatorfull }}- <b>{{ .Params.creatorfull }}</b>{{end}}
+                            </div>
+                            <div><p><i class="fa-solid fa-clock fa-xs" style="padding-right: 3px;"></i> 0-100 km/h: </p><p class="font-bold">{{ .Params.accel }}</p></div>          
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+          <br>
+          <div class="row gx-2 items-start justify-between w-full">
+            {{ $tags:= .Params.tags }}
+            {{ if $tags }}
+              <div class="lg:col-12 mb-10 flex items-center lg:mb-0">
+                <h6 class="mr-3">{{ T "tags" }}:</h6>
+                <ul>
+                  {{ range $i,$p:= $tags }}
+                    <li class="inline-block">
+                      <a
+                        class="btn btn-link"
+                        href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
+                        {{ . }}
+                      </a>
+                    </li>
+                  {{ end }}
+                </ul>
+              </div>
+            {{ end }}
+          </div>
+          {{/*  {{ if site.Config.Services.Disqus.Shortname }}
+            <div class="mt-20">
+              {{ template "_internal/disqus.html" . }}
+            </div>
+          {{ end }}  */}}
+
+
+      <!-- Related posts -->
+      {{ $related := .Site.RegularPages.Related . | first 6 }}
+      {{ with $related }}
+        <div class="section pb-0">
+          <h4 class="h5 mb-2"><i class="fa fa-bars mr-2"></i>Other similar cars</h4>
+          <div class="row gx-2" style="margin-right: calc(var(--bs-gutter-x) / -10); margin-left: calc(var(--bs-gutter-x) / -4)">
+            {{ range $related | first 6}}
+            {{ if ne .Section "cars"  }}
+            {{ else }}
+            <div class="lg:col-12 md:col-4" style="margin-bottom: -4px;">
+                {{ partial "components/related-card" .}}
+              </div>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

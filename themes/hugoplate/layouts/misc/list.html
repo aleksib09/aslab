@@ -1,0 +1,48 @@
+{{ define "main" }}
+<style>
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+  }</style>
+
+  <div class="text-center">
+    {{ $header:= .Params.header }}
+    <div class="relative w-full h-96 flex items-center justify-center" style="background-image: url('{{ $header }}'); background-size: cover; background-position: center;">
+     <div class="glass-effect text-right">
+      <h1 class="text-4xl font-bold" style="color: white;">
+       {{ .Params.Title}}
+      </h1>
+      <h2 class="text-sm mt-2" style="color: white;">
+       {{ .Params.description}}
+      </h2>
+     </div>
+    </div>
+  </div>
+
+  <section class="section pt-2">
+    <div class="container w-full">
+      <div class="row gx-2 justify-around items-center" style="margin-right: calc(var(--bs-gutter-x) / 2); margin-left: calc(var(--bs-gutter-x) / 0.8);">
+        <!-- blog posts -->
+        <div class="lg:col-12">
+          <div class="row mb-4">
+            {{ $paginator:= .Paginate .RegularPages 24}}
+            {{ range $paginator.Pages}}
+              <div class="md:col-4">
+                {{ partial "components/related-card" . }}
+              </div>
+            {{ end }}
+          </div>
+          {{ partial "components/pagination.html" . }}
+        </div>
+        <!-- sidebar -->
+      </div>
+    </div>
+  </section>
+{{ end }}

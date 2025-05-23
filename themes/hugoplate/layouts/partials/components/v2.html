@@ -1,0 +1,27 @@
+<div class="thumbnail">
+  <div class="grid-item-content-container">
+
+    <!-- Tile -->
+    <div class="grid-item-content-back">
+      <div class="grid-item-img-container">
+        <a href="{{ .RelPermalink }}">
+          {{ $image:= .Params.image }}
+  <div class="relative">
+        {{ if $image }}
+        {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full") }}
+        {{ end }}
+      
+      </div>
+      {{/*  <div class="stick-top-left label-overlay">
+        <!-- Corners -->
+                              <span class="label label-info"><i class="fa fa-globe"></i>New!</span>
+                            </div>  */}}
+         </div>
+    <!-- Caption -->
+    <div class="grid-item-content">
+      <h6><span><!-- Caption -->
+      <a href="{{ .RelPermalink }}" class="item-desc">{{ .Title }}</a> <p><a href="{{ .RelPermalink }}" class="btn btn-success btn-block">Learn More</a></p> </span></h6>
+    </div>
+
+  </div>
+</div>

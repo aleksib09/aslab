@@ -1,0 +1,40 @@
+{{ define "main" }}
+<section class="pt-5 pb-2">
+  <div class="container">
+    <div class="w-full">
+      <div class="page-header pb-5">
+        <h5 class="font-bold" style="color: white;">
+       More than {{ len (where .Site.RegularPages "Section" "==" "tracks") }} tracks available with over {{/* mul (len (where .Site.RegularPages "Section" "==" "tracks"))*/}} hundred configurations to drive.  
+        </h5>
+      <p class="mb-2">
+      Here you can find tracks all over the world from racing circuits, street circuits, ovals, dirt roads to rally cross,... that will challenge your driving skill or some breath-taking wheel to wheel action.
+      </p>
+      
+    </div>
+    <p class="pt-2"><i class="fa-solid fa-circle-question mr-2"></i><b class="mr-1">Tips:</b>  Track image with a cog icon at the corner means <i>it's an extension</i>, not a standalone track. You will find the required track in the <i>Mod Requirement section</i>. Championship icon stands for what tournament layouts are included</p>
+    <div id="category-navigation" class="mt-4">
+      <ul class="nav nav-tabs nav-justified">
+        <li><a href="/tags/wec" class="nav-link">FIA WEC</a></li><li><a href="/tags/imsa" class="nav-link">IMSA</a></li><li><a href="/tags/f1" class="nav-link">Formula 1</a></li><li><a href="/tags/dirt" class="nav-link">Dirt</a></li><li><a href="/tags/rally" class="nav-link">Rally Course</a></li><li><a href="/tags/free-roam" class="nav-link">Free Roam</a></li>		</ul>
+      </div>
+  </div>
+</section>
+  <section class="section" style="padding-top:5px;">
+    <div class="container">
+      <div class="row gx-2"  style="margin-right: calc(var(--bs-gutter-x) / 2.5); margin-left: calc(var(--bs-gutter-x) / 0.9)">
+        <!-- blog posts -->
+        <div class="lg:col-12">
+          <div class="row">
+            {{ $paginator:= .Paginate .RegularPages 32}}
+            {{ range $paginator.Pages }}
+              <div class="md:col-3">
+                {{ partial "components/related-card" . }}
+              </div>
+            {{ end }}
+          </div>
+          {{ partial "components/pagination.html" . }}
+        </div>
+        <!-- sidebar -->
+      </div>
+    </div>
+  </section>
+{{ end }}

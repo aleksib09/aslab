@@ -1,0 +1,163 @@
+{{ define "main" }}
+  <!-- Banner -->
+  {{ with .Params.banner }}
+    <section class="section pt-0 pb-0 object-cover w-full">
+      <div class="relative">
+        <div class="inset-y-0 top-0 right-0 z-0 w-full px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
+          {{/*  <svg class="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block" viewBox="0 0 100 100" fill="bg" preserveAspectRatio="none slice">
+            <path d="M50 0H100L50 100H0L50 0Z"></path>
+          </svg>  */}}
+          <img
+            class="object-cover vl w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
+            src="/images/cpcp.webp"
+            alt=""
+          />
+        </div>
+        <div class="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
+          <div class="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
+            <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+              {{ len (where site.RegularPages "Section" "==" "cars") }} cars, {{ len (where site.RegularPages "Section" "==" "tracks") }} tracks<br class="hidden md:block" />
+              were shared
+              <br span class="inline-block ">since 2020 🎆</span>
+            </h2>
+            <p class="pr-5 text-base md:text-lg">
+            Best place to find best Assetto Corsa mods.
+            </p>
+            <p class="pr-5 mb-5 text-base md:text-lg">
+            Join our Telegram group for exclusive mods: 
+            <a class="font-bold" href="https://t.me/+N7eP-LfJ1ew2Nzll" target="_blank">Join Telegram</a> 
+            </p>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Banner -->
+  <section class="section-sm py-4">
+      <div class="container pr-5em flex flex-row content-center items-center justify-between mb-2 mt-10"><h3>LATEST CARS</h3> <a 
+        href="/cars" 
+        class="btn btn-info hidden lg:inline-block text-base">
+        Browse all cars
+      </a></div>
+
+    <div class="container">
+      <div class="row gx-2 justify-around items-center" style="margin-right: calc(var(--bs-gutter-x) / 2); margin-left: calc(var(--bs-gutter-x) / 0.77)">
+        <!-- blog posts -->
+        <div class="lg:col-12">
+          <div class="row">
+            {{ $related := where site.Pages.ByPublishDate.Reverse "Params.categories" "intersect" (slice "Car")}}
+            {{ with $related }}
+            {{ range . | first 12}} 
+            {{ if ne .Section "cars"}}
+            {{ else }}
+              <div class="md:col-4">
+                {{ partial "components/related-card" . }}
+              </div>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+        <br>
+        <!-- sidebar -->
+      </div>
+    </div>
+    <br />
+  </section>
+  <section class="section-sm mt-0 pt-2 mb-1" style="padding-bottom: 30px">
+    <div class="mb-2 container pr-5em flex flex-row content-center items-center justify-between mt-10"><h3>LATEST TRACKS</h3> <a 
+      href="/tracks" 
+      class="btn btn-info hidden lg:inline-block text-base">
+      Browse all tracks
+    </a></div>
+
+  <div class="container">
+    <div class="row gx-2 justify-around items-center" style="margin-right: calc(var(--bs-gutter-x) / 2.18); margin-left: calc(var(--bs-gutter-x) / 0.78)">
+      <!-- blog posts -->
+      <div class="lg:col-12">
+        <div class="row">
+          {{ $related := where site.Pages.ByPublishDate.Reverse "Params.categories" "intersect" (slice "Track")}}
+          {{ with $related }}
+          {{ range . | first 16}} 
+          {{ if ne .Section "tracks"}}
+          {{ else }}
+            <div class="md:col-3">
+              {{ partial "components/related-card" . }}
+            </div>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      <br>
+      <!-- sidebar -->
+      
+    </div>
+  </div>
+  <br />
+</section>
+<section class="section-sm py-4">
+  <div class="container pr-5em flex flex-row content-center items-center justify-between mb-2 mt-10"><h3>LATEST SKINS</h3> <a 
+    href="/skins" 
+    class="btn btn-info hidden lg:inline-block text-base">
+    Browse all skins
+  </a></div>
+
+<div class="container">
+  <div class="row gx-2 justify-around items-center" style="margin-right: calc(var(--bs-gutter-x) / 2); margin-left: calc(var(--bs-gutter-x) / 0.77)">
+    <!-- blog posts -->
+    <div class="lg:col-12">
+      <div class="row">
+        {{ $related := where site.Pages.ByPublishDate.Reverse "Params.categories" "intersect" (slice "Skin")}}
+        {{ with $related }}
+        {{ range . | first 12}} 
+        {{ if ne .Section "skins"}}
+        {{ else }}
+          <div class="md:col-4">
+            {{ partial "components/related-card" . }}
+          </div>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    <br>
+    <!-- sidebar -->
+  </div>
+</div>
+<br />
+</section>
+<section class="section-sm mt-0 pt-0">
+  <div class="mb-2 container pr-5em flex flex-row content-center items-center justify-between mt-10"><h3>OTHER MODS</h3> <a 
+    href="/misc" 
+    class="btn btn-info hidden lg:inline-block text-base">
+    Browse all mods
+  </a></div>
+
+<div class="container">
+  <div class="row gx-2 justify-around items-center" style="margin-right: calc(var(--bs-gutter-x) / 2.18); margin-left: calc(var(--bs-gutter-x) / 0.78)">
+    <!-- blog posts -->
+    <div class="lg:col-12">
+      <div class="row">
+        {{ $related := where site.Pages.ByPublishDate.Reverse "Params.categories" "intersect" (slice "Misc")}}
+        {{ with $related }}
+        {{ range . | first 16}} 
+        {{ if ne .Section "misc"}}
+        {{ else }}
+          <div class="md:col-3">
+            {{ partial "components/related-card" . }}
+          </div>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    <br>
+    <!-- sidebar -->
+    
+  </div>
+</div>
+<br />
+</section>
+{{ end }}

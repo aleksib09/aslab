@@ -1,0 +1,240 @@
+<meta charset="utf-8" />
+
+<!-- responsive meta -->
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+<!-- font Rubik -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+{{/*  <script type="text/javascript">
+  var ouo_token = '02NtPMiv';
+  var domains = ['modsfire.com', 'sharemods.com']; 
+</script>
+<script src="//cdn.ouo.io/js/full-page-script.js"></script>  */}}
+<!-- theme meta -->
+{{/*  <meta name="theme-name" content="hugoplate" />  */}}
+
+<meta name="google-adsense-account" content="ca-pub-3990568021239283">
+
+<!-- favicon -->
+{{ partialCached "favicon" . }}
+
+
+<!-- manifest -->
+{{ partialCached "manifest" . }}
+
+
+<!-- site verifications -->
+{{ partialCached "site-verifications.html" . }}
+
+
+<!-- opengraph and twitter card -->
+<!-- base url -->
+{{ if or (eq site.BaseURL "/") (eq site.BaseURL "http://localhost:1313/") }}
+{{ else }}
+  <base href="{{ .Permalink }}" />
+{{ end }}
+
+
+<!-- title -->
+{{ $title := site.Title }}
+{{ if eq .Page.Title "All cars"}}
+<title>All cars mods availabe for Assetto Corsa</title>
+{{ else if eq .Page.Title "All tracks"}}
+<title>All tracks available for Assetto Corsa</title>
+{{ else if eq .Page.Title "All liveries available"}}
+<title>All skins availabe for Asseto Corsa</title>
+{{ else if or (eq .Section "cars") (eq .Section "tracks") (eq .Section "skins") (eq .Section "misc") (eq .Section "pages")}} 
+  <title>{{ .Page.Title }}</title>
+{{else}}
+<title>{{ if .IsHome }}{{ .Site.Title }} {{ else if .Page.Title }}Mods tagged with {{ .Page.Title }} {{ end }}</title>
+{{end}}
+<!-- meta noindex -->
+{{ if .Param "noindex" }}
+  <meta name="robots" content="noindex,nofollow" />
+{{ end }}
+
+
+<!-- meta canonical -->
+{{ with .Params.canonical }}
+  <link rel="canonical" href="{{ . }}" itemprop="url" />
+{{ end }}
+
+
+<!-- multilingual SEO optimizations -->
+{{ if .IsTranslated }}
+  {{ range .AllTranslations }}
+    <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+  {{ end }}
+  <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+{{ end }}
+
+
+<!-- meta keywords -->
+{{ if .Params.keywords }}
+  <meta name="keywords" content="{{ delimit .Params.keywords `, ` }}" />
+{{ else if site.Params.metadata.keywords }}
+  <meta
+    name="keywords"
+    content="{{ delimit site.Params.metadata.keywords `, ` }}" />
+{{ end }}
+
+
+<!-- meta description -->
+<meta
+  name="description"
+  content="{{ .Params.description | default site.Params.metadata.description }}" />
+
+<!-- meta author -->
+{{ with site.Params.metadata.author }}
+  <meta name="author" content="{{ . }}" />
+{{ end }}
+
+
+<!-- checking og description -->
+{{ $description := .Summary }}
+{{ if .Params.meta_description }}
+  {{ $description = .Params.meta_description }}
+  <!-- checking page description -->
+{{ else if .Params.description }}
+  {{ $description = .Params.description }}
+  <!-- checking page description -->
+{{ else if site.Params.metadata.description }}
+  {{ $description = site.Params.metadata.description }}
+{{ end }}
+
+
+<!-- checking og image -->
+{{ $imagePath := site.Params.metadata.image }}
+{{ if .Params.meta_image }}
+  {{ $imagePath = .Params.meta_image }}
+  <!-- checking multiple images -->
+{{ else if .Params.images }}
+  {{ range first 1 .Params.images }}
+    {{ $imagePath = . }}
+  {{ end }}
+  <!-- checking single images -->
+{{ else if .Params.image }}
+  {{ $imagePath = .Params.image }}
+{{ end }}
+
+
+<!-- ######### Opengraph and Twitter image meta ############## -->
+
+<!-- check cdn/static image -->
+{{ if or (hasPrefix $imagePath "http") (fileExists (add `static/` (string $imagePath))) }}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="{{ $imagePath | absURL }}" />
+  <meta property="og:image" content="{{ $imagePath | absURL }}" />
+{{ else }}
+  <!-- check cdn/static image -->
+
+  <!-- content and assets image path variable -->
+  {{ $contentImage:= .Resources.GetMatch (printf "*%s*" $imagePath) }}
+  {{ $assetImage:= fileExists (add `assets/` (string $imagePath)) }}
+
+
+  <!-- check image existence -->
+  {{ if or $contentImage $assetImage }}
+    <!-- content or assets folder detection -->
+    {{ if $contentImage }}
+      {{ .Scratch.Set "image-exists" $contentImage }}
+    {{ else if $assetImage }}
+      {{ .Scratch.Set "image-exists" (resources.Get $imagePath) }}
+    {{ end }}
+
+    {{ $image:= .Scratch.Get "image-exists" }}
+
+
+    <!-- image extension -->
+    {{ $imageExt:= path.Ext $image }}
+
+
+    <!-- If not SVG  -->
+    {{ if ne $imageExt `.svg` }}
+      {{ $imageWidth := $image.Width }}
+      {{ $imageHeight := $image.Height }}
+      {{ if (and (gt $imageWidth 144) (gt $imageHeight 144)) }}
+        <meta property="og:image" content="{{ $image.Permalink }}" />
+        <meta name="twitter:image" content="{{ $image.Permalink }}" />
+        <meta
+          name="twitter:card"
+          content="{{- if (and (gt $imageWidth 300) (gt $imageHeight 157) (not (eq $imageWidth $imageHeight))) -}}summary_large_image{{- else -}}summary{{- end -}}" />
+      {{ end }}
+      <!-- /if image gt 144px -->
+      <meta property="og:image:width" content="{{ $imageWidth }}" />
+      <meta property="og:image:height" content="{{ $imageHeight }}" />
+    {{ end }}
+
+
+    <!-- /if not svg -->
+    <meta
+      property="og:image:type"
+      content="image/{{- if eq $imageExt `.svg` -}}
+        svg+xml
+      {{- else -}}
+        {{- replaceRE `^jpg$` `jpeg` $imageExt -}}
+      {{- end -}}" />
+  {{ end }}
+
+
+  <!-- /if image exist -->
+{{ end }}
+<!-- /check cdn/static image -->
+<!-- ######### /Opengraph and Twitter image meta ############## -->
+
+<!-- ######### opengraph others meta ############## -->
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{ $description }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Permalink }}" />
+
+<!-- ########## twitter others meta ############### -->
+<meta name="twitter:title" content="{{ $title }}" />
+<meta name="twitter:description" content="{{ $description }}" />
+
+{{ with site.Params.metadata.twitter }}
+  <meta name="twitter:site" content="@{{ . }}" />
+{{ end }}
+{{ with site.Params.metadata.author }}
+  <meta name="twitter:creator" content="@{{ . }}" />
+{{ end }}
+
+<!-- custom script -->
+{{ partialCached "custom-script.html" . }}
+
+
+<!-- google analytics -->
+{{ if and site.Config.Services.GoogleAnalytics.ID (ne site.Config.Services.GoogleAnalytics.ID "G-MEASUREMENT_ID") }}
+  {{ template "_internal/google_analytics.html" . }}
+{{ end }}
+
+
+<!-- google tag manager -->
+{{ partialCached "gtm.html" . }}
+
+
+<!-- search index -->
+{{ partial "search-index.html" . }}
+
+
+<!-- matomo analytics -->
+{{/* {{ partialCached "matomo-analytics.html" . }} */}}
+
+<!--  Baidu analytics -->
+{{/* {{ partialCached "baidu-analytics.html" . }} */}}
+
+<!-- Plausible Analytics -->
+{{/* {{ partialCached "plausible-analytics.html" . }} */}}
+
+<!-- Counter Analytics -->
+{{/* {{ partialCached "counter-analytics.html" . }} */}}
+
+<!-- Crisp Chat -->
+{{/* {{ partialCached "crisp-chat.html" . }} */}}
+
+<!-- Mermaid -->
+{{ partial "mermaid/assets/js" . }}

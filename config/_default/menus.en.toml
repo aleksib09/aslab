@@ -1,0 +1,262 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Cars"
+url = "/cars/"
+weight = 1
+
+
+[[main]]
+name = "Brands"
+url = "/brand"
+weight = 2
+
+[[main]]
+parent = "Brands"
+name = "Aston Martin"
+url = "/tags/aston-martin/"
+weight = 3
+
+[[main]]
+parent = "Brands"
+name = "Acura"
+url = "/tags/acura/"
+weight = 2
+
+[[main]]
+parent = "Brands"
+name = "Ford"
+url = "/tags/ford/"
+weight = 8
+
+[[main]]
+parent = "Brands"
+name = "Audi"
+url = "/tags/audi/"
+weight = 1
+
+[[main]]
+parent = "Brands"
+name = "BMW"
+url = "/tags/bmw/"
+weight = 4
+
+[[main]]
+parent = "Brands"
+name = "Bugatti"
+url = "/tags/bugatti/"
+weight = 5
+
+[[main]]
+parent = "Brands"
+name = "Chevy"
+url = "/tags/chevrolet/"
+weight = 6
+
+[[main]]
+parent = "Brands"
+name = "Ferrari"
+url = "/tags/ferrari/"
+weight = 7
+
+[[main]]
+parent = "Brands"
+name = "Honda"
+url = "/tags/honda/"
+weight = 8
+
+[[main]]
+parent = "Brands"
+name = "Koenigsegg"
+url = "/tags/koenigsegg/"
+weight = 9
+
+[[main]]
+parent = "Brands"
+name = "Lamborghini"
+url = "/tags/lamborghini/"
+weight = 10
+
+[[main]]
+parent = "Brands"
+name = "Lexus"
+url = "/tags/lexus/"
+weight = 11
+
+[[main]]
+parent = "Brands"
+name = "Porsche"
+url = "/tags/porsche/"
+weight = 16
+
+[[main]]
+parent = "Brands"
+name = "Nissan"
+url = "/tags/nissan/"
+weight = 15
+
+
+[[main]]
+parent = "Brands"
+name = "Mercedes"
+url = "/tags/mercedes/"
+weight = 13
+
+[[main]]
+parent = "Brands"
+name = "McLaren"
+url = "/tags/mclaren/"
+weight = 14
+
+
+[[main]]
+parent = "Brands"
+name = "Toyota"
+url = "/tags/Toyota/"
+weight = 15
+
+
+
+
+[[main]]
+name = "Class"
+weight = 2
+
+
+[[main]]
+parent = "Class"
+name = "LMDh/LMH"
+url = "/tags/hypercar/"
+weight = 1
+
+[[main]]
+parent = "Class"
+name = "GT4"
+url = "/tags/GT4/"
+weight = 3
+
+[[main]]
+parent = "Class"
+name = "GT3"
+url = "/tags/gt3/"
+weight = 4
+
+[[main]]
+parent = "Class"
+name = "GT2"
+url = "/tags/gt2/"
+weight = 5
+
+[[main]]
+parent = "Class"
+name = "GTE"
+url = "/tags/gte/"
+weight = 6
+
+
+[[main]]
+parent = "Class"
+name = "Prototype"
+url = "/tags/le-mans-prototype/"
+weight = 7
+
+[[main]]
+parent = "Class"
+name = "Formula"
+url = "/tags/formula/"
+weight = 2
+
+[[main]]
+parent = "Class"
+name = "V8 Supercars"
+url = "/tags/Supercars/"
+weight = 8
+
+[[main]]
+parent = "Class"
+name = "Road Cars"
+url = "/tags/road/"
+weight = 9
+
+
+
+[[main]]
+name = "Creators"
+weight = 2
+
+[[main]]
+parent = "Creators"
+name = "URD - United Racing Design"
+url = "/tags/urd/"
+weight = 2
+
+[[main]]
+parent = "Creators"
+name = "VRC - Virtual Racing Cars"
+url = "/tags/vrc/"
+weight = 1
+
+[[main]]
+parent = "Creators"
+name = "FSR - 1st Studio Race"
+url = "/tags/fsr/"
+weight = 4
+
+[[main]]
+parent = "Creators"
+name = "Ceky Performance"
+url = "/tags/ceky/"
+weight = 3
+
+[[main]]
+parent = "Creators"
+name = "LP Desgin"
+url = "/tags/lp-design/"
+weight = 5
+
+[[main]]
+parent = "Creators"
+name = "Fenryr"
+url = "/tags/fenryr/"
+weight = 6
+
+[[main]]
+parent = "Creators"
+name = "Pyyer"
+url = "/tags/pyyer/"
+weight = 7
+
+
+
+
+
+
+[[main]]
+name = "Tracks"
+url = "/tracks/"
+weight = 3
+
+
+
+[[main]]
+name = "Skins"
+url = "/skins"
+weight = 4
+
+[[main]]
+name = "Other"
+url = "/misc"
+weight = 5
+
+# footer menu
+
+[[footer]]
+name = "How To Download"
+url = "/how-to-download"
+weight = 1
+
+[[footer]]
+name = "Useful Links"
+url = "/useful-links"
+weight = 2

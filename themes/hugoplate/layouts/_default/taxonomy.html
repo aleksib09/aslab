@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="pt-5 pb-2">
+  <div class="container">
+    <div class="w-full">
+      <div class="page-header pb-5">
+        <h5 class="font-bold" style="color: white;">
+       All mods tagged with {{.Title}}.
+        </h5>
+      <p class="mb-2">
+        Here you will find all cars, tracks or other mods related to {{ .Title }}, <i>you can click on each attributes in the mod info box to find mod with same attribute.</i>
+      </p>
+    </div>
+  </div>
+</section>
+  <section class="section pt-2">
+    <div class="container">
+      <div class="row gx-2"  style="margin-right: calc(var(--bs-gutter-x) / 2); margin-left: calc(var(--bs-gutter-x) / 0.815);">
+        <!-- blog posts -->
+        <div class="lg:col-12">
+          <div class="row">
+            {{ $paginator:= .Paginate .Data.Pages 24}}
+            {{ range $paginator.Pages }}
+              <div class="md:col-4">
+                {{ partial "components/related-card" . }}
+              </div>
+            {{ end }}
+          </div>
+          {{ partial "components/pagination.html" . }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

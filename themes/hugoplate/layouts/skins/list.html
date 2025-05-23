@@ -1,0 +1,38 @@
+{{ define "main" }}
+  <section class="pt-5 pb-2">
+  <div class="container">
+    <div class="w-full">
+     <div class="page-header pb-5">
+      <h5 class="font-bold" style="color: white;">
+       Over {{ len (where .Site.RegularPages "Section" "==" "skins") }} skins from all real racing championships!
+      </h5>
+      <p class="mb-2"></p>
+    </div>  
+    <p class="pt-2"><i class="fa-solid fa-circle-question mr-2"></i><b class="mr-1">Tips:</b>team icon on right corner stand for which team running that livery, tournament info will be on left corner. You can click on each skin infomation like <i>Car</i> for required car, <i>Event, Championship</i>,... to find cars, tracks or skins with same attribute!</p>
+			
+    <div id="category-navigation" class="mt-4">
+      <ul class="nav nav-tabs nav-justified">
+        <li><a href="/tags/formula-1" class="nav-link">Formula 1</a></li><li><a href="/tags/weathertech-sportcars-championship" class="nav-link">IMSA WTSC</a></li><li><a href="/tags/wec" class="nav-link">FIA WEC</a></li><li><a href="/tags/igtc" class="nav-link">IGTC</a></li><li><a href="/tags/gtwc" class="nav-link">GTWC</a></li><li><a href="/tags/pcc" class="nav-link">PCC</a></li>		</ul>
+      </div>
+  </div>
+</section>
+  <section class="section pt-2">
+    <div class="container w-full">
+      <div class="row gx-2 justify-around items-center" style="margin-right: calc(var(--bs-gutter-x) / 2); margin-left: calc(var(--bs-gutter-x) / 0.8);">
+        <!-- blog posts -->
+        <div class="lg:col-12">
+          <div class="row mb-4">
+            {{ $paginator:= .Paginate .RegularPages 18}}
+            {{ range $paginator.Pages}}
+              <div class="md:col-4">
+                {{ partial "components/related-card" . }}
+              </div>
+            {{ end }}
+          </div>
+          {{ partial "components/pagination.html" . }}
+        </div>
+        <!-- sidebar -->
+      </div>
+    </div>
+  </section>
+{{ end }}

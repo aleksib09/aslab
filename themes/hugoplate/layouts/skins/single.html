@@ -1,0 +1,309 @@
+{{ define "main" }}
+  <section class="section pt-7">
+    <div class="container">
+      <div class="row justify-center">
+        <article class="lg:col-10">
+          <style>
+            .lightbox {
+              display: none;
+              position: fixed;
+              object-position: center;
+              z-index: 1000;
+              padding: 10em 62px 0px 62px;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              overflow: auto;
+              background-color: rgba(0, 0, 0, 0.9);
+            }
+            .lightbox-content {
+              margin: auto;
+              display: block;
+              max-width: 70%;
+              height: auto;
+              cursor: pointer;
+              padding: 0 0 0 0
+            }
+            .lightbox-close {
+              position: absolute;
+              top: 15px;
+              right: 35px;
+              color: #fff;
+              font-size: 40px;
+              font-weight: bold;
+              transition: 0.3s;
+            }
+            .lightbox-close:hover,
+            .lightbox-close:focus {
+              color: #bbb;
+              text-decoration: none;
+              cursor: pointer;
+            }
+           </style>
+           <script>
+            function showImage(src) {
+              document.getElementById('main-image').src = src;
+            }
+            function openLightbox() {
+              document.getElementById('lightbox').style.display = 'block';
+              document.getElementById('lightbox-image').src = document.getElementById('main-image').src;
+            }
+            function closeLightbox() {
+              document.getElementById('lightbox').style.display = 'none';
+            }
+           </script>
+           <div class="page-header pb-4">
+            <h6>
+            <i class="fa-solid fa-brush mr-2"></i> {{ .Title }}</h6>
+          </div>
+          <div class="w-full flex mt-4 mb-5">
+            {{ $galleryimg:= .Params.skingallery }}
+            {{ if $galleryimg }}
+            <div class="flex w-auto justify-center">
+              {{/*  Display main image  */}}
+              {{ $mainimg:= .Params.mainpreview}}
+              {{ if $mainimg }} 
+             <img id="main-image" alt="{{ .Title }}" 
+             class="thumbnail" 
+             onclick="openLightbox()"
+             src="https://i.imgur.com/{{ .Params.mainpreview }}.jpg"
+             style="width: auto; max-height: 525px;"/>
+            {{ else }}
+            <img id="main-image" alt="{{ .Title }}" 
+            class="thumbnail" 
+            onclick="openLightbox()"
+            src="/{{.Params.image}}"
+            style="width: auto; height: 545px;"/>
+            {{ end }}
+            </div>
+           
+            {{/*  Display Team  */}}
+            <div class="flex flex-col justify-start ml-4 mb-2 space-y-4" style="margin-bottom:10px">
+              <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-bottom: 8.45px">
+                {{ if .Params.teamlogo}}
+                <a href="/tags/{{ .Params.teamname | urlize }}" target="_blank"><img class="cursor-pointer" src="//i.imgur.com/{{ .Params.teamlogo }}.png" style="max-width: 150px; max-height: 36px;"/></a>
+                {{ else }}
+                <a href="/tags/{{ .Params.teamname | urlize }}" target="_blank"><img class="cursor-pointer" src="/images/{{ .Params.teamname | urlize | lower }}.png" style="max-width: 150px; max-height: 36px;"/>
+                </a>
+                {{ end }}
+               </div>
+               {{ if .Params.teamcar }}
+               <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-bottom: 8.45px">
+                <a href="/tags/{{ .Params.teamcar | urlize }}" target="_blank"><img class="cursor-pointer" src="/images/{{ if .Params.teammanu }}{{ .Params.teammanu | urlize | lower }}{{else}}{{ .Params.teamcar | urlize | lower }}{{end}}.png" style="max-width: 150px; max-height: 38px;"/></a>
+               </div>
+               {{ end }}
+               {{ if eq (len $galleryimg) 1 }} 
+               <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-bottom: 8.45px">
+                <a href="/tags/{{ .Params.tournament | urlize }}" target="_blank"><img class="cursor-pointer" src="/images/{{ .Params.tournament | urlize | lower }}.png" style="max-width: 150px; max-height: 38px;"/></a>
+               </div>
+               {{ if .Params.eventlogo2 }}
+               <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-bottom: 8.45px">
+                <a href="/tags/{{ .Params.event | urlize }}" target="_blank"><img class="cursor-pointer" src="//i.imgur.com/{{ .Params.eventlogo2 }}.png" style="max-width: 150px; max-height: 38px;"/></a>
+               </div>        
+               {{ else if .Params.eventlogo }}
+               <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-bottom: 8.45px">
+                <a href="/tags/{{ .Params.event | urlize }}" target="_blank"><img class="cursor-pointer" src="/images/{{ .Params.eventlogo | urlize | lower }}.png" style="max-width: 150px; max-height: 38px;"/></a>
+               </div>               
+               {{ end}} 
+               {{ end }}
+               {{ if eq (len $galleryimg) 2 }} 
+               <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-bottom: 8.45px">
+                <a href="/tags/{{ .Params.tournament | urlize }}" target="_blank"><img class="cursor-pointer" src="/images/{{ .Params.tournament | urlize | lower }}.png" style="max-width: 150px; max-height: 38px;"/></a>
+               </div>
+               {{ end }}               
+               {{/*  Show main image on the list gallery  */}}
+               {{/*  Show small main image on the list gallery  */}}
+              <div class="flex justify-center" style="margin-top: 4px">
+                <img 
+                {{if .Params.mainpreview }}
+                onclick="showImage(`https://i.imgur.com/{{ .Params.mainpreview }}.jpg`)" {{ else }}
+                onclick="showImage(`/{{.Params.image}}`)"
+                {{ end }}
+                class="cursor-pointer"
+                {{if .Params.mainpreview }}
+                src="https://i.imgur.com/{{ .Params.mainpreview }}.jpg" {{ else }}
+                src="/{{.Params.image}}" {{ end }}
+                style="width: 155px; max-height: 88px;"/>
+               </div>
+     
+            {{ range $galleryimg }}
+             <div class="flex justify-center">
+              <img onclick="showImage(`https://i.imgur.com/{{ . }}.jpg`)" class="cursor-pointer" src="https://i.imgur.com/{{ . }}.jpg" style="width: 155px; max-height: 92px;"/>
+             </div>
+              {{ end }}
+               {{ else }}
+               <div class="flex w-auto center justify-center">
+                {{ $mainimg:= .Params.mainpreview}}
+                {{ if $mainimg }}
+                <img id="main-image" class="thumbnail cursor-pointer" onclick="openLightbox()" src="https://i.imgur.com/{{ .Params.mainpreview }}.jpg" style="max-width: auto; height: 620px;"/>
+              
+                {{ else }}
+                <img id="main-image" class="thumbnail cursor-pointer" onclick="openLightbox()" src="/{{.Params.image}}" style="max-width: auto; height: 610px;"/>
+                
+                {{ end }}
+              {{ end  }}
+            </div>
+           </div>
+           <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <img class="lightbox-content" id="lightbox-image">
+            </div>
+          {{ if eq (len .Content) 0 }} {{ else }} <hr> {{ end }}
+
+          <div class="content">
+            {{/*  {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }}  */}}
+            {{ .Content }}
+          </div>
+          <hr style="margin-bottom: 12px;">
+          {{ $cspreq:= .Params.csp}}
+          {{ $cspreq1:= .Params.csp1}}
+          {{ $skinrq:= .Params.skinrequire}}
+          {{ $skinrqlink:= .Params.skinrequirelink}}
+          {{ if in $cspreq "No" }}
+          {{ else }}
+          <div class="notice2 info text-light" style="margin-bottom:4px">
+            <p><b>This car requires <a class="font-bold" target="_blank" href="/misc/csp-0210-preview1/">CSP<i class="fa-solid fa-link fa-xs" style="padding-left: 3px;padding-right: 3px;"></i></a> to work properly, build {{ .Params.csp }} or better</b></p></div>
+          {{ end }}
+          {{ if $skinrq }}
+          <div class="notice2 info2" style="margin-bottom:4px;margin-top:7px;border-radius: var(--radius-sm)">
+            <p><b>This skin requires  {{ if $skinrq }}<a href="{{ .Params.skinrequirelink }}">{{ end }}<u>{{ .Params.skinrequire }} </u><i class="fa-solid fa-download fa-xs" style="padding-left: 1px;padding-right: 3px;"></i></a> to work properly</b></p>
+          </div>
+          {{ end }}
+          <div class="flex items-center justify-center w-full py-2">
+            <div class="overflow-x-auto w-full">
+                    <div class="flex space-x-2">
+                        <div class="text-left px-2 py-2 grid grid-cols-2 rounded-lg gap-1 border content-center w-1/2" style="padding-left:23px; border-radius: var(--radius-sm);">
+                            <div>
+                                <p>Type: <b>{{ .Params.misctype}}</b></p>
+                              </div>
+                              <div style="padding-left:25px">
+                                <p>File Size: <b>{{ .Params.zipsize}}</b></p>
+                              </div>
+                              <div>
+                                <p>{{ if eq .Params.misctype "Skin" }}Skin collection of {{ else }}Collection of {{end}} <a href="/tags/{{ .Params.creator }}" class="font-bold">{{ .Params.creator}}</a></p>
+                                </div>
+                                <div style="padding-left:25px">
+                                  <p>Version: <b> {{ .Params.version }} </b></p>
+                                  </div>
+                        </div>
+                        <div class="text-center rounded-lg border flex items-center justify-center w-1/4" style="border-radius: var(--radius-sm);">
+                          <a href="{{ .Params.creatorlink }}" target="_blank"><img class="mx-auto" src="/images/{{ .Params.creatorlogo | urlize }}" style="max-height:65px"></a>
+                      </div>
+                        <div class="text-center border flex items-center justify-center w-1/4" style="border-radius: var(--radius-sm);">
+                          <a href="{{ .Params.link }}" target="_blank"><img alt={{ .Params.host }} class="mx-auto" src="/images/{{ .Params.host | urlize }}.png" style="max-width:180px"></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            {{ if eq .Params.misctype "Skin" }}
+            <div class="flex items-center justify-center w-full shadow-xs">
+              <div class="overflow-x-auto w-full">
+                      <div class="flex space-x-2">
+                        {{ $event:= .Params.event }}
+                          <div class="text-center rounded-lg border py-4 px-8 flex items-center justify-center w-1/6 aspect" style="border-radius: var(--radius-sm);">
+                            {{ if .Params.event }}
+                            <a href="/tags/{{ .Params.event | urlize | lower }}"> {{else }}
+                              <a href="/tags/{{ .Params.tournament | urlize | lower }}"> {{ end }}
+                                {{ if .Params.eventlogo2 }}
+                                <img alt={{ .Params.tournament }} class="mx-auto"  src="//i.imgur.com/{{ .Params.eventlogo2 }}.png" width="auto" style="max-height: 60px">
+                                {{else }}
+                                <img alt={{ .Params.tournament }} class="mx-auto"  src="/images/{{ if $event }}{{.Params.event | urlize | lower }}-{{ .Params.season }}{{else}}{{ .Params.tournament | urlize | lower }}{{end}}.png" width="auto" style="max-height: 60px">
+                              {{ end }}</a>
+                          </div>
+                          <div class="text-center rounded-lg border py-4 px-8 flex items-center justify-center w-1/5 aspect" style="border-radius: var(--radius-sm);">
+                            <a href="/tags/{{ .Params.teamname | urlize | lower }}" target="_blank">
+                              {{ if .Params.teamlogo }} 
+                               <img alt={{ .Params.teamname }} class="mx-auto" src="//i.imgur.com/{{ .Params.teamlogo }}.png" width="auto" style="max-height: 60px">
+                              {{ else }}
+                              <img alt={{ .Params.teamname }} class="mx-auto" src="/images/{{ .Params.teamname | urlize | lower }}.png" width="auto" style="max-height: 60px">
+                            {{end}}
+                          </a>
+                        </div>
+                          <div class="text-left px-2 py-4 rounded-lg grid grid-cols-2 gap-1 border-1 items-center w-1/2" style="padding-left:35px; border-radius: var(--radius-sm);">
+                              <div>
+                                  <p>Skin for:
+                                  <a class="font-bold" href="{{.Params.carlink}}" target="_blank">{{ .Params.car }}</a></p>
+                              </div>
+                              {{ if $event }}
+                              <div>
+                                <p>Event:
+                                  <a href="/tags/{{.Params.event | urlize}}" target="_blank" class="font-bold">{{ .Params.event }}</a>
+                                </p>
+                              </div>
+                              {{ else }}
+                              <div>
+                                <p>Championship:
+                                  <a href="/tags/{{.Params.tournament | urlize }}" target="_blank" class="font-bold">{{ .Params.tournament }}</a>
+                                </p>
+                              </div>
+                              {{ end }}
+                              <div>
+                                  <p>Racing Season:
+                                  <a href="/tags/{{ .Params.season }}" class="font-bold">{{ .Params.season }}</a></p>
+                              </div>
+                              <div>
+                                  <p>Contain:
+                                  <b class="font-bold">{{ .Params.quantity }} skin{{if eq .Params.quantity 0}}{{ else }}s{{end}}</b></p>
+                              </div>
+                          </div>
+                          <div class="text-left py-4 px-8 rounded-lg border grid gap-1 items-center w-1/6" style="border-radius: var(--radius-sm);">
+                              <div><p>Creator: </p>{{ if .Params.creatorlink }} <a href="{{ .Params.creatorlink }}" class="font-bold" target="_blank"> {{else}}<a href="/tags/{{ .Params.creator | urlize }}" class="font-bold">{{end}}{{ $creatorfull:= .Params.creatorfull}}
+                                {{ if $creatorfull }} {{ .Params.creatorfull }} {{else}} {{ .Params.creator }} 
+                                  {{end}}
+                              </a></div>        
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              {{ end }}
+          <br>
+          <div class="row items-start justify-between">
+            {{ $tags:= .Params.tags }}
+            {{ if $tags }}
+              <div class="lg:col-12 mb-10 flex items-center lg:mb-0">
+                <h6 class="mr-3">{{ T "tags" }}:</h6>
+                <ul>
+                  {{ range $i,$p:= $tags }}
+                    <li class="inline-block">
+                      <a
+                        class="btn btn-link"
+                        href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
+                        {{ . }}
+                      </a>
+                    </li>
+                  {{ end }}
+                </ul>
+              </div>
+            {{ end }}
+          </div>
+          {{ if site.Config.Services.Disqus.Shortname }}
+            <div class="mt-20">
+              {{ template "_internal/disqus.html" . }}
+            </div>
+          {{ end }}
+
+
+      <!-- Related posts -->
+      {{ $related := .Site.RegularPages.Related . | first 6 }}
+      {{/*  {{ $related = $related | first 3 }}  */}}
+      {{/*  {{ $related = where (where site.Pages "Params.tags" "intersect" (slice .Params.manu .Params.class )) "Permalink" "!=" .Page.Permalink }}  */}}
+      {{ with $related }}
+        <div class="section pb-0">
+          <h4 class="h5 mb-2"><i class="fa fa-bars mr-2"></i>Other similar skins</h4>
+          <div class="row gx-2" style="margin-right: calc(var(--bs-gutter-x) / -10); margin-left: calc(var(--bs-gutter-x) / -4)">
+            {{ range $related | first 6}}
+            {{ if ne .Section "skins"  }}
+            {{ else }}
+            <div class="lg:col-12 md:col-4" style="margin-bottom: -4px;">
+                {{ partial "components/related-card" .}}
+              </div>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
