@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["BMW", "RSS", "GT3", "Sports car", "Germany", "2018"]
 draft: false
-link: https://mods.to/RONH68302a5dbd686
+link: https://mods.to/uJS268312175b7efc
 zipsize: "190 MB"
 manu: BMW
 logo2: m-sport

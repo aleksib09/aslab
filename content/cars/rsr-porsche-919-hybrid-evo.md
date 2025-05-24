@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Porsche", "RSS", "LMP1", "Le Mans Prototype", "R2R", "WEC", "Germany", "2018"]
 draft: false
-link: https://ouo.io/eLCcCVm
+link: https://mods.to/sOOL683121b9e9b6b
 zipsize: "127 MB"
 manu: Porsche
 logo2: porsche-motorsport

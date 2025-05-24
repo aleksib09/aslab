@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Mercedes", "RSS", "GT3", "Sports car", "R2R", "Germany", "2020"]
 draft: false
-link: https://mods.to/IDpY68308f260cbd6
+link: https://mods.to/y7RE6831208bde36e
 zipsize: "734 MB"
 manu: Mercedes
 logo2: amg

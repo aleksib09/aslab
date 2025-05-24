@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Acura", "Honda", "RSS", "GT3", "Sports car", "Japan", "2023"]
 draft: false
-link: https://mods.to/HpNT68302a6f83336
+link: https://mods.to/CEso683121363e249
 zipsize: "303 MB"
 manu: Acura
 brandname: acura-racing

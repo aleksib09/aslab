@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Italy", "WEC", "Pyyer", "Circuit", "Loop"]
 draft: false
-tracklink: https://ouo.io/lBj37N
+tracklink: https://mods.to/lEhH68311fa946168
 tracklocation: Italy
 trackimage: monza
 trackcity: Monza
