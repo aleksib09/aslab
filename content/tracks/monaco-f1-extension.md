@@ -1,9 +1,9 @@
 ---
-title: "Monaco F1 2025 Extension [PRE-Release] [3.0]"
+title: "Monaco F1 2025 Extension [3.1]"
 meta_title: ""
 description: "Monaco F1 2025 Extension for Monaco 2020 by Pyyer"
-date: 2025-05-21T09:09:00Z
-thumb: Lmjkeh1
+date: 2025-05-23T09:09:00Z
+thumb: JfgZ3gR
 trackmainimage: 6VZEmVL
 # trackgallery: ["MhmVmyA"]
 categories: ["Track"]
@@ -20,7 +20,7 @@ eventyear: ["2025"]
 event: Monaco Grand Prix
 eventlogo: circuit-de-monaco
 extfor: Monaco 2020
-extlink: https://mods.to/ov4t682e86aa99ca2
+extlink: https://mods.to/yp3I68319f45e1ea9
 championship: Formula 1
 trackrequirement: Monaco 2020
 trackrequirelink: https://mods.to/ov4t682e86aa99ca2
@@ -31,7 +31,7 @@ trackLength: 5.410
 trackwidth: "10-12"
 trackpitboxes: 28
 trackcreator: Pyyer
-trackversion: "3.0"
+trackversion: "3.1"
 trackcsp: "0.2.9"
 trackfolder: "Extension"
 trackhost: mods
