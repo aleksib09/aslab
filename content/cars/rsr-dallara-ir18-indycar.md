@@ -8,10 +8,10 @@ mainimage: Wf5kBAb
 cargallery: ["mnvP0Yj", "MAJ9OqN"]
 categories: ["Car"]
 author: "Theodora"
-tags: ["Dallara", "RSS", "NTT IndyCar", "Italy", "R2R", "Formula", "2020"]
+tags: ["Dallara", "RSS", "NTT IndyCar", "Italy", "Formula", "2020"]
 draft: false
-link: https://mods.to/nmdU682bfd0e1ce76
-zipsize: "1.72 GB"
+link: https://mods.to/wBqr6831252b1ec0f
+zipsize: "0.4 GB"
 manu: Dallara
 country: Italy
 championship: NTT IndyCar
@@ -30,7 +30,7 @@ version: "3"
 csp: "0.2.7"
 carname: "Dallara IR18 INDYCAR"
 folder: Formula Americas 2020
-livery: "Included"
-r2r: 1
+livery: "No"
+r2r: 0
 host: mods
 ---

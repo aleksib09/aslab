@@ -10,8 +10,8 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["RSS", "Super Formula", "Japan", "Formula", "2025"]
 draft: false
-link: https://mods.to/ps1V682b31be48b57
-zipsize: "385 MB"
+link: https://mods.to/RhAI68312b03e2335
+zipsize: "382 MB"
 manu: RSS
 country: Japan
 championship: Super Formula

@@ -10,8 +10,8 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "RSS", "F2", "Formula 2", "R2R", "Italy", "Formula", "2020"]
 draft: false
-link: https://mods.to/HmOH682c0c9f3e535
-zipsize: "888 MB"
+link: https://mods.to/1ckV68312bafcd462
+zipsize: "316 MB"
 manu: Dallara
 country: Italy
 championship: Formula 2

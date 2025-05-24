@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ford", "NASCAR", "NASCAR Cup Series", "USA", "2020"]
 draft: false
-link: https://mods.to/HjYn682ddbd408b95
+link: https://mods.to/tqMX683126ad30dd4
 zipsize: "248 MB"
 manu: Ford
 country: USA

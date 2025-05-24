@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Lamborghini", "RSS", "GT3", "Sports car", "Italy", "2023"]
 draft: false
-link: https://ouo.io/rjEer6
+link: https://mods.to/DYF068312357b12b3
 zipsize: "456 MB"
 manu: Lamborghini
 country: Italy

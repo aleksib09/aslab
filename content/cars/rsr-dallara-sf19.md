@@ -8,9 +8,9 @@ mainimage: poBlKJv
 cargallery: ["fTbV4nY", "VKXAoou"]
 categories: ["Car"]
 author: "Theodora"
-tags: ["Dallara", "Super Formula", "Italy", "R2R", "Formula", "2019"]
+tags: ["Dallara", "Super Formula", "Italy",  "Formula", "2019"]
 draft: false
-link: https://mods.to/RlOt682b4df2a5dcf
+link: https://mods.to/DlUm68312457e938a
 zipsize: "0.98 GB"
 manu: Dallara
 country: Italy
@@ -30,7 +30,7 @@ version: "1"
 csp: "0.2.4"
 carname: "Super Formula Dallara SF19"
 realname: Formula RSS Supreme
-livery: "Included"
-r2r: 1
+livery: "No"
+r2r: 0
 host: mods
 ---

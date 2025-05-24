@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "FIA GT", "GT2", "Italy", "2005"]
 draft: false
-link: https://mods.to/nMAc682deb21c615c
+link: https://mods.to/iqYZ683124ed8e66d
 zipsize: "150 MB"
 manu: Ferrari
 logo2: scuderia-sf

@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["RSS", "F1", "Formula 1", "R2R", "France", "Formula", "2021"]
 draft: false
-link: https://mods.to/tvA2682dced6dc8c0
+link: https://mods.to/My6B6831280ce3cf6
 zipsize: "407 MB"
 manu: RSS
 brandimgur: DEIs9DM

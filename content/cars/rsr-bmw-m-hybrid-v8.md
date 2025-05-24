@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["BMW", "Dallara", "Germany", "R2R", "Le Mans Prototype", "LMDh", "Hypercar", "2023"]
 draft: false
-link: https://ouo.io/UzELv5
+link: https://mods.to/vw08683123d640972
 zipsize: "305 MB"
 manu: BMW
 logo2: m-sport

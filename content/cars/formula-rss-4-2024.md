@@ -8,10 +8,10 @@ mainimage: hdInDiS
 cargallery: ["s1vzHr2", "Gbm2fPb"]
 categories: ["Car"]
 author: "Theodora"
-tags: ["RSS", "Formula 4", "F4", "R2R", "Formula", "2024"]
+tags: ["RSS", "Formula 4", "F4", "Formula", "2024"]
 draft: false
-link: https://mods.to/uNwo682b41baa360b
-zipsize: "293 MB"
+link: https://mods.to/Uz5a68312ac08cf48
+zipsize: "202 MB"
 manu: RSS
 country: World
 championship: Formula 1
@@ -29,8 +29,8 @@ creator: "RSS"
 version: "v1b"
 csp: "0.2.4"
 carname: "Formula RSS 4 2024"
-folder: "rss_formula_hybrid_v12-r"
-livery: "British F4 2025"
-r2r: 1
+folder: "rss_formula_rss_4_2024"
+livery: "No"
+r2r: 0
 host: mods
 ---

@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["RSS", "F2", "Formula 2", "Italy", "Formula", "2024"]
 draft: false
-link: https://mods.to/MHg2682b24af6bf20
+link: https://mods.to/BRF868312a3439997
 zipsize: "149 MB"
 manu: RSS
 country: Italy

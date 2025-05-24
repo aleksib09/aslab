@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["RSS", "F1", "Formula", "2024"]
 draft: false
-link: https://mods.to/1DNm682b352d6e60c
+link: https://mods.to/8xNn68312958358f4
 zipsize: "239 MB"
 manu: RSS
 country: World

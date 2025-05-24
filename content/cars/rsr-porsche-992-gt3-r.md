@@ -8,10 +8,10 @@ mainimage: cY8McnF
 cargallery: ["Dk8awR8", "RT7HYem", "6maLHlD"]
 categories: ["Car"]
 author: "Theodora"
-tags: ["Porsche", "RSS", "GT3", "Sports car", "R2R", "Germany", "2023"]
+tags: ["Porsche", "RSS", "GT3", "Sports car", "Germany", "2023"]
 draft: false
-link: https://mods.to/rvvK682b3b5421a85
-zipsize: "677 MB"
+link: https://mods.to/XvDD68312b6229489
+zipsize: "327 MB"
 manu: Porsche
 logo2: porsche-motorsport
 country: Germany
@@ -30,7 +30,7 @@ version: "1.1"
 csp: "0.2.7"
 carname: "Porsche 992 GT3 R"
 realname: GT-M Protech P92 F6
-livery: "Yes"
-r2r: 1
+livery: "No"
+r2r: 0
 host: mods
 ---

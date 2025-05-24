@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "RSS", "F2", "Formula 2", "Italy", "Formula", "2024"]
 draft: false
-link: https://mods.to/0WDg682b57b37ab6c
+link: https://mods.to/bi0H683123a03b2b2
 zipsize: "704 MB"
 manu: Dallara
 country: Italy
