@@ -1,7 +1,7 @@
 ---
 title: "Nissan Skyline R32 GT-R \"C1 Princess\""
 meta_title: ""
-description: "Nissan Skyline R32 GT-R \"C1 Princess\" 1994 (nohesi_mclaren_w1) by AFTERSHOCK Racing Team"
+description: "Nissan Skyline R32 GT-R \"C1 Princess\" 1994 (art_skyline_r32_gtr) by AFTERSHOCK Racing Team"
 date: 2025-05-23T15:54:00Z
 thumb: VaM4J6Z
 mainimage: n1VN6nw
@@ -28,7 +28,7 @@ creator: "AFTERSHOCK Racing Team"
 version: "1.0"
 csp: "0.2.7"
 carname: "Nissan Skyline R32 GT-R"
-folder: nohesi_mclaren_w1
+folder: art_skyline_r32_gtr
 livery: "4 colors"
 r2r: 0
 host: mods
