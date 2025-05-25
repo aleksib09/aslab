@@ -9,7 +9,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Circuit", "Italy", "Loop", "2025"]
 draft: false
-tracklink: https://ouo.io/JBtlA5Z
+tracklink: https://mods.to/9wJ0682bd49ccba99
 tracklocation: Italy
 trackimage: imola
 trackcity: Imola

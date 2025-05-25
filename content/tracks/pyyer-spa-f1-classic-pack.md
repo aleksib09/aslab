@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Pyyer", "Circuit", "Belgium", "Loop", "Belgian GP", "Classics", "F1", "2023"]
 draft: false
-tracklink: https://ouo.io/YQT0xQ
+tracklink: https://mods.to/glB9683304edf22e4
 tracklocation: Belgium
 tracklogo: 9hC8eCm
 trackcity: Stavelot

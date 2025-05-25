@@ -36,3 +36,28 @@ trackcsp: "0.2.9"
 trackfolder: "Extension"
 trackhost: mods
 ---
+
+Monaco  Grand Prix will take place this weekend.
+Here are the features:
+
+New Layout 2025
+
+2025 sponsors boards
+
+2025 animated boards
+
+2025 Fence boards
+
+2025 Ground sponsors
+
+2025 Bridges
+
+2025 Brake markers
+
+2025 Pit Names
+
+New VAO Patch
+
+CSP versions relative adjustments
+
+Unified environment file

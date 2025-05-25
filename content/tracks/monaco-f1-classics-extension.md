@@ -35,3 +35,31 @@ trackcsp: "0.2.9"
 trackfolder: "Extension"
 trackhost: mods
 ---
+
+Monaco F1 Classics is here with 3 layouts (2022 / 2023 / 2024) 
+
+These layouts have been completely remade for track monaco_2020 and include:
+
+specific year sponsors boards
+
+specific year animated boards
+
+specific year Fence boards
+
+specific year Ground sponsors
+
+specific year Bridges
+
+specific year Brake markers
+
+specific year DRS markers
+
+specific year video screens (including new screen displays)
+
+Rolex clock model (not present in 2022 race, including drivers animation)
+
+People in stands
+
+Direct integration of tree-fx based on work by ludwig6666 (big thanks to him!)
+
+Enjoy 😉

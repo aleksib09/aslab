@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Japan", "F1", "Pyyer", "Circuit", "Classics", "Japanese GP", "Loop"]
 draft: false
-tracklink: https://ouo.io/2Q3wQBe
+tracklink: https://mods.to/3P9C68330578dd7c4
 trackzipsize: "132 MB"
 tracklocation: Japan
 trackimage: suzuka
@@ -24,10 +24,7 @@ trackpitboxes: 36
 trackwidth: 12
 trackrequirement: Reboot Team's Suzuka International Racing Course
 trackrequirelink: /tracks/rt-suzuka-racing-course
-# trackcsp1: "Unknown"
 trackcreator: Pyyer
-# trackcreatorfull: 
-trackcreatorlink: https://www.patreon.com/c/pyyer/
 trackversion: "4.0"
 trackcsp: "0.2.6"
 trackname: "Suzuka Circuit"

@@ -8,8 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Circuit", "Bahrain", "Loop", "F1 2025", "2025"]
 draft: false
-tracklink: https://ouo.io/jWFFr1
-trackzipsize: "527 MB"
+tracklink: https://mods.to/aZfz68330a2bd270d
 tracklocation: Bahrain
 trackimage: bahrain-circuit
 trackcity: Sakhir
@@ -35,7 +34,7 @@ trackversion: "1.1"
 trackcsp: "0.2.6"
 trackname: "Bahrain International Circuit"
 trackfolder: "Extension"
-trackhost: ModsFire
+trackhost: mods
 trackmainimage: MDQbaoJ
 ---
 

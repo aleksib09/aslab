@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Circuit", "Eifel GP", "German GP", "European GP", "Classics", "Germany", "Loop", "2024"]
 draft: false
-tracklink: https://ouo.io/TLKB0Z
+tracklink: https://mods.to/ufJ16833095914c36
 trackzipsize: "64 MB"
 tracklocation: Germany
 trackimage: nurburgring

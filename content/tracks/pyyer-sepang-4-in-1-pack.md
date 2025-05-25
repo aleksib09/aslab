@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Malaysian GP", "Circuit", "Malaysia", "Loop","F1 2024", "ALMS"]
 draft: false
-tracklink: https://ouo.io/dnYhiT
+tracklink: https://mods.to/PvIa6833058694171
 trackzipsize: "86 MB"
 tracklocation: Malaysia
 trackimage: sepang-circuit

@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["WEC", "IMSA", "Circuit", "Sebring 12H", "USA", "Loop", "2025"]
 draft: false
-tracklink: https://ouo.io/92WQca0
+tracklink: https://mods.to/ewyb6828091522bf5
 trackzipsize: "129 MB"
 tracklocation: USA
 trackimage: sebring

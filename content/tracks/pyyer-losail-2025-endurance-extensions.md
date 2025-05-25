@@ -9,7 +9,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["WEC", "Pyyer", "Qatar 1812KM", "Circuit", "Qatar", "Loop"]
 draft: false
-tracklink: https://ouo.io/20uBzOn
+tracklink: https://mods.to/IbbB682bd3fc23ba7
 trackzipsize: "59 MB"
 tracklocation: Qatar
 tracklogo: K4lKdJP

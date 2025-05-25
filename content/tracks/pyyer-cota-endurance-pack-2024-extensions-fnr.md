@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["WEC", "Circuit", "USA", "Loop", "2021", "2023", "Pyyer"]
 draft: false
-tracklink: https://ouo.io/aop12H
+tracklink: https://mods.to/9svB68330a45a9056
 tracklocation: USA
 trackimage: lonestar-lemans
 trackcity: Austin
@@ -32,9 +32,8 @@ trackpitboxes: 52
 trackcreator: Pyyer
 trackversion: "2.1.1"
 trackcsp: "0.2.5"
-trackname: "Miami Intl Autodrome"
 trackfolder: "Extension"
-trackhost: sharemods
+trackhost: mods
 ---
 
 There was a new addition to the World Endurance Championship this season and it took place at Circuit of The Americas near Austin, Texas

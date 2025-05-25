@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["IMSA Sportscar Weekend", "IMSA", "Circuit", "Pyyer", "USA", "Loop"]
 draft: false
-tracklink: https://ouo.io/gW3L9v
+tracklink: https://mods.to/2PlR682bd26d60ea4
 trackzipsize: "45 MB"
 tracklocation: USA
 trackimage: road-america

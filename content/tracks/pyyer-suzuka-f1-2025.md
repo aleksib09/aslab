@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Japan", "F1", "Pyyer", "Circuit","Japanese GP", "Loop", "F1 2025", "2025"]
 draft: false
-tracklink: https://ouo.io/FsAebe
+tracklink: https://mods.to/04Pk6833055291c51
 trackzipsize: "64 MB"
 tracklocation: Japan
 event: Japanese GP

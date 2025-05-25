@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["ALMS", "24H Series", "Circuit", "UAE", "Loop", "2024", "Pyyer"]
 draft: false
-tracklink: https://ouo.io/u4ryfq
+tracklink: https://mods.to/hwfM6833097c0cba1
 tracklocation: UAE
 trackimage: dubai-autodrome
 trackcity: Dubai
