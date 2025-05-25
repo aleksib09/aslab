@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Monaco GP", "Formula 1", "Street", "Monaco", "Loop", "2025", "Pyyer"]
 draft: false
-tracklink: https://mods.to/2VaV683120086240a
+tracklink: https://mods.to/yp3I68319f45e1ea9
 tracklocation: Monaco
 tracklogo: ghHVjWk
 trackcity: Monte-Carlo
