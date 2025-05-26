@@ -9,7 +9,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Circuit", "vastchapa1980", "ACF", "USA", "Gran Turismo", "GT", "Loop"]
 draft: false
-tracklink: https://mods.to/m65u682d81157691e
+tracklink: https://mods.to/Y1P0682d838206378
 tracklocation: "USA"
 trackimage: grand-turismo
 trackcity: California
