@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["IMSA", "Circuit", "USA", "Loop", "2023","2024", "Pyyer"]
 draft: false
-tracklink: https://mods.to/9SMk682bd272863b0
+tracklink: https://mods.to/YGrx6834239e222d3
 tracklocation: USA
 trackimage: laguna-seca-imsa
 trackcity: Monterey

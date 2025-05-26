@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Japan", "F1", "Pyyer", "Circuit", "Classics", "Japanese GP", "Loop"]
 draft: false
-tracklink: https://mods.to/3P9C68330578dd7c4
+tracklink: https://mods.to/Jo9U68342629c36bf
 trackzipsize: "132 MB"
 tracklocation: Japan
 trackimage: suzuka

@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Street", "Saudi Arabia", "Saudi GP", "Loop", "F1 2025", "2025"]
 draft: false
-tracklink: https://ouo.io/qNTFHLh
+tracklink: https://mods.to/z1ro6825bfdd4b734
 trackzipsize: "57 MB"
 tracklocation: Saudi Arabia
 trackimage: jeddah

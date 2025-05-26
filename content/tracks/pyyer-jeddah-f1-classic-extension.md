@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Street", "Saudi Arabia","Saudi GP", "Loop", "Classics"]
 draft: false
-tracklink: https://ouo.io/3M7SaH
+tracklink: https://mods.to/3aVq6825c04ed389b
 trackzipsize: "57 MB"
 tracklocation: Saudi Arabia
 trackimage: jeddah

@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["IGTC", "Pyyer", "Circuit", "Nordscheleife", "Germany", "Loop", "Nurburgring 24H", "2024"]
 draft: false
-tracklink: https://mods.to/d2kH68330928ab713
+tracklink: https://mods.to/LPKg683426ccabc65
 trackzipsize: "174 MB"
 tracklocation: Germany
 trackimage: 24h-nurburgring-2023

@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["WEC", "Circuit", "USA", "Loop", "2021", "2023", "Pyyer"]
 draft: false
-tracklink: https://mods.to/9svB68330a45a9056
+tracklink: https://mods.to/g1GB683428e3ea557
 tracklocation: USA
 trackimage: lonestar-lemans
 trackcity: Austin
