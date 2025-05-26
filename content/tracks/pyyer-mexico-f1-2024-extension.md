@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Mexico", "F1", "F1 2024", "Pyyer", "Mexican GP"]
 draft: false
-tracklink: https://mods.to/vzSm683427d4ebe9a
+tracklink: https://mods.to/MBtv6834568c1acf8
 trackzipsize: "109 MB"
 tracklocation: Mexico
 trackimage: mexico-circuit

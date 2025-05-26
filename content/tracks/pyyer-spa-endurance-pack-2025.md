@@ -9,7 +9,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Pyyer", "Circuit", "Belgium", "Loop", "Spa 24H", "IGTC", "WEC", "2025"]
 draft: false
-tracklink: https://mods.to/SKr268342647594dc
+tracklink: https://mods.to/K0OY68345aa48b98f
 tracklocation: Belgium
 trackimage: spa-francorschamp
 trackcity: Stavelot

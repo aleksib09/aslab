@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Italy", "F1", "Pyyer", "Tuscany", "Tuscan GP", "Circuit", "Loop"]
 draft: false
-tracklink: https://mods.to/dvGa6834276c356ac
+tracklink: https://mods.to/5AvT68345a45185cc
 trackzipsize: "75 MB"
 tracklocation: Italy
 trackimage: mugello

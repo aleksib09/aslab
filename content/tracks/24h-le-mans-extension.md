@@ -9,7 +9,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Pyyer", "Circuit", "France", "Loop", "Le Mans 24H", "WEC", "2024"]
 draft: false
-tracklink: https://mods.to/fndU68342395305ac
+tracklink: https://mods.to/CXXw6834583da2a9f
 tracklocation: France
 trackimage: le-mans-24h
 trackcity: Le Mans

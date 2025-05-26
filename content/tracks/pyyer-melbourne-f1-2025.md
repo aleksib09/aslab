@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Australian GP", "Street", "Australia", "Loop","F1 2025", "2025"]
 draft: false
-tracklink: https://mods.to/6H6a68342816332af
+tracklink: https://mods.to/d7FB683456bd03087
 trackzipsize: "98 MB"
 tracklocation: Australia
 trackimage: albertpark

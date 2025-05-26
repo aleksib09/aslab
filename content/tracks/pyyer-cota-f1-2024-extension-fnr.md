@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Circuit", "USA", "Loop", "2024", "Pyyer"]
 draft: false
-tracklink: https://mods.to/DhuC68342491bee5f
+tracklink: https://mods.to/UrNH683458ff59e4c
 tracklocation: USA
 trackimage: cota-gp
 trackcity: Austin

@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Circuit", "China", "Chinese GP", "Loop","F1 2025", "2025"]
 draft: false
-tracklink: https://mods.to/MtEx683425a2c281e
+tracklink: https://mods.to/cqPK68345a93218b5
 trackzipsize: "60 MB"
 tracklocation: China
 trackimage: shanghai

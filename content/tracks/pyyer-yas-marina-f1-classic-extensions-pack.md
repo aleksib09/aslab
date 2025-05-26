@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["UAE", "F1", "Formula 1", "Pyyer", "Classics", "Abu Dahbi GP"]
 draft: false
-tracklink: https://mods.to/QNsH68342892cd6ec
+tracklink: https://mods.to/uxna68345997190fa
 trackzipsize: "85 MB"
 tracklocation: UAE
 trackimage: yas-marina

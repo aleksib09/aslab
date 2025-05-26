@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["IGTC", "Pyyer", "Circuit", "Bathurst", "Australia", "Loop", "Bathurst 12H", "2025"]
 draft: false
-tracklink: https://mods.to/EnBh68342862d425d
+tracklink: https://mods.to/Fcpx683459597fc17
 trackzipsize: "84 MB"
 tracklocation: Australia
 trackimage: bathurst

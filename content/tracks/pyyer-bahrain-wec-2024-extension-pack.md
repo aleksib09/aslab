@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Pyyer", "Circuit", "Bahrain", "Loop", "WEC", "2022", "2023", "2024"]
 draft: false
-tracklink: https://mods.to/7sse683425fda5a34
+tracklink: https://mods.to/51kW6834596d48399
 trackzipsize: "25 MB"
 tracklocation: Bahrain
 trackimage: bahrain-circuit

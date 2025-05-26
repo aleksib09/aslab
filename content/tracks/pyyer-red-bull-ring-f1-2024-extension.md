@@ -9,7 +9,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Circuit", "Austrian GP", "Austria", "Loop", "F1 2024", "2024"]
 draft: false
-tracklink: https://mods.to/Cni3683425875f696
+tracklink: https://mods.to/HnAV68345a69095f7
 trackzipsize: "81 MB"
 tracklocation: Austria
 trackimage: red-bull-ring

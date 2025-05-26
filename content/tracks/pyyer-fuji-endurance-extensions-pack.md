@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["6H of Fuji", "WEC", "Pyyer", "Circuit", "Japan", "Loop"]
 draft: false
-tracklink: https://mods.to/NCtr683424750e51a
+tracklink: https://mods.to/2Yk5683458d56fe8a
 trackzipsize: "97 MB"
 tracklocation: Japan
 trackimage: fuji-speedway
