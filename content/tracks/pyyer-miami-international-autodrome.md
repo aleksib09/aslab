@@ -30,7 +30,7 @@ trackversion: "4.0"
 trackcsp: "0.2.6"
 trackname: "Miami Intl Autodrome"
 trackfolder: "miami_f1"
-trackhost: modsfire
+trackhost: logo
 trackmainimage: vMM37KM
 trackgallery: ["O4Gh0NS","xwteMhV","kuxoBzU"]
 ---

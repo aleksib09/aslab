@@ -24,16 +24,12 @@ trackopened: 1974
 tracklayout: 2
 trackpitboxes: 58
 trackcreator: Pyyer
-# trackcsp1: "Unknown"
-# trackcreatorfull: LP Design
-trackcreatorlink: https://www.patreon.com/c/pyyer/
 trackversion: "2.0"
 trackcsp: "0.2.6"
 trackname: "Autodromo Internazionale del Mugello"
 trackfolder: "Extension"
-trackhost: ModsFire
+trackhost: logo
 trackmainimage: MXvFPc7
-#trackgallery: ["ZX5CDaS", "Oo1p4BP", "xqIXeCl"]
 modtype: 1
 extfor: "Kunos's Mugello"
 event: "Tuscan GP"

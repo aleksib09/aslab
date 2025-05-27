@@ -34,7 +34,7 @@ trackcreator: Pyyer
 trackversion: "3.1"
 trackcsp: "0.2.9"
 trackfolder: "Extension"
-trackhost: mods
+trackhost: logo
 ---
 
 Monaco  Grand Prix will take place this weekend.

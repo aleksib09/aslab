@@ -32,9 +32,8 @@ trackpitboxes: 60
 trackcreator: Pyyer
 trackversion: "1.0"
 trackcsp: "0.2.5"
-trackname: "Miami Intl Autodrome"
 trackfolder: "Extension"
-trackhost: sharemods
+trackhost: logo
 ---
 
 There was a new addition to the World Endurance Championship this season and it took place at Circuit of The Americas near Austin, Texas

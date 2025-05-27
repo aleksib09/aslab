@@ -34,7 +34,7 @@ trackversion: "6.1"
 trackcsp: "0.2.6"
 trackname: "Bahrain International Circuit"
 trackfolder: "Extension"
-trackhost: modsfire
+trackhost: logo
 ---
 
 To celebrate the 100 years of Spa 24 hours in 2024 the Spa WEC extensions pack has now become Spa Endurance Pack and includes a new 24h 2024 layout with alternate start line and 72 Pit / Race slots 😁

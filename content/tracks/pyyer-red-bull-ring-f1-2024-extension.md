@@ -30,16 +30,12 @@ trackpitboxes: 50
 trackwidth: 12
 trackrequirement: Fenryr's Red Bull Ring Remasted
 trackrequirelink: /tracks/fn-red-bull-ring
-# trackcsp1: "Unknown"
 trackcreator: Pyyer
-# trackcreatorfull: 
-trackcreatorlink: https://www.patreon.com/c/Pyyer/
 trackversion: "3.0.2"
 trackcsp: "0.2.6"
 trackname: "Bahrain International Circuit"
 trackfolder: "Extension"
-trackhost: sharemods
-# trackgallery: ["fDyjo1C"]
+trackhost: logo
 ---
 
 This weekend, we continue our F1 marathon. And this time we're going to Red Bull Ring at Spielberg, Austria for the Austrian Grand Prix 😁

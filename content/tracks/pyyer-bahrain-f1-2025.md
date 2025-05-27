@@ -34,7 +34,7 @@ trackversion: "1.1"
 trackcsp: "0.2.6"
 trackname: "Bahrain International Circuit"
 trackfolder: "Extension"
-trackhost: mods
+trackhost: logo
 trackmainimage: MDQbaoJ
 ---
 

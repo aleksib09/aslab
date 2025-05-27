@@ -30,12 +30,11 @@ trackopened: 1940
 tracklayout: 2
 trackpitboxes: 32
 trackcreator: Pyyer
-# trackcsp1: "Unknown"
 trackversion: "3.1"
 trackcsp: "0.2.6"
 trackname: "Autódromo José Carlos Pace"
 trackfolder: "Extension"
-trackhost: modsfire
+trackhost: logo
 trackmainimage: j17pPJN
 trackgallery: ["1ucQCZT"]
 ---

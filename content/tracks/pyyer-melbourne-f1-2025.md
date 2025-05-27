@@ -27,15 +27,12 @@ trackpitboxes: 26
 trackwidth: 14
 trackrequirement: Melbourne 2024
 trackrequirelink: https://ouo.io/qLdfGE
-# trackcsp1: "Unknown"
 trackcreator: Pyyer
-# trackcreatorfull: 
-trackcreatorlink: https://www.patreon.com/c/Pyyer/
 trackversion: "4.1"
 trackcsp: "0.2.6"
 trackname: "Albert Park Circuit"
 trackfolder: "Extensions"
-trackhost: pastebin
+trackhost: logo
 trackmainimage: g0o3ViK
 ---
 

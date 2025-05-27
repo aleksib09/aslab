@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Circuit", "China", "Chinese GP", "Loop","F1 2025", "2025"]
 draft: false
-tracklink: https://s10.assettolab.com/files/29328327321ab23/Shanghai F1 2025 Extension 2.1.1 (for v2).zip
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Shanghai F1 2025 Extension 2.1.1 (for v2).zip"
 trackzipsize: "60 MB"
 tracklocation: China
 trackimage: shanghai
@@ -34,7 +34,7 @@ trackversion: "2.1.1"
 trackcsp: "0.2.6"
 trackname: "Shanghai International Circuit"
 trackfolder: "Extensions"
-trackhost: pastebin
+trackhost: logo
 trackmainimage: rJYHvU0
 ---
 

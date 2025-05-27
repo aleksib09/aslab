@@ -29,15 +29,13 @@ trackpitboxes: 50
 trackwidth: 8-14
 trackrequirement: VHE's HockenheimRing
 trackrequirelink: https://ouo.io/W3xnMu
-# trackcsp1: "Unknown"
 trackcreator: Pyyer
-# trackcreatorfull: 
 trackcreatorlink: https://www.patreon.com/c/Pyyer/
 trackversion: "2.0"
 trackcsp: "0.2.6"
 trackname: "Bahrain International Circuit"
 trackfolder: "Extension"
-trackhost: sharemods
+trackhost: logo
 trackmainimage: DHT2efl
 trackgallery: ["fDyjo1C"]
 ---

@@ -29,15 +29,12 @@ trackpitboxes: 32
 trackwidth: 13
 trackrequirement: RS's CM.com Circuit Zandvoort
 trackrequirelink: /tracks/rs-zandvoort-2023/
-# trackcsp1: "Unknown"
 trackcreator: Pyyer
-# trackcreatorfull: 
-trackcreatorlink: https://www.patreon.com/c/Pyyer/
 trackversion: "6.1"
 trackcsp: "0.2.6"
 trackname: "Bahrain International Circuit"
 trackfolder: "Extension"
-trackhost: sharemods
+trackhost: logo
 trackmainimage: vDlY6G7
 ---
 

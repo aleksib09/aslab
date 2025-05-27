@@ -34,7 +34,7 @@ trackversion: "6.5"
 trackcsp: "0.2.6"
 trackname: "Bahrain International Circuit"
 trackfolder: "Extension"
-trackhost: modsfire
+trackhost: logo
 ---
 
 Here are the full features

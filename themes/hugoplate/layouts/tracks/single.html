@@ -146,7 +146,7 @@
             <p><b>This track requires <a class="font-bold" target="_blank" href="/misc/csp-0210-preview1/">CSP<i class="fa-solid fa-link fa-xs" style="padding-left: 3px;padding-right: 3px;"></i></a> to work properly, build {{ .Params.trackcsp }} or better</b></p></div>
           {{ end }}
           {{ if $trackrq }}
-          <div class="notice2 info2" style="margin-bottom:4px;margin-top:7px;border-radius: var(--radius-sm)"><p class="font-bold"><i class="fa-solid fa-triangle-exclamation" style="padding-right: 9px;"></i>This extension only works with <b> {{ if $trackrqlink }}<a href="{{ .Params.trackrequirelink }}">{{ end }}<u>{{ .Params.trackrequirement }}</u></b></a></p>
+          <div class="notice2 info2" style="margin-bottom:4px;margin-top:7px;border-radius: var(--radius-sm)"><p class="font-bold"><i class="fa-solid fa-triangle-exclamation" style="padding-right: 9px;"></i>This extension requires <b> {{ if $trackrqlink }}<a href="{{ .Params.trackrequirelink }}">{{ end }}<u>{{ .Params.trackrequirement }}</u> to work properly</b></a></p>
           </div>
           {{ end }}
           <div class="flex items-center justify-center w-full py-2">

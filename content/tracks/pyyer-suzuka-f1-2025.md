@@ -27,17 +27,13 @@ trackpitboxes: 36
 trackwidth: 12
 trackrequirement: Reboot Team's Suzuka International Racing Course
 trackrequirelink: /tracks/rt-suzuka-racing-course
-# trackcsp1: "Unknown"
 trackcreator: Pyyer
-# trackcreatorfull: 
-trackcreatorlink: https://www.patreon.com/c/pyyer/
 trackversion: "4.0"
 trackcsp: "0.2.6"
 trackname: "Suzuka Circuit"
 trackfolder: "Extension"
-trackhost: ModsFire
+trackhost: logo
 trackmainimage: pUVRUHp
-# trackgallery: ["b73P0xJ"] 
 ---
 
 **It’s Suzuka time!**

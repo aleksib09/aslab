@@ -34,5 +34,5 @@ trackcreator: Pyyer
 trackversion: "5.1"
 trackcsp: "0.2.6"
 trackfolder: "Extensions"
-trackhost: mods
+trackhost: logo
 ---

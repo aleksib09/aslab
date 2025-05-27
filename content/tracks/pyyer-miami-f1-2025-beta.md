@@ -34,7 +34,7 @@ trackversion: "4.5 BETA"
 trackcsp: "0.2.6"
 trackname: "Miami Intl Autodrome"
 trackfolder: "Extension"
-trackhost: sharemods
+trackhost: logo
 trackmainimage: MalHNx7
 trackgallery: ["MhmVmyA"]
 ---

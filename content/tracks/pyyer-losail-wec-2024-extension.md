@@ -29,15 +29,12 @@ trackpitboxes: 52
 trackwidth: 12
 trackrequirement: FN's Losail International Circuit
 trackrequirelink: /tracks/fn-losail
-# trackcsp1: "Unknown"
 trackcreator: Pyyer
-# trackcreatorfull: 
-trackcreatorlink: https://www.patreon.com/c/Pyyer/
 trackversion: "2.0"
 trackcsp: "0.2.4"
 trackname: "Albert Park Circuit"
 trackfolder: "Extensions"
-trackhost: sharemods
+trackhost: logo
 trackmainimage: 1z77741
 ---
 

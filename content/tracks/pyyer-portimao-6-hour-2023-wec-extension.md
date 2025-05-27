@@ -5,7 +5,6 @@ description: "6H of Portimao WEC 2023 Extension [1.1] by Pyyer for assetto corsa
 date: 2025-05-12T18:28:00Z
 thumb: dbcMyZd
 trackmainimage: 3SCvu0F
-# trackgallery: ["MhmVmyA"]
 categories: ["Track"]
 author: "Theodora"
 tags: ["WEC", "Circuit", "Portugal", "Loop", "2021","2023", "Pyyer"]
@@ -33,7 +32,7 @@ trackcreator: Pyyer
 trackversion: "1.1"
 trackcsp: "0.2.2"
 trackfolder: "Extension"
-trackhost: sharemods
+trackhost: logo
 ---
 
 An all new Portimao exclusive extension redesigned for the WEC Portimao 6 hours 2023

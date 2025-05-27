@@ -35,7 +35,7 @@ trackversion: "1.5"
 trackcsp: "0.2.6"
 trackname: "Fuji International Speedway"
 trackfolder: "Extension"
-trackhost: ModsFire
+trackhost: logo
 trackmainimage: 2RBY2ev
 trackgallery: ["oiD6Jtv"] 
 ---

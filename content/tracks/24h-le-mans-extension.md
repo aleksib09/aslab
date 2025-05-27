@@ -33,7 +33,7 @@ trackcreator: Pyyer
 trackversion: "3.0.1"
 trackcsp: "0.2.6"
 trackfolder: "Extension"
-trackhost: mods
+trackhost: logo
 ---
 
 ##### Another great race at Le Mans this year (excepted for the weather obviously 😅) and here is finally the new 2024 layout so you can relive it! 😁

@@ -23,10 +23,7 @@ trackpitboxes: 24
 trackwidth: 11
 trackrequirement: Fenryr's Circuit de Barcelona-Catalunya
 trackrequirelink: /tracks/fn-barcelona
-# trackcsp1: "Unknown"
 trackcreator: Pyyer
-# trackcreatorfull: 
-trackcreatorlink: https://www.patreon.com/c/Pyyer/
 trackversion: "2.0"
 trackcsp: "0.2.6"
 trackname: "Jeddah Corniche Cicruit"

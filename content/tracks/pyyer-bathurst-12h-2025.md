@@ -31,15 +31,11 @@ trackpitboxes: 66
 trackwidth: 11
 trackrequirement: Reboot Team's Bathurst
 trackrequirelink: /tracks/rt-bathurst/
-# trackcsp1: "Unknown"
 trackcreator: Pyyer
-# trackcreatorfull: 
-trackcreatorlink: https://www.patreon.com/c/Pyyer/
 trackversion: "1.1"
 trackcsp: "0.2.6"
-trackname: "Bahrain International Circuit"
 trackfolder: "Extension"
-trackhost: ModsFire
+trackhost: logo
 trackmainimage: FF5fFoA
 ---
 

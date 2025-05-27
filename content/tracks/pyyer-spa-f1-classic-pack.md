@@ -32,7 +32,7 @@ trackversion: "6.5"
 trackcsp: "0.2.6"
 trackname: "Bahrain International Circuit"
 trackfolder: "Extension"
-trackhost: sharemods
+trackhost: logo
 trackmainimage: JZm692e
 ---
 

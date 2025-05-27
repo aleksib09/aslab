@@ -5,7 +5,6 @@ description: "Laguna Seca IMSA Extension [1.1] by Pyyer for assetto corsa"
 date: 2025-05-12T15:24:00Z
 thumb: AgHRJoy
 trackmainimage: 94bcS16
-# trackgallery: ["MhmVmyA"]
 categories: ["Track"]
 author: "Theodora"
 tags: ["IMSA", "Circuit", "USA", "Loop", "2023","2024", "Pyyer"]
@@ -29,9 +28,8 @@ trackpitboxes: 48
 trackcreator: Pyyer
 trackversion: "1.1"
 trackcsp: "0.2.2"
-trackname: "Miami Intl Autodrome"
 trackfolder: "Extension"
-trackhost: sharemods
+trackhost: logo
 ---
 
 ##### Guess nobody expected another extension this weekend? 😉

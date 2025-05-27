@@ -5,7 +5,6 @@ description: "COTA Endurance Pack 2024 Extensions [2.1.1] by Pyyer for assetto c
 date: 2025-05-12T18:38:00Z
 thumb: yzvwpVz
 trackmainimage: 7hjANTD
-# trackgallery: ["MhmVmyA"]
 categories: ["Track"]
 author: "Theodora"
 tags: ["WEC", "Circuit", "USA", "Loop", "2021", "2023", "Pyyer"]
@@ -33,7 +32,7 @@ trackcreator: Pyyer
 trackversion: "2.1.1"
 trackcsp: "0.2.5"
 trackfolder: "Extension"
-trackhost: mods
+trackhost: logo
 ---
 
 There was a new addition to the World Endurance Championship this season and it took place at Circuit of The Americas near Austin, Texas

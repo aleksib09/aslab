@@ -33,9 +33,8 @@ trackrequirelink: /tracks/fn-losail
 trackcreator: Pyyer
 trackversion: "2.5"
 trackcsp: "0.2.4"
-trackname: "Albert Park Circuit"
 trackfolder: "Extensions"
-trackhost: sharemods
+trackhost: logo
 ---
 
 ***The 2025 WEC season is officially underway! 🏁**** 

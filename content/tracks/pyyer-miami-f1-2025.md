@@ -35,7 +35,7 @@ trackversion: "4.5"
 trackcsp: "0.2.6"
 trackname: "Miami Intl Autodrome"
 trackfolder: "Extension"
-trackhost: sharemods
+trackhost: logo
 ---
 
 **Pyyer: Miami F1 2025 Track 4.5**

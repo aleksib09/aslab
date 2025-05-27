@@ -33,7 +33,7 @@ trackcreator: Pyyer
 trackversion: "3.0"
 trackcsp: "0.2.9"
 trackfolder: "Extension"
-trackhost: mods
+trackhost: logo
 ---
 
 Monaco F1 Classics is here with 3 layouts (2022 / 2023 / 2024) 

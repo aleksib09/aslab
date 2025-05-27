@@ -23,13 +23,9 @@ trackpitboxes: 30
 trackwidth: 15
 trackrequirement: Tyrone's Las Vegas 2023
 trackrequirelink: https://www.overtake.gg/downloads/f1-las-vegas-2023-grand-prix-layout.49878/
-# trackcsp1: "Unknown"
 trackcreator: Pyyer
-# trackcreatorfull: 
-trackcreatorlink: https://www.patreon.com/c/Pyyer/
 trackversion: "2.0"
 trackcsp: "0.2.6"
-trackname: "Jeddah Corniche Cicruit"
 trackfolder: "Extension"
 trackhost: ModsFire
 trackmainimage: bWS5EPv

@@ -16,7 +16,6 @@ eventlogo: nurburgring
 event: 24h Nurburgring
 championship: Intercontinental GT Challenge
 extfor: "KS Nordschleife"
-# extlink:
 eventyear: ["2021", "2022", "2023", "2024"]
 trackcity: 	Nürburg
 trackhosted: [ "IGTC"]
@@ -29,15 +28,12 @@ trackpitboxes: 72
 trackwidth: 15
 trackrequirement: Assetto Corsa - Dream Pack 1 DLC
 trackrequirelink: https://store.steampowered.com/app/347990/Assetto_Corsa__Dream_Pack_1/
-# trackcsp1: "Unknown"
 trackcreator: Pyyer
-# trackcreatorfull: 
-trackcreatorlink: https://www.patreon.com/c/Pyyer/
 trackversion: "4.0"
 trackcsp: "0.2.6"
 trackname: "Bahrain International Circuit"
 trackfolder: "Extension"
-trackhost: ModsFire
+trackhost: logo
 trackmainimage: 0rkLnEC
 ---
 

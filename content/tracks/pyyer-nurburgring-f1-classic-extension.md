@@ -30,15 +30,12 @@ trackpitboxes: 24
 trackwidth: 14
 trackrequirement: Assetto Corsa - Dream Pack 1 DLC
 trackrequirelink: https://store.steampowered.com/app/347990/Assetto_Corsa__Dream_Pack_1/
-# trackcsp1: "Unknown"
 trackcreator: Pyyer
-# trackcreatorfull: 
-trackcreatorlink: https://www.patreon.com/c/Pyyer/
 trackversion: "2.0"
 trackcsp: "0.2.6"
 trackname: "Bahrain International Circuit"
 trackfolder: "Extension"
-trackhost: ModsFire
+trackhost: logo
 trackmainimage: XGJOSgN
 ---
 

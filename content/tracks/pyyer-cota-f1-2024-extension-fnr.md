@@ -32,9 +32,8 @@ trackpitboxes: 52
 trackcreator: Pyyer
 trackversion: "2.1.1"
 trackcsp: "0.2.5"
-trackname: "Miami Intl Autodrome"
 trackfolder: "Extension"
-trackhost: sharemods
+trackhost: logo
 ---
 
 ###### F1 is finally back after nearly a 4-week break! 😎

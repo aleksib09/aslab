@@ -34,7 +34,7 @@ trackversion: "5.1"
 trackcsp: "0.2.6"
 trackname: "Albert Park Circuit"
 trackfolder: "Extensions"
-trackhost: sharemods
+trackhost: logo
 trackmainimage: ceUJ4Ry
 ---
 
