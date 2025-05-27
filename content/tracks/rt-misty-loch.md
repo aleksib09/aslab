@@ -1,7 +1,7 @@
 ---
-title: "Sydney West v3 (Free Roam/Race Layouts)"
+title: "Misty Loch"
 meta_title: ""
-description: "Sydney West v3 (rt_misty_loch) by Reboot"
+description: "Misty Loch (rt_misty_loch) by Reboot"
 date: 2025-05-14T08:57:00Z
 thumb: Elb6ioA
 trackmainimage: JeenlH4
