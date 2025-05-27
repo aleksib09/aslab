@@ -9,7 +9,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["WEC", "Pyyer", "Qatar 1812KM", "Circuit", "Qatar", "Loop"]
 draft: false
-tracklink: https://mods.to/hfou683456c28cfb2
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Losail 2025 Endurance extensions 2.5.zip"
 trackzipsize: "59 MB"
 tracklocation: Qatar
 tracklogo: K4lKdJP

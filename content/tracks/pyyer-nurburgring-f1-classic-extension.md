@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Circuit", "Eifel GP", "German GP", "European GP", "Classics", "Germany", "Loop", "2024"]
 draft: false
-tracklink: https://mods.to/cV1Z683426e0c847d
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Nurburgring F1 Classics v2.0.zip"
 trackzipsize: "64 MB"
 tracklocation: Germany
 trackimage: nurburgring

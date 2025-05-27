@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["6H of Fuji", "WEC", "Pyyer", "Circuit", "Japan", "Loop"]
 draft: false
-tracklink: https://mods.to/2Yk5683458d56fe8a
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Fuji Endurance Pack Extensions 2.1 [RT].zip"
 trackzipsize: "97 MB"
 tracklocation: Japan
 trackimage: fuji-speedway

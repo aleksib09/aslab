@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Brazil", "WEC", "Pyyer", "Rolex 6H of Sao Paulo"]
 draft: false
-tracklink: https://mods.to/Vseb683458781c34d
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Interlagos WEC Extension 4.0.zip"
 trackzipsize: "46 MB"
 tracklocation: Brazil
 trackimage: interlagos

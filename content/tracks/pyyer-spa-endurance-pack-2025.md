@@ -9,7 +9,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Pyyer", "Circuit", "Belgium", "Loop", "Spa 24H", "IGTC", "WEC", "2025"]
 draft: false
-tracklink: https://mods.to/K0OY68345aa48b98f
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Spa Endurance Extension 6.5.zip"
 tracklocation: Belgium
 trackimage: spa-francorschamp
 trackcity: Stavelot

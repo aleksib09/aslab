@@ -9,7 +9,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Circuit", "Austrian GP", "Austria", "Loop", "F1 2024", "2024"]
 draft: false
-tracklink: https://mods.to/HnAV68345a69095f7
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Red Bull Ring F1 2024 Extension 3.0.2.zip"
 trackzipsize: "81 MB"
 tracklocation: Austria
 trackimage: red-bull-ring

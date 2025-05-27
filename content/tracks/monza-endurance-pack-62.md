@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Italy", "WEC", "Pyyer", "Circuit", "Loop"]
 draft: false
-tracklink: https://mods.to/JcCn68345a25d7be4
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Monza Endurance Pack Extensions 6.2.zip"
 tracklocation: Italy
 trackimage: monza
 trackcity: Monza

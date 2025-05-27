@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["ALMS", "24H Series", "Circuit", "UAE", "Loop", "2024", "Pyyer"]
 draft: false
-tracklink: https://mods.to/e9K76834285623212
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Dubai Endurance Extensions 1.0.zip"
 tracklocation: UAE
 trackimage: dubai-autodrome
 trackcity: Dubai

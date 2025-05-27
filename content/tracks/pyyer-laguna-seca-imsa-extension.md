@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["IMSA", "Circuit", "USA", "Loop", "2023","2024", "Pyyer"]
 draft: false
-tracklink: https://mods.to/BcCG683458450b842
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Laguna Seca IMSA Extension 1.1.zip"
 tracklocation: USA
 trackimage: laguna-seca-imsa
 trackcity: Monterey

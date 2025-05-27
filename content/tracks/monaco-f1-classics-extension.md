@@ -9,7 +9,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Monaco GP", "Formula 1", "Street", "Monaco", "Loop", "Classics", "Pyyer"]
 draft: false
-tracklink: https://mods.to/uITN68345a1de0b45
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Monaco F1 Classics Pack 3.0.zip"
 tracklocation: Monaco
 tracklogo: ghHVjWk
 trackcity: Monte-Carlo

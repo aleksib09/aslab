@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Porsche Cup", "Miami GP", "Formula 1", "Street", "USA", "Loop", "2021", "Pyyer"]
 draft: false
-tracklink: https://mods.to/6YWJ683459e175c34
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Miami F1 4.0.zip"
 trackzipsize: "249 MB"
 tracklocation: USA
 trackimage: miami-intl-autodrome

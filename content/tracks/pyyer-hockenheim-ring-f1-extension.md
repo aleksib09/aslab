@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Circuit", "German GP", "Germany", "Loop", "F1 2024", "2024"]
 draft: false
-tracklink: https://mods.to/Z4vv683458d20e6cf
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Hockenheim F1 2024 Bring it Back 2.0.zip"
 trackzipsize: "67 MB"
 tracklocation: Germany
 trackimage: hockenheim

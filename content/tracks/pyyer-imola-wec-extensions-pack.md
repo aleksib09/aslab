@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["WEC", "Pyyer", "Circuit", "Italy", "Loop","2024", "2025"]
 draft: false
-tracklink: https://mods.to/9yHL68345895a60f7
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Imola WEC Extensions 5.1 FNR.zip"
 trackzipsize: "100 MB"
 tracklocation: Italy
 trackimage: imola

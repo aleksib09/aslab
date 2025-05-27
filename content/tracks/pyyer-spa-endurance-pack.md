@@ -9,7 +9,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Pyyer", "Circuit", "Belgium", "Loop", "Spa 24H", "IGTC", "WEC", "2022", "2023", "2024"]
 draft: true
-tracklink: https://ouo.io/hOqEWVM
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Spa Endurance Extension 6.5.zip"
 trackzipsize: "105 MB"
 tracklocation: Belgium
 trackimage: spa24h

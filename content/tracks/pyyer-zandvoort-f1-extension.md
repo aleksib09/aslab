@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Circuit", "Dutch GP", "Netherlands", "Loop", "F1 2024", "2024"]
 draft: false
-tracklink: https://mods.to/0eaO68345aec51b33
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Zandvoort%20F1%202024%20Extension%20v6.1%20[zdv_2023].zip"
 trackzipsize: "73 MB"
 tracklocation: Netherlands
 trackimage: circuit-zandvoort

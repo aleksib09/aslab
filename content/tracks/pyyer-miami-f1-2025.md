@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Miami GP", "Formula 1", "Street", "USA", "Loop", "2025", "Pyyer"]
 draft: false
-tracklink: https://mods.to/mO1a683459b37c0a5
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Miami F1 2025 4.5 FINAL.zip"
 tracklocation: USA
 trackimage: miami-intl-autodrome
 trackcity: Miami

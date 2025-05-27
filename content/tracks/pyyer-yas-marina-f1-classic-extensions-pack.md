@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["UAE", "F1", "Formula 1", "Pyyer", "Classics", "Abu Dahbi GP"]
 draft: false
-tracklink: https://mods.to/uxna68345997190fa
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Abu Dhabi CHQ 2024 F1 Extension 3.1.zip"
 trackzipsize: "85 MB"
 tracklocation: UAE
 trackimage: yas-marina

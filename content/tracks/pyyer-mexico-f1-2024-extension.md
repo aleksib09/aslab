@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Mexico", "F1", "F1 2024", "Pyyer", "Mexican GP"]
 draft: false
-tracklink: https://mods.to/MBtv6834568c1acf8
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Mexico F1 2024 Extension 6.0.zip"
 trackzipsize: "109 MB"
 tracklocation: Mexico
 trackimage: mexico-circuit

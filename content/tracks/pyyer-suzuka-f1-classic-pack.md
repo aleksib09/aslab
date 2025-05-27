@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Japan", "F1", "Pyyer", "Circuit", "Classics", "Japanese GP", "Loop"]
 draft: false
-tracklink: https://mods.to/Jo9U68342629c36bf
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Suzuka F1 Classics Extensions 4.0.zip"
 trackzipsize: "132 MB"
 tracklocation: Japan
 trackimage: suzuka

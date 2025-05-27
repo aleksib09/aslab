@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Japan", "F1", "Pyyer", "Circuit","Japanese GP", "Loop", "F1 2025", "2025"]
 draft: false
-tracklink: https://mods.to/ee2b68345ad51e042
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Suzuka F1 2025 Extension 4.0.zip"
 trackzipsize: "64 MB"
 tracklocation: Japan
 event: Japanese GP

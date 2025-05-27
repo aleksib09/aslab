@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["WEC", "Pyyer", "Qatar 1812KM", "Circuit", "Qatar", "Loop","2024"]
 draft: false
-tracklink: https://mods.to/VqY7683458072f775
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Lusail WEC 2024 Extension 2.0.zip"
 trackzipsize: "59 MB"
 tracklocation: Qatar
 trackimage: qatar-1812km

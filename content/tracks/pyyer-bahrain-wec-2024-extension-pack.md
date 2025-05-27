@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Pyyer", "Circuit", "Bahrain", "Loop", "WEC", "2022", "2023", "2024"]
 draft: false
-tracklink: https://mods.to/51kW6834596d48399
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Bahrain WEC 2024 Extension FNR 3.0.zip"
 trackzipsize: "25 MB"
 tracklocation: Bahrain
 trackimage: bahrain-circuit

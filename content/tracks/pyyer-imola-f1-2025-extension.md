@@ -9,7 +9,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Circuit", "Italy", "Loop", "2025"]
 draft: false
-tracklink: https://mods.to/P3bp683458801787c
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Imola F1 2025 Extension 5.1 FNR.zip"
 tracklocation: Italy
 trackimage: imola
 trackcity: Imola

@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["IGTC", "Pyyer", "Circuit", "Bathurst", "Australia", "Loop", "Bathurst 12H", "2025"]
 draft: false
-tracklink: https://mods.to/Fcpx683459597fc17
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Bathurst 12h 2025 Extension 3.0.zip"
 trackzipsize: "84 MB"
 tracklocation: Australia
 trackimage: bathurst

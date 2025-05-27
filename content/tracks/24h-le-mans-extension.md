@@ -9,7 +9,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Pyyer", "Circuit", "France", "Loop", "Le Mans 24H", "WEC", "2024"]
 draft: false
-tracklink: https://mods.to/CXXw6834583da2a9f
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Le Mans Extension 3.0.1.zip"
 tracklocation: France
 trackimage: le-mans-24h
 trackcity: Le Mans

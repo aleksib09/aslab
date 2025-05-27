@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Miami GP", "Formula 1", "Street", "USA", "Loop", "2024", "2022", "2023", "Pyyer"]
 draft: false
-tracklink: https://mods.to/XdPf683459b92627b
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Miami F1 Classics 4.5.zip"
 trackzipsize: "253 MB"
 tracklocation: USA
 trackimage: miami-intl-autodrome

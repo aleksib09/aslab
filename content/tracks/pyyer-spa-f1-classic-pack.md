@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Pyyer", "Circuit", "Belgium", "Loop", "Belgian GP", "Classics", "F1", "2023"]
 draft: false
-tracklink: https://mods.to/aYUs68345ac39ff72
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Spa F1 Classics Extension 6.5.zip"
 tracklocation: Belgium
 tracklogo: 9hC8eCm
 trackcity: Stavelot

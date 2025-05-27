@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["IGTC", "Pyyer", "Circuit", "Nordscheleife", "Germany", "Loop", "Nurburgring 24H", "2024"]
 draft: false
-tracklink: https://mods.to/hzDD683456492c087
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Nodschleife extension 4.0.zip"
 trackzipsize: "174 MB"
 tracklocation: Germany
 trackimage: 24h-nurburgring-2023

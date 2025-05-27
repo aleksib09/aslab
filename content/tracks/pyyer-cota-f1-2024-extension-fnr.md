@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Circuit", "USA", "Loop", "2024", "Pyyer"]
 draft: false
-tracklink: https://mods.to/UrNH683458ff59e4c
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/COTA F1 2024 Extension 2.1.1 [FNR].zip"
 tracklocation: USA
 trackimage: cota-gp
 trackcity: Austin

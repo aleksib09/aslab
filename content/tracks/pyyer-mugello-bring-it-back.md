@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Italy", "F1", "Pyyer", "Tuscany", "Tuscan GP", "Circuit", "Loop"]
 draft: false
-tracklink: https://mods.to/5AvT68345a45185cc
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Mugello F1 Extensions 2.0.zip"
 trackzipsize: "75 MB"
 tracklocation: Italy
 trackimage: mugello

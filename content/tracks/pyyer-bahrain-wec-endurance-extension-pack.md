@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["Pyyer", "Circuit", "Bahrain", "Loop", "WEC", "2022", "2023", "2024"]
 draft: false
-tracklink: https://mods.to/uMHS68345928ef72d
+tracklink: https://s10.assettolab.com/files/29328327321ab23/Bahrain WEC Extensions 4.5.zip"
 trackzipsize: "65 MB"
 tracklocation: Bahrain
 trackimage: bahrain-circuit
@@ -19,7 +19,7 @@ trackclass: "1"
 trackLength: 5.4
 trackopened: 2004
 extfor: bahrain_2020
-extlink: https://mods.to/8CTd682891eb44eac
+extlink: https://s10.assettolab.com/files/29328327321ab23/bahrain_2020_1_12_by_Blackcelica.7z
 championship: FIA WEC
 eventyear: ["2022", "2023", "2024"]
 event: 8H of Bahrain
@@ -28,7 +28,7 @@ tracklayout: 3
 trackpitboxes: 36
 trackwidth: 12-16
 trackrequirement: BlackCelia's Bahrain 2020
-trackrequirelink: https://mods.to/8CTd682891eb44eac
+trackrequirelink: https://s10.assettolab.com/files/29328327321ab23/bahrain_2020_1_12_by_Blackcelica.7z
 trackcreator: Pyyer
 trackversion: "4.5"
 trackcsp: "0.2.6"

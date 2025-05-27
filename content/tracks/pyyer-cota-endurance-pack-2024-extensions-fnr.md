@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["WEC", "Circuit", "USA", "Loop", "2021", "2023", "Pyyer"]
 draft: false
-tracklink: https://mods.to/FSP36834590619517
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/COTA WEC 2024 Extension 2.1.1 [FNR].zip"
 tracklocation: USA
 trackimage: lonestar-lemans
 trackcity: Austin

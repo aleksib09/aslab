@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["WEC", "Circuit", "Portugal", "Loop", "2021","2023", "Pyyer"]
 draft: false
-tracklink: https://mods.to/Hke7683426a248ce3
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Portimao F1 Classics 1.1.zip"
 tracklocation: Portugal
 trackimage: 6h-portimao
 trackcity: Portimao

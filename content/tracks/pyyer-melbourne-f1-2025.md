@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Australian GP", "Street", "Australia", "Loop","F1 2025", "2025"]
 draft: false
-tracklink: https://mods.to/d7FB683456bd03087
+tracklink: "https://s10.assettolab.com/files/29328327321ab23/Melbourne F1 2025 Extension 4.1 Release.zip"
 trackzipsize: "98 MB"
 tracklocation: Australia
 trackimage: albertpark

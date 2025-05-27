@@ -8,7 +8,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["F1", "Pyyer", "Circuit", "Bahrain", "Loop", "F1 2025", "2025"]
 draft: false
-tracklink: https://mods.to/ToAi6834598e1d3a2
+tracklink: https://s10.assettolab.com/files/29328327321ab23/Bahrain F1 2025 Extension FNR 3.0.zip
 tracklocation: Bahrain
 trackimage: bahrain-circuit
 trackcity: Sakhir
