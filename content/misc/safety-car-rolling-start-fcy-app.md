@@ -11,7 +11,7 @@ draft: false
 name: Safety Car - Rolling start - Full Course Yellow App
 creator: Assettomods
 version: "PRO"
-link: https://ouo.io/Twt6rP
+link: https://mods.to/twrv6835d183c7faa
 zipsize: 5 MB
 csp: "0.2.6"
 logo: patreon
