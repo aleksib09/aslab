@@ -10,8 +10,8 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "RSS", "GT3", "Sports car", "R2R", "Italy", "2023"]
 draft: false
-link: https://mods.to/xRoI68312bee2ce7c
-zipsize: "552 MB"
+link: https://mods.to/91Ss683670b49ba1a
+zipsize: "1.8 GB"
 manu: Ferrari
 logo2: scuderia-sf
 country: Italy

@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Lexus", "RSS", "GT3", "Sports car", "R2R", "Japan", "2024"]
 draft: false
-link: https://mods.to/Krop6831204b5ab11
+link: https://mods.to/Oeyw68366f5d4ac3a
 zipsize: "367 MB"
 manu: Lexus
 country: Japan

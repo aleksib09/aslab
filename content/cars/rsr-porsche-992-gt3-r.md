@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Porsche", "RSS", "GT3", "Sports car", "Germany", "2023"]
 draft: false
-link: https://mods.to/XvDD68312b6229489
+link: https://mods.to/XKfU68366ca9efe7c
 zipsize: "327 MB"
 manu: Porsche
 logo2: porsche-motorsport

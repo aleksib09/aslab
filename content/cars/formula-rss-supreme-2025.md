@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["RSS", "Super Formula", "Japan", "Formula", "2025"]
 draft: false
-link: https://mods.to/RhAI68312b03e2335
+link: https://mods.to/YDSJ683673041d04e
 zipsize: "382 MB"
 manu: RSS
 country: Japan
