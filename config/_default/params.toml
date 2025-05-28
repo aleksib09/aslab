@@ -82,10 +82,10 @@ mastodon = "" # Your verification code
 # cookies
 # cookies module: https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent
 [cookies]
-enable = false
+enable = true
 expire_days = 60
-content = "This site uses cookies to improve your experience."
-button = "Accept"
+content = ""
+button = "Accept All Cookies"
 
 # diagrams
 [mermaid]

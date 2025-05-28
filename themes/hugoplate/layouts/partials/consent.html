@@ -1,0 +1,62 @@
+<!-- cookie -->
+{{ with site.Params.cookies }}
+  {{ if .enable }}
+    <div id="cookie-box" class="cookie-box modal-center cookie-box-hide">
+      We use cookies to improve your site experience. <br> Please accept because you have no choice :)
+      <hr>
+      <button
+        id="cookie-button"
+        class="font-bold text-black cookie-box-button btn btn-info">
+        Accept All Cookies
+      </button>
+    </div>
+
+    <!-- cookie script -->
+    <script type="application/javascript">
+      const cookieBox = document.getElementById('cookie-box');
+      const cookieButton = document.getElementById('cookie-button');
+      if (!Cookies.get('cookie-consent')) {
+        cookieBox.classList.remove('cookie-box-hide');
+        cookieButton.onclick = function () {
+          Cookies.set('cookie-consent', true, {
+            expires: {{ .expire_days }}
+          });
+          cookieBox.classList.add('cookie-box-hide');
+        };
+      }
+    </script>
+
+    <!-- cookie style -->
+    <style>
+      .cookie-box {
+        transition: all .3s ease;
+        position: fixed;
+        left: 2rem;
+        bottom: 2rem;
+        z-index: 30000000000;
+        margin-bottom: 0;
+        overflow: auto;
+        border: solid 1px #fff;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0px 0px 20px hsla(0, 0%, 100%, .19);
+        background-color: #000;
+        max-height: 100%;
+      }
+
+    .modal-center 
+    {
+        margin: 0 auto;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+      .cookie-box-hide {
+        display: none;
+      }
+      .cookie-box-button {
+        display: block;
+        margin-top: 1rem;
+      }
+    </style>
+  {{ end }}
+{{ end }}
