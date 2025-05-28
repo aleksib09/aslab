@@ -15,7 +15,7 @@ zipsize: "382 MB"
 manu: RSS
 country: Japan
 championship: Super Formula
-year: 2026
+year: 2025
 engine: "2.0L I4"
 class: Formula
 drivetrain: RWD

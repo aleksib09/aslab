@@ -2,13 +2,13 @@
 title: "Protech P96 V8"
 meta_title: ""
 description: "Porsche 963 GTP - Protech P96 V8 (rss_mph_protech_p96_v8) by RSS"
-date: 2025-05-26T23:19:00Z
+date: 2025-05-27T23:19:00Z
 thumb: piEbNxc
 mainimage: VBzIyj3
 cargallery: ["x4x2LPS", "2Dt2l0O", "2ufxyQ7"]
 categories: ["Car"]
 author: "Theodora"
-tags: ["Porsche", "RSS", "LMDh", "Hypercar", "Le Mans Prototype", "R2R", "Germany", "2023"]
+tags: ["Porsche", "RSS", "Multimatic", "LMDh", "Hypercar", "Le Mans Prototype", "R2R", "Germany", "2023"]
 draft: false
 link: https://mods.to/CY756835a4f24b2b7
 zipsize: "565 MB"
