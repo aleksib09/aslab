@@ -9,8 +9,7 @@ cargallery: ["61ZfYia", "xZdj7hT", "DaXUjFW"]
 categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "RSS", "F2", "Formula 2", "R2R", "Italy", "Formula", "2020"]
-draft: false
-link: https://mods.to/1ckV68312bafcd462
+truelink: https://mods.to/1ckV68312bafcd462
 zipsize: "316 MB"
 manu: Dallara
 country: Italy

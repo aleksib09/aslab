@@ -9,7 +9,7 @@ cargallery: ["cIGVN5K", "7F10DiF", "NIjRB6Y"]
 categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "RSS", "GT3", "Sports car", "R2R", "Italy", "2023"]
-draft: false
+draft: true
 link: https://mods.to/91Ss683670b49ba1a
 zipsize: "1.8 GB"
 manu: Ferrari

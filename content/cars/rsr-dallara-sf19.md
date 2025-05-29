@@ -9,7 +9,7 @@ cargallery: ["fTbV4nY", "VKXAoou"]
 categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "Super Formula", "Italy",  "Formula", "2019"]
-draft: false
+draft: true
 link: https://mods.to/DlUm68312457e938a
 zipsize: "0.98 GB"
 manu: Dallara

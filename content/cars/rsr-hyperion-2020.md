@@ -9,7 +9,7 @@ cargallery: ["JYwfO5a", "5E2GwnO", "Rm26Bhr"]
 categories: ["Car"]
 author: "Theodora"
 tags: ["Ford", "NASCAR", "NASCAR Cup Series", "USA", "2020"]
-draft: false
+draft: true
 link: https://mods.to/tqMX683126ad30dd4
 zipsize: "248 MB"
 manu: Ford

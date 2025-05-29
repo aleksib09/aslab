@@ -9,7 +9,7 @@ cargallery: ["b1mSqyo", "GG8I8sn", "9UrPvOd"]
 categories: ["Car"]
 author: "Theodora"
 tags: ["RSS", "F1", "Formula 1", "R2R", "France", "Formula", "2020"]
-draft: false
+draft: true
 link: https://mods.to/72WS683127ba165d4
 zipsize: "523 MB"
 manu: RSS

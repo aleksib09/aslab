@@ -9,7 +9,7 @@ cargallery: ["I9MUc5Z", "GSNBT5Z"]
 categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "RSS", "F2", "Formula 2", "Italy", "Formula", "2024"]
-draft: false
+draft: true
 link: https://mods.to/bi0H683123a03b2b2
 zipsize: "704 MB"
 manu: Dallara

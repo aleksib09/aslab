@@ -9,7 +9,7 @@ cargallery: ["jnBWzAI", "p4H6yfI", "X9ZGz9U"]
 categories: ["Car"]
 author: "Theodora"
 tags: ["Mercedes", "RSS", "GT3", "Sports car", "R2R", "Germany", "2020"]
-draft: false
+draft: true
 link: https://mods.to/Wziy6836722932cb8
 zipsize: "2 GB"
 manu: Mercedes

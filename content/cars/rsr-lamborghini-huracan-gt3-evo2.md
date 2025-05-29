@@ -9,7 +9,7 @@ cargallery: ["30JNPWj", "jyglVXv", "TIpwgLE"]
 categories: ["Car"]
 author: "Theodora"
 tags: ["Lamborghini", "RSS", "GT3", "Sports car", "Italy", "2023"]
-draft: false
+draft: true
 link: https://mods.to/DYF068312357b12b3
 zipsize: "456 MB"
 manu: Lamborghini

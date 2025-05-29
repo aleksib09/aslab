@@ -9,7 +9,7 @@ cargallery: ["mnvP0Yj", "MAJ9OqN"]
 categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "RSS", "NTT IndyCar", "Italy", "Formula", "2020"]
-draft: false
+draft: true
 link: https://mods.to/wBqr6831252b1ec0f
 zipsize: "0.4 GB"
 manu: Dallara

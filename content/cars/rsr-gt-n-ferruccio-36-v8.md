@@ -9,7 +9,7 @@ cargallery: ["7LUQFs4", "NvCnszz", "WZwMwlE"]
 categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "FIA GT", "GT2", "Italy", "2005"]
-draft: false
+draft: true
 link: https://mods.to/iqYZ683124ed8e66d
 zipsize: "150 MB"
 manu: Ferrari

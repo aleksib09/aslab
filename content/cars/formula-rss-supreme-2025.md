@@ -9,7 +9,7 @@ cargallery: ["X23IVDI", "cLclBTb"]
 categories: ["Car"]
 author: "Theodora"
 tags: ["RSS", "Super Formula", "Japan", "Formula", "2025"]
-draft: false
+draft: true
 link: https://mods.to/YDSJ683673041d04e
 zipsize: "382 MB"
 manu: RSS
