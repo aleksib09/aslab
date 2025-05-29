@@ -13,7 +13,6 @@ draft: false
 link: https://modsfire.com/wItvvztEr8P4h5u
 zipsize: 360 MB
 manu: Lotus
-logo2: alpine-cars
 country: England
 year: 2012
 class: Formula

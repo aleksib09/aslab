@@ -2,7 +2,7 @@
 title: "Porsche 911 (997.2) GT2 RS"
 meta_title: ""
 description: "Porsche 911 (997.2) GT2 RS 2011 (j8_porsche_997.2_gt2_rs) by Jugee8"
-date: 2025-05-19T20:15:00Z
+date: 2025-05-28T09:45:00Z
 thumb: In4ciu9
 mainimage: "s0dsLzc"
 cargallery: ["dLzcWOx", "8A8p0D6", "Igxlhnf"]
@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Porsche", "Road", "Sports car", "2011", "Jugee8", "Germany"]
 draft: false
-link: https://mods.to/R4lY682c80f4afafc
+link: https://mods.to/56r16837cb3c36642
 zipsize: "90 MB"
 manu: Porsche
 country: Germany
@@ -25,7 +25,7 @@ mass: 1370
 speed: 330
 accel: "3.5 seconds"
 creator: Jugee8
-version: "1.2"
+version: "1.3"
 csp: "0.2.6"
 carname: Porsche 911 (997.2) GT2 RS
 folder: "j8_porsche_997.2_gt2_rs"
