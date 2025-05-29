@@ -12,7 +12,7 @@ tags: ["Free Roam", "Road", "Traffic", "Todd K", "USA"]
 draft: false
 tracklink: https://mods.to/nWSx6837ed721d190
 tracklocation: "USA"
-trackimage: USA
+trackimage: usa
 trackcity: Los Angeles
 trackhosted: ["USA"]
 tracktype: ["Road"]
