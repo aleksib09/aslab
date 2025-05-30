@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["ASR", "Formula 1", "Formula", "2020"]
 draft: false
-link: https://mods.to/MS20682c91e5bca71
+link: https://mods.to/EoN268394a641ff13
 zipsize: "269 MB"
 manu: ASR
 brandimgur: Ro2FlCB

@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Minardi", "ASR", "Formula 1", "Formula", "R2R", "Italy", "1993"]
 draft: false
-link: https://mods.to/tfLy68303f2605d92
+link: https://mods.to/Lmrr683946d75273f
 zipsize: "83 MB"
 manu: Minardi
 brandimgur: hRNlbAG

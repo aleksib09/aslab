@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "ASR", "Formula 1", "Formula", "R2R", "Italy", "1995"]
 draft: false
-link: https://mods.to/PyuG68303bf0e22c4
+link: https://mods.to/qvsl683948e8db4c2
 zipsize: "111 MB"
 manu: Ferrari
 logo2: scuderia-sf

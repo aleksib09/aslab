@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["McLaren", "ASR", "Formula 1", "Formula", "R2R", "England", "1988"]
 draft: false
-link: https://mods.to/DCl8682c90688e9b4
+link: https://mods.to/sIib683943c92a195
 zipsize: "133 MB"
 manu: McLaren
 brandname: mclaren-2000

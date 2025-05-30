@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "ASR", "Formula 1", "Formula", "R2R", "Italy", "2004"]
 draft: false
-link: https://mods.to/1Psa682ffb716e546
+link: https://mods.to/NchN68394abcd1e3d
 zipsize: "156 MB"
 manu: Ferrari
 logo2: scuderia-sf

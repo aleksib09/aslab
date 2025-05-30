@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "ASR", "Formula 2", "Formula", "R2R", "Italy", "2017"]
 draft: false
-link: https://mods.to/Bck6682eb3fbe48a1
+link: https://mods.to/irwz683949e471ef5
 zipsize: "200 MB"
 manu: Dallara
 country: Italy
