@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["McLaren", "ASR", "Formula 1", "Formula", "R2R", "England", "1993"]
 draft: false
-link: https://mods.to/MSQB683945af02ba4
+link: https://s10.assettolab.com/files/25d01aca408774f4d6ae890be415ed06/ASR_McLaren-MP4-8_v0_99.zip
 zipsize: "441 MB"
 manu: McLaren
 brandname: mclaren-2000
@@ -33,6 +33,6 @@ carname: "McLaren MP4/8"
 folder: asr_1993_mclaren_mp4-8
 livery: "Included"
 r2r: 1
-host: mods
+host: logo
 vars: ["MP4/8", "MP4/8B"]
 ---

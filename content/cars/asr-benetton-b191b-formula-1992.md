@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Benetton", "ASR", "Formula 1", "Formula", "R2R", "England", "1992"]
 draft: false
-link: https://mods.to/2y96683948416136b
+link: https://s10.assettolab.com/files/25d01aca408774f4d6ae890be415ed06/asr_1992_benetton_b191b.zip
 zipsize: "84 MB"
 manu: Benetton
 brandimgur: I1FoOcK
@@ -36,5 +36,5 @@ carname: "Benetton B191B"
 folder: asr_1992_benetton_b191b
 livery: "Included"
 r2r: 1
-host: mods
+host: logo
 ---

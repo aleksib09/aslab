@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["McLaren", "ASR", "Formula 1", "Formula", "R2R", "England", "1997"]
 draft: false
-link: https://mods.to/ycMW683946ad75cbd
+link: https://s10.assettolab.com/files/25d01aca408774f4d6ae890be415ed06/ASR_McLaren-MP4-12_v0_9.zip
 zipsize: "105 MB"
 manu: McLaren
 brandname: mclaren-2000
@@ -34,5 +34,5 @@ carname: "McLaren MP4/12"
 folder: asr_1997_mclaren_mp4-12
 livery: "Included"
 r2r: 1
-host: mods
+host: logo
 ---

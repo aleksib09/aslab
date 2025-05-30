@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "ASR", "Formula 1", "Formula", "R2R", "Italy", "1990"]
 draft: false
-link: https://mods.to/1Cbk683949696d8e5
+link: https://s10.assettolab.com/files/25d01aca408774f4d6ae890be415ed06/ASR_Ferrari-641-2_v1_2.zip
 zipsize: "102 MB"
 manu: Ferrari
 logo2: scuderia-sf
@@ -33,5 +33,5 @@ carname: "Ferrari 641/2"
 folder: asr_1990_ferrari_641
 livery: "Included"
 r2r: 1
-host: mods
+host: logo
 ---

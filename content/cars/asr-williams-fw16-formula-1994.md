@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Williams", "ASR", "Formula 1", "Formula", "R2R", "England", "1994"]
 draft: false
-link: https://mods.to/tVMd6839471a5a688
+link: https://s10.assettolab.com/files/25d01aca408774f4d6ae890be415ed06/ASR_Williams-FW16-1994_v1_03.zip
 zipsize: "119 MB"
 manu: Williams
 country: England
@@ -33,5 +33,5 @@ carname: "Williams FW16"
 folder: asr_1994_williams_fw16
 livery: "Included"
 r2r: 1
-host: mods
+host: logo
 ---

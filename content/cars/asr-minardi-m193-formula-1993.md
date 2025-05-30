@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Minardi", "ASR", "Formula 1", "Formula", "R2R", "Italy", "1993"]
 draft: false
-link: https://mods.to/Lmrr683946d75273f
+link: https://s10.assettolab.com/files/25d01aca408774f4d6ae890be415ed06/ASR_Minardi-M193-1993_v0_6.zip
 zipsize: "83 MB"
 manu: Minardi
 brandimgur: hRNlbAG
@@ -34,5 +34,5 @@ carname: "Minardi M193"
 folder: asr_1993_minardi_m193
 livery: "Included"
 r2r: 1
-host: mods
+host: logo
 ---

@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["ASR", "Formula 1", "Formula", "2020"]
 draft: false
-link: https://mods.to/EoN268394a641ff13
+link: https://s10.assettolab.com/files/25d01aca408774f4d6ae890be415ed06/ASR_ASR-ONE-2020_v1_0.zip
 zipsize: "269 MB"
 manu: ASR
 brandimgur: Ro2FlCB
@@ -32,5 +32,5 @@ carname: "ASR-ONE 2020"
 folder: asr_2020_one
 livery: "Included"
 r2r: 0
-host: mods
+host: logo
 ---

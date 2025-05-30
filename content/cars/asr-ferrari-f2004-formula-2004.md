@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "ASR", "Formula 1", "Formula", "R2R", "Italy", "2004"]
 draft: false
-link: https://mods.to/NchN68394abcd1e3d
+link: https://s10.assettolab.com/files/25d01aca408774f4d6ae890be415ed06/ASR_Ferrari-F2004-2004_v1_3.zip
 zipsize: "156 MB"
 manu: Ferrari
 logo2: scuderia-sf
@@ -33,5 +33,5 @@ carname: "Ferrari F2004"
 folder: asr_2004_ferrari_f2004
 livery: "Included"
 r2r: 1
-host: mods
+host: logo
 ---

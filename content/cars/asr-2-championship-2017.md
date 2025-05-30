@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "ASR", "Formula 2", "Formula", "R2R", "Italy", "2017"]
 draft: false
-link: https://mods.to/irwz683949e471ef5
+link: https://s10.assettolab.com/files/25d01aca408774f4d6ae890be415ed06/ASR_F2-Championship-2017_v1_2.zip
 zipsize: "200 MB"
 manu: Dallara
 country: Italy
@@ -33,5 +33,5 @@ carname: "ASR 2 Championship 2017"
 realname: Dallara GP2/11
 livery: "Included"
 r2r: 1
-host: mods
+host: logo
 ---
