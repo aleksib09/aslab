@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodore"
 tags: ["Audi", "GTO", "Germany", "1989", "VRC", "Sports Car"]
 draft: false
-link: https://ouo.io/wLSkglh
+link: https://mods.to/xIwK68391f51bb7e7
 zipsize: "153 MB"
 manu: Audi
 brandname: audi-sport
@@ -29,7 +29,7 @@ creatorfull: Virtual Racing Cars
 version: "1.2"
 csp: "0.2.3"
 carname: "Auriel GTO"
-folder: "vrc_arc_auriel90"
+realname: Audi 90 quattro GTO
 livery: "Included"
 r2r: 1
 host: ModsFire

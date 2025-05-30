@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "F1", "VRC", "2007", "Italy", "Formula"]
 draft: false
-link: https://mods.to/gVZN682be8bcb1aab
+link: https://mods.to/Iea66839299e8b09b
 accel: 2.9s
 manu: Ferrari
 brandname: scuderia-sf

@@ -10,8 +10,8 @@ categories: ["Car"]
 author: "Theodore"
 tags: ["Dallara", "Formula", "Italy", "2021", "VRC", "NTT IndyCar", "IndyCar"]
 draft: false
-link: https://ouo.io/tGaBNs9
-zipsize: "1.63 GB"
+link: https://mods.to/L2vi68391a3921409
+zipsize: "624 MB"
 manu: Dallara
 championship: NTT IndyCar
 country: Italy
@@ -31,8 +31,8 @@ version: "1.1"
 csp: "0.2.6"
 realname: "Dallara IR-18 INDYCAR"
 carname: "Formula NA 2021"
-livery: "2025 season"
-r2r: 1
+livery: "No"
+r2r: 0
 host: mods
 vars: ["Road", "Oval", "Short"]
 ---

@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Peugeot", "France", "R2R", "Super Touring", "Touring car", "BTCC", "1998", "VRC"]
 draft: false
-link: https://modsfire.com/n4INd76530d98f3
+link: https://mods.to/ShiB6839126b7a641
 zipsize: "458 MB"
 host: ModsFire
 manu: Peugeot

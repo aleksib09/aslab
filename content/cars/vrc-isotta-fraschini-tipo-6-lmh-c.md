@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Isotta Fraschini", "Hypercar", "VRC", "Italy", "Le Mans Prototype", "LMH"]
 draft: false
-link: https://ouo.io/lo2lej
+link: https://mods.to/S63Y68392a2c57864
 zipsize: "364 MB"
 manu: Isotta Fraschini
 brandname: isotta-fraschini

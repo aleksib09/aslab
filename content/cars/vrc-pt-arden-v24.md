@@ -1,5 +1,5 @@
 ---
-title: "VRC PT Arden V24"
+title: "PT Arden V24"
 meta_title: ""
 description: "Alpine A424 LMDh (vrc_pt_2024_arden) by VRC, ready to race!"
 date: 2025-05-19T17:21:00Z
@@ -10,8 +10,8 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Alpine", "Hypercar", "VRC", "Oreca", "France", "Le Mans Prototype", "LMH", "WEC"]
 draft: false
-link: https://ouo.io/XZD8vn
-zipsize: "640 MB"
+link: https://mods.to/WRw4683929fb196cd
+zipsize: "643 MB"
 manu: Alpine
 logo2: alpine-cars
 country: France

@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["NASCAR", "VRC", "2018", "Oval", "USA", "Loop"]
 draft: false
-tracklink: https://mods.to/a6jC682ca4833c649
+tracklink: https://mods.to/56CF683926e61a6cd
 tracklocation: USA
 tracklogo: ytDmYqR
 trackcity: Texas

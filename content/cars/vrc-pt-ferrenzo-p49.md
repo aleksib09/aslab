@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "Hypercar", "WEC", "LMH", "R2R", "Le Mans Prototype", "VRC", "Italy"]
 draft: false
-link: https://ouo.io/8yw5YTc
+link: https://mods.to/Bvis6838fa537913a
 engine: 3.0L V6 turbo
 manu: Ferrari
 logo2: scuderia-sf

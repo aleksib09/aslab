@@ -10,8 +10,8 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["VRC", "Formula", "Wolrd", "2024", "VRC"]
 draft: false
-link: https://ouo.io/2yeWZ1y
-zipsize: "410 MB"
+link: https://mods.to/2Cev683921ab1bbbf
+zipsize: "331 MB"
 manu: VRC
 country: World
 year: 2024

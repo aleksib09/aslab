@@ -8,10 +8,10 @@ mainimage: TxhbtCR
 cargallery: ["cX7MSfL", "P2k5PgB"]
 categories: ["Car"]
 author: "Theodora"
-tags: ["Renault", "France", "R2R", "Super Touring", "Touring car", "BTCC", "1999", "VRC"]
+tags: ["Renault", "France", "Super Touring", "Touring car", "BTCC", "1999", "VRC"]
 draft: false
-link: https://ouo.io/35xkvaN
-zipsize: "555 MB"
+link: https://mods.to/0Z3W6839130cb9b88
+zipsize: "470 MB"
 host: mods
 manu: Renault
 championship: BTCC

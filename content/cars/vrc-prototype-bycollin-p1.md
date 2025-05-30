@@ -10,8 +10,8 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["ByKOLLES", "Le Mans Prototype", "LMP1", "R2R", "USA", "2019", "VRC"]
 draft: false
-link: https://mods.to/fpkP682fe002af669
-zipsize: "186 MB"
+link: https://mods.to/3XRA68391b84c00c0
+zipsize: "174 MB"
 manu: ByKOLLES
 brandimgur: dtrad9d
 championship: WEC

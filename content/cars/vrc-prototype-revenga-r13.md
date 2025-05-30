@@ -10,8 +10,8 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Rebellion", "Oreca", "Le Mans Prototype", "LMP1", "R2R", "France", "2019", "VRC"]
 draft: false
-link: https://mods.to/NnK5682f121d37cc8
-zipsize: "202 MB"
+link: https://mods.to/UAev68391aca1e917
+zipsize: "188 MB"
 manu: Rebellion
 chassisby: Oreca
 championship: WEC

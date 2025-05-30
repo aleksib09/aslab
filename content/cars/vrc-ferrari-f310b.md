@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "F1", "Formula", "R2R", "Italy", "1997"]
 draft: false
-link: https://mods.to/yjSZ682feafcb2c9c
+link: https://mods.to/V4Cl683929609b86a
 zipsize: "281 MB"
 manu: Ferrari
 logo2: scuderia-sf

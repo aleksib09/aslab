@@ -10,8 +10,8 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ginetta", "Oreca", "Le Mans Prototype", "LMP1", "R2R", "England", "2019", "VRC"]
 draft: false
-link: https://mods.to/Eosx682fe3135c7aa
-zipsize: "192 MB"
+link: https://mods.to/OnWN68391a9c0ef0e
+zipsize: "200 MB"
 manu: Ginetta
 brandimgur: A83hV1i
 championship: WEC

@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "F2", "Formula 2", "Formula", "VRC", "Italy"]
 draft: false
-link: https://ouo.io/o6YO7k
+link: https://mods.to/J3s26839117d1b9b2
 zipsize: "858 MB"
 manu: Dallara
 championship: Formula 2

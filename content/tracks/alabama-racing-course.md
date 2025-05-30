@@ -10,7 +10,7 @@ categories: ["Track"]
 author: "Theodora"
 tags: ["NTT IndyCar", "IMSA", "GTWC", "VRC", "2018", "Circuit", "USA", "Loop"]
 draft: false
-tracklink: https://mods.to/Qii2682ca45d1d18c
+tracklink: https://mods.to/Ebvq6839262dd1427
 tracklocation: USA
 tracklogo: wc8LiCh
 trackcity: Alabama

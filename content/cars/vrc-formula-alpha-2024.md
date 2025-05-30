@@ -1,19 +1,18 @@
 ---
 title: "Formula Alpha 2024 - F1 2025 Season"
 meta_title: ""
-description: "VRC Formula Alpha 2024 (vrc_formula_alpha_2024) by VRC for Assetto Corsa"
+description: "VRC Formula Alpha 2024 (vrc_formula_alpha_2024) by VRC"
 date: 2025-03-15T05:00:00Z
 thumb: zMjgOkl
 mainimage: rlu88UF
 categories: ["Car"]
 author: "Theodora"
-tags: ["Formula", "VRC", "F1"]
+tags: ["Formula", "VRC", "F1", "2025", "R2R", "Formula 1"]
 draft: false
-link: https://ouo.io/euiF8g
-zipsize: "1.12 GB"
-manu: F1
-brandname: f1-75
-country: World
+link: https://mods.to/ank1683920f362efc
+zipsize: "1.15 GB"
+manu: vrc
+country: France
 year: 2024
 engine: 3.0L Flat-6
 class: Formula

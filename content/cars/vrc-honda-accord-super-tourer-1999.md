@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Honda", "Japan", "R2R", "Super Touring", "Touring car", "BTCC", "1999", "VRC"]
 draft: false
-link: https://modsfire.com/b6e7236v3A3UI4S
+link: https://mods.to/6vUE683914e1e6416
 zipsize: "416 MB"
 host: ModsFire
 manu: Honda

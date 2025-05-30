@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Peugeot", "Hypercar", "WEC", "LMH", "Le Mans Prototype", "VRC", "France" ,"R2R"]
 draft: false
-link: https://ouo.io/4tenHZK
+link: https://mods.to/NIne68392b26d0c71
 host: mods
 zipsize: "777 MB"
 manu: Peugeot

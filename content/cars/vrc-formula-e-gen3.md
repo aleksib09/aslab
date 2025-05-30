@@ -10,8 +10,8 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Spark Racing Technology", "Formula E", "Formula", "France", "2023", "VRC"]
 draft: false
-link: https://ouo.io/mMG695T
-zipsize: "0.81 GB"
+link: https://mods.to/VUZA6839201b9fbe1
+zipsize: "287 MB"
 manu: Spark Racing Technology
 championship: Formula E
 country: France

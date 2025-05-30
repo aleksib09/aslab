@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Toyota", "LMP1", "Le Mans Prototype", "R2R", "2019", "VRC", "Japan"]
 draft: false
-link: https://ouo.io/zuGGyy7
+link: https://mods.to/GccD68390cc3201c0
 zipsize: 169 MB
 manu: Toyota
 country: Japan

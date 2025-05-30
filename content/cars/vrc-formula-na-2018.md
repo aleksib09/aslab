@@ -10,8 +10,8 @@ categories: ["Car"]
 author: "Theodore"
 tags: ["Dallara", "Formula", "Italy", "2018", "VRC", "NTT IndyCar", "IndyCar"]
 draft: false
-link: https://ouo.io/LxcD1k
-zipsize: "0.43 GB"
+link: https://mods.to/VhQ9683923a6e3d2b
+zipsize: "666 MB"
 manu: Dallara
 championship: NTT IndyCar
 country: Italy

@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Cadillac", "Hypercar", "Dallara", "GM", "IMSA" ,"WEC", "LMDh", "Le Mans Prototype", "VRC", "USA", "R2R"]
 draft: false
-link: https://ouo.io/EeSCLaL
+link: https://mods.to/bvcW6838fe5c5d88d
 manu: Cadillac
 brandname: cadillac-racing
 accel: 3 seconds

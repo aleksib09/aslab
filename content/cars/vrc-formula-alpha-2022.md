@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["F1", "Formula 1", "Formula", "2022", "VRC"]
 draft: false
-link: https://ouo.io/LHTnnil
+link: https://mods.to/A2Wf68392057af08e
 zipsize: "277 MB"
 manu: vrc
 country: "World"

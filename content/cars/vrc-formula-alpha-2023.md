@@ -1,7 +1,7 @@
 ---
 title: "VRC Formula Alpha 2023"
 meta_title: ""
-description: "VRC Formula Alpha 2023 (vrc_formula_alpha_2023) for Assetto Corsa by VRC"
+description: "VRC Formula Alpha 2023 (vrc_formula_alpha_2023) by VRC"
 date: 2025-05-03T05:11:00Z
 thumb: eZJUbqR
 mainimage: dDbqcif
@@ -10,8 +10,8 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["F1", "Formula 1", "World", "Formula", "2023", "VRC"]
 draft: false
-link: https://ouo.io/lTYD9t
-zipsize: "530 MB"
+link: https://mods.to/l4f86839209e1bc91
+zipsize: "538 MB"
 manu: vrc
 country: World
 vars: ["CSP"]
