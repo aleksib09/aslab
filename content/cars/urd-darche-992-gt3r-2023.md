@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Porsche", "GT3", "URD", "Germany", "2023", "Sports Car"]
 draft: false
-link: https://mods.to/8PEU68393e0bf125e
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Darche-992-GT3R-2023_v1_3_1.zip
 zipsize: "264 MB"
 manu: Porsche
 country: Germany
@@ -31,5 +31,5 @@ carname: "Porsche 992 GT3 R"
 realname: Darche 992 GT3-R 2023
 livery: "Not Included"
 r2r: 0
-host: mods
+host: logo
 ---

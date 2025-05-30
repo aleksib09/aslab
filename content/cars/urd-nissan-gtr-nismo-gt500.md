@@ -11,9 +11,9 @@ author: "Theodora"
 championship: Super GT
 tags: ["Nissan", "Super GT", "GT500", "URD", "Japan", "2021","Sports Car"]
 draft: false
-link: https://mods.to/iuyZ6839400fcfd35
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/urd_jt5_shiro_2021.zip
 zipsize: "115 MB"
-host: mods
+host: logo
 manu: Nissan
 country: Japan
 year: 2021

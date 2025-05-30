@@ -1,5 +1,5 @@
 ---
-title: "Aston Martin Vantage GTE 2019"
+title: "AMR EGT 2019"
 meta_title: ""
 description: "Aston Martin Vantage GTE 2019 - AMR EGT 2019 - urd_amr_egt_2019 by URD"
 date: 2025-05-13T19:30:00Z
@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Aston Martin", "GTE", "Sports car", "2019", "URD", "England"]
 draft: false
-link: https://mods.to/3DXg68393ca8d9467
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_AMR-EGT-2019_v1_1.zip
 zipsize: 135 MB
 manu: Aston Martin
 country: England
@@ -31,5 +31,5 @@ carname: "Aston Martin Vantage GTE"
 realname: URD AMR EGT 2019
 livery: "Included"
 r2r: 0
-host: mods
+host: logo
 ---

@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Radical","Sports car", "Prototype","2023", "England", "URD"]
 draft: false
-link: https://mods.to/aSBQ68393d3adfa77
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/urd_radical_sr10xxr_2023.zip
 zipsize: "182 MB"
 manu: Radical
 country: England
@@ -32,5 +32,5 @@ carname: "Radical SR10 XXR"
 folder: "urd_radical_sr10xxr_2023"
 livery: "16 colors"
 r2r: 0
-host: mods
+host: logo
 ---

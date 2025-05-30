@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "IndyCar", "Formula", "Italy", "2014", "URD"]
 draft: false
-link: https://mods.to/888U6839410e5a153
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Formula_Lights.zip
 zipsize: "66 MB"
 manu: Dallara
 championship: Indy NXT
@@ -33,5 +33,5 @@ folder: "urd_formulalights_road(oval)"
 vars: ["Road", "Oval"]
 livery: "No"
 r2r: 0
-host: mods
+host: logo
 ---

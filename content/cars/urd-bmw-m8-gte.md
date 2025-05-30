@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["BMW", "GTE", "Sports car", "WEC", "IMSA", "2018", "Germany", "URD"]
 draft: false
-link: https://mods.to/WIpJ68394264d9537
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Bayro-EGT-2018_v1_2.zip
 zipsize: "113 MB"
 manu: BMW
 country: Germany
@@ -31,7 +31,6 @@ csp: "0.2.3"
 carname: "BMW M8 GTE"
 realname: Bayro EGT 2018
 livery: "Not included"
-# vars: ["Carbon"]
 r2r: 0
-host: ModsFire
+host: mods
 ---

@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Lexus", "GT3", "URD", "Japan", "Sports Car"]
 draft: false
-link: https://mods.to/hyZb68393ec3ad562
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Rekus-RC-F-GT3-2019_v1_2_1.zip
 manu: Lexus
 accel: 4.5s
 country: Japan
@@ -32,6 +32,6 @@ realname: URD Rekus RC-F GT3
 zipsize: "201 MB"
 livery: "No"
 r2r: 0
-host: Mods
+host: logo
 ---
 

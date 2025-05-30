@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Glickenhaus", "Hypercar", "Le Mans Prototype", "2021", "URD", "USA"]
 draft: false
-link: https://mods.to/eS0568393d1eed021
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/urd_scg007_lmh_v1_2.zip
 zipsize: 38 MB
 manu: Glickenhaus
 brandimgur: ZgX3yzm

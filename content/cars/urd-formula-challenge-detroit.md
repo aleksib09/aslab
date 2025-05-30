@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "IndyCar", "Formula", "Chevrolet", "Italy", "2015", "URD"]
 draft: false
-link: https://mods.to/eqxa683940cd623b0
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Formula_Challenge_Detroit.zip
 zipsize: "76 MB"
 manu: Dallara
 championship: NTT IndyCar
@@ -34,5 +34,5 @@ folder: urd_fcdetroit_road
 vars: ["Road", "Oval"]
 livery: "No"
 r2r: 0
-host: ModsFire
+host: logo
 ---

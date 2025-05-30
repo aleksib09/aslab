@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "GT3", "URD", "Italy", "2023","Sports Car"]
 draft: false
-link: https://mods.to/UYVA68393e86566e8
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Ferrucci-296-GT3_v1_2_1.zip
 manu: Ferrari
 country: Italy
 accel: 3.2s
@@ -32,5 +32,5 @@ realname: URD Ferrucci 296 GT3
 zipsize: "220 MB"
 livery: "No"
 r2r: 0
-host: mods
+host: logo
 ---

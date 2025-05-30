@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["BMW", "GT3", "R2R", "URD", "2022","Sports Car", "Germany"]
 draft: false
-link: https://mods.to/A3eM68393f0f0f71f
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Bayro-4-GT3_v2_3_1.zip
 manu: BMW
 country: Germany
 year: 2022
@@ -32,5 +32,5 @@ realname: Bayro 4 GT3
 zipsize: "717 MB"
 livery: "Included"
 r2r: 1
-host: mods
+host: logo
 ---

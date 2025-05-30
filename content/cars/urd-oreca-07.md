@@ -11,9 +11,9 @@ author: "Theodora"
 # championship: Super GT
 tags: ["Oreca", "LMP2", "Le Mans", "Le Mans Prototype", "URD", "France", "2021", "WEC","IMSA"]
 draft: false
-link: https://mods.to/SfUc68393cf9613d7
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Loire07_v1_3.zip
 zipsize: "260 MB"
-host: ModsFire
+host: logo
 manu: Oreca
 country: France
 # championship: Super GT

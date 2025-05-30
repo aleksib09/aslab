@@ -11,9 +11,9 @@ author: "Theodora"
 championship: Super GT
 tags: ["Toyota", "Super GT", "GT500", "URD", "Japan", "2021", "Sports Car"]
 draft: false
-link: https://mods.to/qiwg68393fc3218c0
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/urd_jt5_moyoda_2021.zip
 zipsize: "160 MB"
-host: mods
+host: logo
 manu: Toyota
 logo2: Toyota-text
 country: Japan

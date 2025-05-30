@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Chevrolet", "GT3", "Sports car", "2020", "USA", "URD"]
 draft: false
-link: https://mods.to/aavv68393dd7d71ff
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Michigan-GTD_v1_4_1.zip
 zipsize: "141 MB"
 manu: Chevrolet
 country: USA

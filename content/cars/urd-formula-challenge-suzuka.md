@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "IndyCar", "Formula", "Honda", "Italy", "2015", "URD"]
 draft: false
-link: https://modsfire.com/5Xih0De1d9d6UF8
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_FOrmula_Challenge_Suzuka.zipd6UF8
 zipsize: "178 MB"
 manu: Dallara
 championship: NTT IndyCar

@@ -11,7 +11,7 @@ author: "Theodora"
 championship: Super GT
 tags: ["Honda", "Super GT", "GT500", "URD", "Japan", "2024","Sports Car"]
 draft: false
-link: https://mods.to/FLku683941d3706b3
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Honda_Civic_Type-R_GT500.rar
 zipsize: "90 MB"
 host: mods
 manu: Honda

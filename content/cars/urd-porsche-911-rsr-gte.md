@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Porsche", "GTE", "URD", "Germany","Sports Car", "WEC", "IMSA"]
 draft: false
-link: https://mods.to/5ieJ68393d850245d
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Darche_EGT_v1_1.zip
 zipsize: "672 MB"
 manu: Porsche
 country: Germany
@@ -33,5 +33,5 @@ carname: "Porsche 911 RSR"
 realname: URD Darche EGT 2020
 livery: "Included"
 r2r: 1
-host: mods
+host: logo
 ---

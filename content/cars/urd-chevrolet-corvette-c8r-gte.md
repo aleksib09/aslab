@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Chevrolet", "GTE", "Sports car", "WEC", "IMSA", "2020", "USA", "URD"]
 draft: false
-link: https://mods.to/S8yo68393db2860cf
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Michigan-EGT_v1_3.zip
 zipsize: "140 MB"
 manu: Chevrolet
 country: USA
@@ -32,5 +32,5 @@ carname: "Chevrolet C8.R GTE"
 realname: URD Michigan EGT
 livery: "Not included"
 r2r: 0
-host: Mods
+host: logo
 ---

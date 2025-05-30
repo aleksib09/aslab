@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ford", "GTE", "URD", "WEC", "R2R", "USA","Sports Car"]
 draft: false
-link: https://mods.to/OZbz68394212bb0c4
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Detroit-EGT-2018_v1_7.zip
 accel: 3.2s
 manu: Ford
 country: USA
@@ -30,5 +30,5 @@ carname: "Ford GT GTE"
 realname: URD Detroit EGT 2018
 zipsize: "68 MB"
 livery: "Included"
-host: mods
+host: logo
 ---

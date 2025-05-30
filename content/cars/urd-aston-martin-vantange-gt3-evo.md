@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodore"
 tags: ["Aston Martin", "GT3", "URD","Sports Car", "England"]
 draft: false
-link: https://mods.to/NZt868393f43380a7
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Arthur-Merlin-Valor-GT3-EVO_v1_01.zip
 manu: Aston Martin
 brandname: aston-martin
 country: England
@@ -33,5 +33,5 @@ realname: Arthur Merlin Valor GT3 EVO
 zipsize: "635 MB"
 livery: "Included"
 r2r: 1
-host: mods
+host: logo
 ---

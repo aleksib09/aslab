@@ -11,9 +11,9 @@ author: "Theodora"
 championship: Super GT
 tags: ["Honda", "Super GT", "GT500", "URD", "Japan", "2021","Sports Car"]
 draft: false
-link: https://mods.to/mklT683940807e265
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/urd_jt5_snx_2021.zip
 zipsize: "103 MB"
-host: ModsFire
+host: logo
 manu: Honda
 country: Japan
 championship: Super GT

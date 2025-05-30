@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Toyota", "Hypercar", "Le Mans Prototype", "R2R", "WEC", "2021", "URD", "Japan"]
 draft: false
-link: https://mods.to/zfNm68393d665a4dc
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Moyoda-Hypercar-2021_v1_3.zip
 zipsize: 121 MB
 manu: Toyota
 country: Japan
@@ -32,5 +32,5 @@ carname: "Toyota GR010 Hybrid"
 realname: URD Moyoda Hypercar
 livery: "Included"
 r2r: 1
-host: Mods
+host: logo
 ---

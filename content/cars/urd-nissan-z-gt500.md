@@ -11,9 +11,9 @@ author: "Theodora"
 championship: Super GT
 tags: ["Nissan", "Super GT", "GT500", "URD", "Japan", "2021","Sports Car"]
 draft: false
-link: https://mods.to/E6FG683940522089f
+link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Nissan_Z_GT500.zip
 zipsize: "83 MB"
-host: ModsFire
+host: logo
 manu: Nissan
 country: Japan
 year: 2021
