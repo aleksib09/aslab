@@ -56,9 +56,9 @@ image_size = "150x100"
 # announcement
 # announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
 [announcement]
-enable = false
+enable = true
 expire_days = 7
-content = "Using an adblocker like uBlock is highly recommended for better download process"
+content = "Dont worry guys, all files will be available soon!"
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
