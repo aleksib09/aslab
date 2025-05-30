@@ -1,5 +1,5 @@
 ---
-title: "Chevrolet Corvette C8.R GTD"
+title: "Michigan GTD"
 meta_title: ""
 description: "Chevrolet Corvette C8.R GTD 2020 - Michigan GTD (urd_michigan_gtd) by URD"
 date: 2025-04-23T10:00:00Z
@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Chevrolet", "GT3", "Sports car", "2020", "USA", "URD"]
 draft: false
-link: https://ouo.io/n29rzH
+link: https://mods.to/aavv68393dd7d71ff
 zipsize: "141 MB"
 manu: Chevrolet
 country: USA

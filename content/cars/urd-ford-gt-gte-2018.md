@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ford", "GTE", "URD", "WEC", "R2R", "USA","Sports Car"]
 draft: false
-link: https://ouo.io/UGVqYz
+link: https://mods.to/OZbz68394212bb0c4
 accel: 3.2s
 manu: Ford
 country: USA

@@ -9,8 +9,8 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Porsche", "GT3", "URD", "Germany", "2023", "Sports Car"]
 draft: false
-link: https://ouo.io/F1OpAk
-zipsize: "262 MB"
+link: https://mods.to/8PEU68393e0bf125e
+zipsize: "264 MB"
 manu: Porsche
 country: Germany
 year: 2023

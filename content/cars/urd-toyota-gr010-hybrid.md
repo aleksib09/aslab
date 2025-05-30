@@ -1,5 +1,5 @@
 ---
-title: "Toyota GR010 Hybrid"
+title: "Moyoda Hypercar"
 meta_title: ""
 description: "Toyota GR010 Hybrid 2021 - Moyoda Hypercar (urd_gr010) by URD for Assetto Corsa"
 date: 2025-05-12T21:06:00Z
@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Toyota", "Hypercar", "Le Mans Prototype", "R2R", "WEC", "2021", "URD", "Japan"]
 draft: false
-link: https://ouo.io/Xrz7YF
+link: https://mods.to/zfNm68393d665a4dc
 zipsize: 121 MB
 manu: Toyota
 country: Japan

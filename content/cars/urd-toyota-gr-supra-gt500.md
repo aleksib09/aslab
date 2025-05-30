@@ -9,9 +9,9 @@ cargallery: ["bEy88ON", "VR48sBB", "ZXdtgPT"]
 categories: ["Car"]
 author: "Theodora"
 championship: Super GT
-tags: ["Toyota", "Super GT", "GT500", "URD", "Japan", "2021","Sports Car"]
+tags: ["Toyota", "Super GT", "GT500", "URD", "Japan", "2021", "Sports Car"]
 draft: false
-link: https://ouo.io/wAMWOn
+link: https://mods.to/qiwg68393fc3218c0
 zipsize: "160 MB"
 host: mods
 manu: Toyota

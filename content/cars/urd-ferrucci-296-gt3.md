@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "GT3", "URD", "Italy", "2023","Sports Car"]
 draft: false
-link: https://ouo.io/WYv5lD
+link: https://mods.to/UYVA68393e86566e8
 manu: Ferrari
 country: Italy
 accel: 3.2s

@@ -11,7 +11,7 @@ author: "Theodora"
 championship: Super GT
 tags: ["Honda", "Super GT", "GT500", "URD", "Japan", "2024","Sports Car"]
 draft: false
-link: https://ouo.io/3JOJLhj
+link: https://mods.to/FLku683941d3706b3
 zipsize: "90 MB"
 host: mods
 manu: Honda

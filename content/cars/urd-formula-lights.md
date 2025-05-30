@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "IndyCar", "Formula", "Italy", "2014", "URD"]
 draft: false
-link: https://mods.to/DLj86829a01869724
+link: https://mods.to/888U6839410e5a153
 zipsize: "66 MB"
 manu: Dallara
 championship: Indy NXT

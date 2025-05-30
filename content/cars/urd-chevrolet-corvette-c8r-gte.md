@@ -1,5 +1,5 @@
 ---
-title: "Chevrolet Corvette C8.R GTE"
+title: "Michigan EGT"
 meta_title: ""
 description: "Corvette C8.R GTE 2020 - Michigan EGT (urd_michigan_egt) by URD"
 date: 2025-04-23T11:00:00Z
@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Chevrolet", "GTE", "Sports car", "WEC", "IMSA", "2020", "USA", "URD"]
 draft: false
-link: https://ouo.io/yQlGpyA
+link: https://mods.to/S8yo68393db2860cf
 zipsize: "140 MB"
 manu: Chevrolet
 country: USA

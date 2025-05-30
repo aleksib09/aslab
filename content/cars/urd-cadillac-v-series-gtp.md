@@ -1,5 +1,5 @@
 ---
-title: "Cadillac V-Series.R GTP"
+title: "Dallas VSR Hybrid"
 meta_title: ""
 description: "Cadillac V-Series.R GTP - URD Dallas VSR Hybrid (urd_dallas_vsr_hybrid) by URD"
 date: 2025-04-20T05:00:00Z
@@ -11,8 +11,8 @@ author: "Theodora"
 chassisby: Dallara
 tags: ["Cadillac", "Dallara", "LMDh", "R2R", "Prototype", "Hypercar", "Le mans Prototype", "URD", "USA", "2023"]
 draft: false
-link: https://ouo.io/w9xqW4
-zipsize: "103 MB"
+link: https://mods.to/okir683936f794695
+zipsize: "939 MB"
 host: mods
 manu: Cadillac
 logo2: cadillac-racing

@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Radical","Sports car", "Prototype","2023", "England", "URD"]
 draft: false
-link: https://mods.to/bzyr6829a294164a5
+link: https://mods.to/aSBQ68393d3adfa77
 zipsize: "182 MB"
 manu: Radical
 country: England

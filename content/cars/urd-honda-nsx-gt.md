@@ -11,7 +11,7 @@ author: "Theodora"
 championship: Super GT
 tags: ["Honda", "Super GT", "GT500", "URD", "Japan", "2021","Sports Car"]
 draft: false
-link: https://modsfire.com/sGso77p01JFARbs
+link: https://mods.to/mklT683940807e265
 zipsize: "103 MB"
 host: ModsFire
 manu: Honda

@@ -11,7 +11,7 @@ author: "Theodora"
 # championship: Super GT
 tags: ["Oreca", "LMP2", "Le Mans", "Le Mans Prototype", "URD", "France", "2021", "WEC","IMSA"]
 draft: false
-link: https://modsfire.com/80u3hFdr7w48OS1
+link: https://mods.to/SfUc68393cf9613d7
 zipsize: "260 MB"
 host: ModsFire
 manu: Oreca

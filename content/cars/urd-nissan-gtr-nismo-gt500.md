@@ -11,7 +11,7 @@ author: "Theodora"
 championship: Super GT
 tags: ["Nissan", "Super GT", "GT500", "URD", "Japan", "2021","Sports Car"]
 draft: false
-link: https://ouo.io/Ndpz0e
+link: https://mods.to/iuyZ6839400fcfd35
 zipsize: "115 MB"
 host: mods
 manu: Nissan

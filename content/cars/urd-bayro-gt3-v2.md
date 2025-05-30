@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["BMW", "GT3", "R2R", "URD", "2022","Sports Car", "Germany"]
 draft: false
-link: https://ouo.io/x7kjMt
+link: https://mods.to/A3eM68393f0f0f71f
 manu: BMW
 country: Germany
 year: 2022

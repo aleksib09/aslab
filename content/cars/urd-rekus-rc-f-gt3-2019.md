@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Lexus", "GT3", "URD", "Japan", "Sports Car"]
 draft: false
-link: https://ouo.io/HZ3Hrq
+link: https://mods.to/hyZb68393ec3ad562
 manu: Lexus
 accel: 4.5s
 country: Japan

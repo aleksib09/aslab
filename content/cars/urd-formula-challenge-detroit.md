@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "IndyCar", "Formula", "Chevrolet", "Italy", "2015", "URD"]
 draft: false
-link: https://modsfire.com/4eA5qpg1baO2x9l
+link: https://mods.to/eqxa683940cd623b0
 zipsize: "76 MB"
 manu: Dallara
 championship: NTT IndyCar

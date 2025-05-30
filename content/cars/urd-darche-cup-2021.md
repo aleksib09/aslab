@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Porsche", "Cup", "URD", "R2R", "2021", "Sports Car"]
 draft: false
-link: https://ouo.io/jyH3lTi
+link: https://mods.to/Kx5P68393cd08a9fa
 manu: Porsche
 accel: 3.4s
 country: Germany

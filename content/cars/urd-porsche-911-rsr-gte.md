@@ -1,5 +1,5 @@
 ---
-title: "Porsche 911 RSR GTE"
+title: "Darche EGT 2020"
 meta_title: ""
 description: "Darche EGT 2020 (urd_darche_egt_2020) by VRC, ready to race!"
 date: 2025-02-03T05:00:00Z
@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Porsche", "GTE", "URD", "Germany","Sports Car", "WEC", "IMSA"]
 draft: false
-link: https://ouo.io/HBZ86V
+link: https://mods.to/5ieJ68393d850245d
 zipsize: "672 MB"
 manu: Porsche
 country: Germany

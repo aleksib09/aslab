@@ -1,5 +1,5 @@
 ---
-title: "BMW M8 GTE"
+title: "Bayro EGT 2018"
 meta_title: ""
 description: "BMW M8 GTE 2018 - Bayro EGT 2018 (urd_bayro_egt_2018) by URD"
 date: 2024-10-23T11:00:00Z
@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["BMW", "GTE", "Sports car", "WEC", "IMSA", "2018", "Germany", "URD"]
 draft: false
-link: https://ouo.io/Y3t90a
+link: https://mods.to/WIpJ68394264d9537
 zipsize: "113 MB"
 manu: BMW
 country: Germany
