@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["ByKOLLES", "Le Mans Prototype", "LMP1", "R2R", "USA", "2019", "VRC"]
 draft: false
-link: https://mods.to/3XRA68391b84c00c0
+link: https://filepv.com/48lyzxup1zvu/VRC_PT-ByCollin-P1_v1_5.zip.html
 zipsize: "174 MB"
 manu: ByKOLLES
 brandimgur: dtrad9d
@@ -34,5 +34,5 @@ carname: "Prototype ByCollin P1"
 realname: ByKOLLES R13 CLM P1/01
 livery: "Included"
 r2r: 1
-host: mods
+host: sharemods
 ---

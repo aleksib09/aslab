@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Toyota", "LMP1", "Le Mans Prototype", "R2R", "2019", "VRC", "Japan"]
 draft: false
-link: https://mods.to/GccD68390cc3201c0
+link: https://filepv.com/0tiurpnbgqyu/VRC_PT-Tagomi-T50_v1_1.zip.html
 zipsize: 169 MB
 manu: Toyota
 country: Japan
@@ -31,5 +31,5 @@ realname: "Toyota TS050 Hybrid"
 carname: VRC PT Tagomi T50
 livery: "Included"
 r2r: 1
-host: mods
+host: sharemods
 ---

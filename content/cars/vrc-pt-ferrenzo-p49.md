@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "Hypercar", "WEC", "LMH", "R2R", "Le Mans Prototype", "VRC", "Italy"]
 draft: false
-link: https://mods.to/Bvis6838fa537913a
+link: https://filepv.com/y7ef5bmufh
 engine: 3.0L V6 turbo
 manu: Ferrari
 logo2: scuderia-sf
@@ -33,5 +33,5 @@ carname: VRC PT Ferrenzo P49
 zipsize: "0.96 GB"
 livery: "Included"
 r2r: 1
-host: mods
+host: sharemods
 ---

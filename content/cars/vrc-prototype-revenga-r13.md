@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Rebellion", "Oreca", "Le Mans Prototype", "LMP1", "R2R", "France", "2019", "VRC"]
 draft: false
-link: https://mods.to/UAev68391aca1e917
+link: https://filepv.com/iytvb6zwx2e7/VRC_PT-Revenga-R13_v1_2.zip.html
 zipsize: "188 MB"
 manu: Rebellion
 chassisby: Oreca
@@ -34,5 +34,5 @@ carname: "Prototype Revenga R13"
 realname: Rebellion R13
 livery: "Included"
 r2r: 1
-host: mods
+host: sharemods
 ---

@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodore"
 tags: ["Audi", "GTO", "Germany", "1989", "VRC", "Sports Car"]
 draft: false
-link: https://mods.to/xIwK68391f51bb7e7
+link: https://filepv.com/ydwbmmjhk5ve/VRC_ARC-Auriel-90-GTO_v1_2.zip.html
 zipsize: "153 MB"
 manu: Audi
 brandname: audi-sport
@@ -32,5 +32,5 @@ carname: "Auriel GTO"
 realname: Audi 90 quattro GTO
 livery: "Included"
 r2r: 1
-host: ModsFire
+host: sharemods
 ---

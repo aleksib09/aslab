@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Isotta Fraschini", "Hypercar", "VRC", "Italy", "Le Mans Prototype", "LMH"]
 draft: false
-link: https://mods.to/S63Y68392a2c57864
+link: https://filepv.com/68ajio0mkveu/VRC_PT_Isotta-Fraschini-Tipo-6_v1.0.zip.html
 zipsize: "364 MB"
 manu: Isotta Fraschini
 brandname: isotta-fraschini
@@ -35,5 +35,5 @@ realname: "Isotta Fraschini Tipo 6 LMH-C"
 carname: PT Isola Santini
 livery: "Included"
 r2r: 1
-host: mods
+host: sharemods
 ---

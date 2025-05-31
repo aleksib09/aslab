@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["VRC", "Formula", "Wolrd", "2024", "VRC"]
 draft: false
-link: https://mods.to/2Cev683921ab1bbbf
+link: https://filepv.com/c4jotvqnwe01/VRC_Formula-G_-2024-Mark-I_v1_2.zip.html
 zipsize: "331 MB"
 manu: VRC
 country: World
@@ -32,5 +32,5 @@ carname: "Formula G Mark I"
 folder: "vrc_formula_g_2024"
 livery: "6 colors"
 r2r: 0
-host: mods
+host: sharemods
 ---

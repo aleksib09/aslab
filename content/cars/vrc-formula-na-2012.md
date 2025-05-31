@@ -9,7 +9,7 @@ cargallery: ["EtAKzvO", "Cf7yxjV", "ODFx1FW"]
 categories: ["Car"]
 author: "Theodore"
 tags: ["Dallara", "Formula", "Italy", "2012", "VRC", "NTT IndyCar", "IndyCar"]
-draft: false
+draft: true
 link: https://mods.to/cVc1683922579f464
 zipsize: "0.54 GB"
 manu: Dallara

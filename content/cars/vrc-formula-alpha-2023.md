@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["F1", "Formula 1", "World", "Formula", "2023", "VRC"]
 draft: false
-link: https://mods.to/l4f86839209e1bc91
+link: https://filepv.com/2oalvcwy083b/VRC_Formula-Alpha-2023_v1_4.zip.html
 zipsize: "538 MB"
 manu: vrc
 country: World
@@ -33,5 +33,5 @@ carname: "Formula Alpha"
 folder: "vrc_formula_alpha_2023"
 livery: "No"
 r2r: 0
-host: mods
+host: sharemods
 ---

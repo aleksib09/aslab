@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Spark Racing Technology", "Formula E", "Formula", "France", "2023", "VRC"]
 draft: false
-link: https://mods.to/VUZA6839201b9fbe1
+link: https://filepv.com/osbaf015kz5n/VRC_Formula-Lithium-2023_v1_2_(2).zip.html
 zipsize: "287 MB"
 manu: Spark Racing Technology
 championship: Formula E
@@ -34,5 +34,5 @@ realname: "Formula E Gen3"
 carname: VRC Formula Lithium 2023
 livery: "21 included"
 r2r: 1
-host: mods
+host: sharemods
 ---

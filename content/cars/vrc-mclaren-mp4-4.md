@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["McLaren", "Honda", "F1", "Formula", "R2R", "England", "1988"]
 draft: false
-link: https://mods.to/Wz6J68392aaca26ca
+link: https://filepv.com/swxf8ox3a2kq/VRC_McLaren-MP44-1988_v1_3.zip.html
 zipsize: "643 MB"
 manu: McLaren
 brandname: mclaren-2000
@@ -34,6 +34,6 @@ carname: "McLaren MP4/4"
 folder: vrc_1988_mclaren_mp4-4_r02
 livery: "Included"
 r2r: 1
-host: mods
+host: sharemods
 vars: ["R2, R4, R9, R10"]
 ---

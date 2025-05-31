@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodore"
 tags: ["Dallara", "Formula", "Italy", "2021", "VRC", "NTT IndyCar", "IndyCar"]
 draft: false
-link: https://mods.to/L2vi68391a3921409
+link: https://filepv.com/dq5xpdz6e7qe/VRC_Formula-NA-2021_v1_1.zip.html
 zipsize: "624 MB"
 manu: Dallara
 championship: NTT IndyCar

@@ -10,9 +10,9 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Peugeot", "France", "R2R", "Super Touring", "Touring car", "BTCC", "1998", "VRC"]
 draft: false
-link: https://mods.to/ShiB6839126b7a641
+link: https://filepv.com/90hkfdljj4b8/VRC_Tourers_Pageau_46_v1_3.zip.html
 zipsize: "458 MB"
-host: ModsFire
+host: sharemods
 manu: Peugeot
 championship: BTCC
 # logo2: Toyota-text

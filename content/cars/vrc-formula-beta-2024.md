@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "F2", "Formula 2", "Formula", "VRC", "Italy"]
 draft: false
-link: https://mods.to/J3s26839117d1b9b2
+link: https://filepv.com/70xziqwsaaws/VRC_Formula-Beta-2024_v1_1.zip.html
 zipsize: "858 MB"
 manu: Dallara
 championship: Formula 2
@@ -32,5 +32,5 @@ carname: "Dallara F2 2024"
 realname: Formula Beta 2024
 livery: "Not Included"
 r2r: 0
-host: mods
+host: sharemods
 ---

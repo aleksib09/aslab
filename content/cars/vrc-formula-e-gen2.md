@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Spark Racing Technology", "Formula E", "Formula", "France", "2019", "VRC"]
 draft: false
-link: https://mods.to/ZIQr68391fc41e09e
+link: https://filepv.com/z35t3dypu88p/VRC_Formula-Lithium-2019_v1_1.zip.html
 zipsize: "195 MB"
 manu: Spark Racing Technology
 championship: Formula E
@@ -34,5 +34,5 @@ realname: VRC Formula Lithium 2019
 carname: Formula E Gen2
 livery: "Included"
 r2r: 1
-host: ModsFire
+host: sharemods
 ---

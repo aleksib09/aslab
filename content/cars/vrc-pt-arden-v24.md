@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Alpine", "Hypercar", "VRC", "Oreca", "France", "Le Mans Prototype", "LMH", "WEC"]
 draft: false
-link: https://mods.to/WRw4683929fb196cd
+link: https://filepv.com/jfreq0v0dpm3/Alpine-A424_v1.2.zip.html
 zipsize: "643 MB"
 manu: Alpine
 logo2: alpine-cars
@@ -35,5 +35,5 @@ realname: "Alpine A424 LMDh"
 carname: "VRC PT Arden V24"
 livery: "Included"
 r2r: 1
-host: mods
+host: sharemods
 ---

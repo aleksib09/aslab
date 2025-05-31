@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ginetta", "Oreca", "Le Mans Prototype", "LMP1", "R2R", "England", "2019", "VRC"]
 draft: false
-link: https://mods.to/OnWN68391a9c0ef0e
+link: https://filepv.com/qu12gmax90dl/VRC_PT-Vendetta-V60_v1_4.zip.html
 zipsize: "200 MB"
 manu: Ginetta
 brandimgur: A83hV1i
@@ -34,5 +34,5 @@ carname: "Prototype Vendetta V60"
 realname: Ginetta G60-LT-P1
 livery: "Included"
 r2r: 1
-host: mods
+host: sharemods
 ---

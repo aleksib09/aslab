@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ford", "Super Touring", "USA", "R2R", "Touring car", "BTCC", "1999", "VRC"]
 draft: false
-link: https://mods.to/grY86839122dd5632
+link: https://filepv.com/6jouvmyfy09v/VRC_Tourers_Fortix_Mando_v1_5.zip.html
 zipsize: "458 MB"
 host: mods
 manu: Ford

@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Formula", "VRC", "F1", "2025", "R2R", "Formula 1"]
 draft: false
-link: https://mods.to/ank1683920f362efc
+link: https://filepv.com/af1qzy1z3wrs/Formula-1-Season-2025-VRC_v1_2.zip.html
 zipsize: "1.15 GB"
 manu: vrc
 country: France
@@ -31,6 +31,6 @@ carname: "Formula Alpha 2024"
 folder: "vrc_formula_alpha_2024"
 livery: "Included"
 r2r: 1
-host: mods
+host: sharemods
 cargallery: ["ndarz6u","DKF2o7v", "uLzB5bt"]
 ---

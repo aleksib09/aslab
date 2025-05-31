@@ -10,9 +10,9 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Renault", "France", "Super Touring", "Touring car", "BTCC", "1999", "VRC"]
 draft: false
-link: https://mods.to/0Z3W6839130cb9b88
+link: https://filepv.com/cmcddwqtjswa/VRC_Tourers_Renoir_Lagoon_v1_3.zip.html
 zipsize: "470 MB"
-host: mods
+host: sharemods
 manu: Renault
 championship: BTCC
 country: France

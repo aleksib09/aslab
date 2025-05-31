@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["F1", "Formula 1", "Formula", "2022", "VRC"]
 draft: false
-link: https://mods.to/A2Wf68392057af08e
+link: https://filepv.com/68inbj7keu4y/VRC_Formula-Alpha-2022_v1_3.zip.html
 zipsize: "277 MB"
 manu: vrc
 country: "World"
@@ -32,5 +32,5 @@ carname: "Formula Alpha 2022"
 folder: "vrc_formula_alpha_2022"
 livery: "No"
 r2r: 0
-host: mods
+host: sharemods
 ---

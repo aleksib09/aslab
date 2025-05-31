@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "F2", "Formula 2", "R2R", "Formula", "VRC", "Italy"]
 draft: false
-link: https://mods.to/EtU1683921fa82ffb
+link: https://filepv.com/tgr8c17pcyo6/VRC_Formula-Beta-2008_v1_0.zip.html
 zipsize: "314 MB"
 manu: Dallara
 championship: Formula 2
@@ -33,5 +33,5 @@ carname: "Dallara GP2/08"
 realname: Formula Beta 2008
 livery: "Included"
 r2r: 1
-host: mods
+host: sharemods
 ---

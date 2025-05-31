@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "F1", "Formula", "R2R", "Italy", "1997"]
 draft: false
-link: https://mods.to/V4Cl683929609b86a
+link: https://filepv.com/pbge0d26pxt4/VRC_Ferrari-F310B-1997_v1_0.zip.html
 zipsize: "281 MB"
 manu: Ferrari
 logo2: scuderia-sf
@@ -34,5 +34,5 @@ carname: "Ferrari F310B"
 folder: vrc_1997_ferrari_f310b
 livery: "Included"
 r2r: 1
-host: mods
+host: sharemods
 ---

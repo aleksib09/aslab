@@ -10,9 +10,9 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Vauxhall", "England", "R2R", "Super Touring", "Touring car", "BTCC", "1998", "VRC"]
 draft: false
-link: https://mods.to/Ayjf683912c45c44f
-zipsize: "417 MB"
-host: mods
+link: https://filepv.com/8jj70kjuuv3l/VRC_Tourers_Vorax_Vector_v1_5.zip.html
+zipsize: "356 MB"
+host: sharemods
 manu: Vauxhall
 championship: BTCC
 country: England

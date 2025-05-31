@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Jordan", "Ford", "F1", "Formula", "R2R", "Ireland", "1997"]
 draft: false
-link: https://mods.to/tyB368392a79937ae
+link: https://filepv.com/5ure5bj8nr6x/VRC_Jordan-191-1997_v1_1.zip.html
 zipsize: "299 MB"
 manu: Jordan
 brandimgur: 4VJ9JoM
@@ -34,5 +34,5 @@ carname: "Jordan-Ford 191"
 folder: vrc_1997_jordan_191
 livery: "Included"
 r2r: 1
-host: mods
+host: sharemods
 ---

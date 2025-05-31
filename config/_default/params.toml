@@ -56,7 +56,7 @@ image_size = "150x100"
 # announcement
 # announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
 [announcement]
-enable = true
+enable = false
 expire_days = 7
 content = "Dont worry guys, all files will be available soon!"
 

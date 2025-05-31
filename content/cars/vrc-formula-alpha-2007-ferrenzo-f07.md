@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "F1", "VRC", "2007", "Italy", "Formula"]
 draft: false
-link: https://mods.to/Iea66839299e8b09b
+link: https://filepv.com/2vo5ni7zg354/VRC_Formula-Alpha-2007-Ferrenzo-F07_v1_2.zip.html
 accel: 2.9s
 manu: Ferrari
 brandname: scuderia-sf
@@ -32,5 +32,5 @@ folder: "vrc_formula_alpha_2007_f07"
 zipsize: "982 MB"
 livery: "Not included"
 r2r: 0
-host: ModsFire
+host: sharemods
 ---

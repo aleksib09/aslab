@@ -9,7 +9,7 @@ cargallery: ["LXD6l8P", "wvhqy4S", "z8jqr9s"]
 categories: ["Car"]
 author: "Theodore"
 tags: ["Dallara", "Formula", "Italy", "2018", "VRC", "NTT IndyCar", "IndyCar"]
-draft: false
+draft: true
 link: https://mods.to/VhQ9683923a6e3d2b
 zipsize: "666 MB"
 manu: Dallara
