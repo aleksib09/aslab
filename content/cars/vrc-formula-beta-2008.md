@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "F2", "Formula 2", "R2R", "Formula", "VRC", "Italy"]
 draft: false
-link: https://filepv.com/tgr8c17pcyo6/VRC_Formula-Beta-2008_v1_0.zip.html
+link: https://mods.to/equw683bcc60c29fb
 zipsize: "314 MB"
 manu: Dallara
 championship: Formula 2

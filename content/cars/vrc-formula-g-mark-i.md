@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["VRC", "Formula", "Wolrd", "2024", "VRC"]
 draft: false
-link: https://filepv.com/c4jotvqnwe01/VRC_Formula-G_-2024-Mark-I_v1_2.zip.html
+link: https://mods.to/IVtn683bc89f378b7
 zipsize: "331 MB"
 manu: VRC
 country: World

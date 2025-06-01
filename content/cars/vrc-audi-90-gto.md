@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodore"
 tags: ["Audi", "GTO", "Germany", "1989", "VRC", "Sports Car"]
 draft: false
-link: https://filepv.com/ydwbmmjhk5ve/VRC_ARC-Auriel-90-GTO_v1_2.zip.html
+link: https://mods.to/PwDy683bca0bc91b6
 zipsize: "153 MB"
 manu: Audi
 brandname: audi-sport

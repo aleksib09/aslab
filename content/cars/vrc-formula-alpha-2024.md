@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Formula", "VRC", "F1", "2025", "R2R", "Formula 1"]
 draft: false
-link: https://filepv.com/af1qzy1z3wrs/Formula-1-Season-2025-VRC_v1_2.zip.html
+link: https://mods.to/9kza683bc934ecd8a
 zipsize: "1.15 GB"
 manu: vrc
 country: France
