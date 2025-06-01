@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Peugeot", "France", "R2R", "Super Touring", "Touring car", "BTCC", "1998", "VRC"]
 draft: false
-link: https://filepv.com/90hkfdljj4b8/VRC_Tourers_Pageau_46_v1_3.zip.html
+link: https://mods.to/DaQC683bfc71ce870
 zipsize: "458 MB"
 host: sharemods
 manu: Peugeot

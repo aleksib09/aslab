@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Honda", "Japan", "R2R", "Super Touring", "Touring car", "BTCC", "1999", "VRC"]
 draft: false
-link: https://filepv.com/zp3z7vm2kf3l/VRC_Tourers_Gojira_Ascent_v1_5.zip.html
+link: https://mods.to/37o9683c247deaae5
 zipsize: "416 MB"
 host: sharemods
 manu: Honda

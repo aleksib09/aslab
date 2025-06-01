@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Renault", "France", "Super Touring", "Touring car", "BTCC", "1999", "VRC"]
 draft: false
-link: https://filepv.com/cmcddwqtjswa/VRC_Tourers_Renoir_Lagoon_v1_3.zip.html
+link: https://mods.to/2HiG683c1d22d4b6b
 zipsize: "470 MB"
 host: sharemods
 manu: Renault
