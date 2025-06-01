@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["BMW", "GT3", "R2R", "URD", "2022","Sports Car", "Germany"]
 draft: false
-link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Bayro-4-GT3_v2_3_1.zip
+link: https://mods.to/Ky07683c679854c11
 manu: BMW
 country: Germany
 year: 2022

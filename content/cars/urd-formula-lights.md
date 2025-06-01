@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "IndyCar", "Formula", "Italy", "2014", "URD"]
 draft: false
-link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Formula_Lights.zip
+link: https://mods.to/h6Ul683c68941a138
 zipsize: "66 MB"
 manu: Dallara
 championship: Indy NXT

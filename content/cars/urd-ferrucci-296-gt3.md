@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "GT3", "URD", "Italy", "2023","Sports Car"]
 draft: false
-link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Ferrucci-296-GT3_v1_2_1.zip
+link: https://mods.to/xbjb683c685b56aab
 manu: Ferrari
 country: Italy
 accel: 3.2s

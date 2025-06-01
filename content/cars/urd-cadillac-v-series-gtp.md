@@ -11,7 +11,7 @@ author: "Theodora"
 chassisby: Dallara
 tags: ["Cadillac", "Dallara", "LMDh", "R2R", "Prototype", "Hypercar", "Le mans Prototype", "URD", "USA", "2023"]
 draft: false
-link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Dallas_VSR_Hybrid.zip
+link: https://mods.to/EDrl683c5bcb9596e
 zipsize: "939 MB"
 host: logo
 manu: Cadillac

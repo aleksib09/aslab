@@ -11,7 +11,7 @@ author: "Theodora"
 championship: Super GT
 tags: ["Nissan", "Super GT", "GT500", "URD", "Japan", "2021","Sports Car"]
 draft: false
-link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Nissan_Z_GT500.zip
+link: https://mods.to/KRiA683c69882ac1c
 zipsize: "83 MB"
 host: logo
 manu: Nissan

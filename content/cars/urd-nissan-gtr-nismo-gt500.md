@@ -11,7 +11,7 @@ author: "Theodora"
 championship: Super GT
 tags: ["Nissan", "Super GT", "GT500", "URD", "Japan", "2021","Sports Car"]
 draft: false
-link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/urd_jt5_shiro_2021.zip
+link: https://mods.to/wnzF683c69151f357
 zipsize: "115 MB"
 host: logo
 manu: Nissan

@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodore"
 tags: ["Aston Martin", "GT3", "URD","Sports Car", "England"]
 draft: false
-link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Arthur-Merlin-Valor-GT3-EVO_v1_01.zip
+link: https://mods.to/nKap683c67db70d9c
 manu: Aston Martin
 brandname: aston-martin
 country: England

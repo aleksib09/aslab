@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Porsche", "GT3", "URD", "Germany", "2023", "Sports Car"]
 draft: false
-link: https://s10.assettolab.com/files/e6974e6e1fdc6faf684db9cace9abaff/URD_Darche-992-GT3R-2023_v1_3_1.zip
+link: https://mods.to/FSKR683c68178f671
 zipsize: "264 MB"
 manu: Porsche
 country: Germany
