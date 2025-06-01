@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["McLaren", "ASR", "Formula 1", "Formula", "R2R", "England", "1992"]
 draft: false
-link: https://s10.assettolab.com/files/25d01aca408774f4d6ae890be415ed06/asr_1992_mclaren_mp4-6b.zip
+link: https://mods.to/X16H683baf139a078
 zipsize: "135 MB"
 manu: McLaren
 parentcar: McLaren MP4/7 - ASR Formula 1992

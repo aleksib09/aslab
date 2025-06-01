@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Cadillac", "Hypercar", "Dallara", "GM", "IMSA" ,"WEC", "LMDh", "Le Mans Prototype", "VRC", "USA", "R2R"]
 draft: false
-link: https://filepv.com/ucjqt07a0wj1/Cadillac-V-SeriesR-VRC_v1_0.zip.html
+link: https://mods.to/hX1x683bafa1b669a
 manu: Cadillac
 brandname: cadillac-racing
 accel: 3 seconds

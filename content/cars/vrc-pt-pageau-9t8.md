@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Peugeot", "Hypercar", "WEC", "LMH", "Le Mans Prototype", "VRC", "France" ,"R2R"]
 draft: false
-link: https://filepv.com/o3hc31blw5vd/VRC_PT_Peugeot-9X8_v1.5.zip.html
+link: https://mods.to/UNzB683bb62b1d59a
 host: sharemods
 zipsize: "777 MB"
 manu: Peugeot

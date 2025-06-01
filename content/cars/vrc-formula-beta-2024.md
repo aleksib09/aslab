@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Dallara", "F2", "Formula 2", "Formula", "VRC", "Italy"]
 draft: false
-link: https://filepv.com/70xziqwsaaws/VRC_Formula-Beta-2024_v1_1.zip.html
+link: https://mods.to/J634683bb04916e77
 zipsize: "858 MB"
 manu: Dallara
 championship: Formula 2

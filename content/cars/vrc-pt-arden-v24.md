@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Alpine", "Hypercar", "VRC", "Oreca", "France", "Le Mans Prototype", "LMH", "WEC"]
 draft: false
-link: https://filepv.com/jfreq0v0dpm3/Alpine-A424_v1.2.zip.html
+link: https://mods.to/MTv8683bb0f17627f
 zipsize: "643 MB"
 manu: Alpine
 logo2: alpine-cars

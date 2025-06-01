@@ -10,7 +10,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Isotta Fraschini", "Hypercar", "VRC", "Italy", "Le Mans Prototype", "LMH"]
 draft: false
-link: https://filepv.com/68ajio0mkveu/VRC_PT_Isotta-Fraschini-Tipo-6_v1.0.zip.html
+link: https://mods.to/j8Zy683bb73dad31b
 zipsize: "364 MB"
 manu: Isotta Fraschini
 brandname: isotta-fraschini
