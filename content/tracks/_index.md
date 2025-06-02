@@ -1,6 +1,6 @@
 ---
 title: "All tracks"
 meta_title: ""
-description: "tracks available in our database, still updating of course"
-header: "/images/nbr.jpg"
+description: "Download over hundreds Assetto Corsa track mods – real-world racing circuits, oval circuit, free roam maps for free. Only high quality tracks, no ads"
+keywords: ["assetto corsa tracks", "ac track mods", "free track download", "free roam maps"]
 ---

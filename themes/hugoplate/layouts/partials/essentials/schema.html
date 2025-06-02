@@ -1,0 +1,97 @@
+{{ if eq .Kind "taxonomy" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ .Title | title | jsonify }},
+  "description": "Explore Assetto Corsa mods tagged with '{{ .Title }}' — curated collection from Assetto Lab.",
+  "url": "{{ .Permalink }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Assetto Lab",
+    "url": "https://assettolab.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://assettolab.com/images/logo-darkmode_hu_6ed33f9860d095bb.webp"
+    }
+  }
+}
+</script>
+{{ end }}
+
+
+{{ if .IsHome }}
+<!-- WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Assetto Lab",
+  "url": "https://assettolab.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://assettolab.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Assetto Lab",
+  "url": "https://assettolab.com",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://assettolab.com/images/logo-darkmode_hu_6ed33f9860d095bb.webp"
+  }
+}
+</script>
+{{ end }}
+
+
+{{ if or (eq .RelPermalink "/cars/") (eq .RelPermalink "/tracks/") (eq .RelPermalink "/misc/") (eq .RelPermalink "/skins/") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ .Title | default "Assetto Corsa Mods" | jsonify }},
+  "description": {{ with .Params.description }}{{ . | jsonify }}{{ else }}"Download high quality and free Assetto Corsa car, track and skins mods at Assetto Lab."{{ end }},
+  "url": "{{ .Permalink }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Assetto Lab",
+    "url": "https://assettolab.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://assettolab.com/images/logo-darkmode_hu_6ed33f9860d095bb.webp"
+    }
+  }
+}
+</script>
+{{ end }}
+
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ with .Params.description }}{{ . | jsonify }}{{ else }}"Download Assetto Corsa mod from Assetto Lab."{{ end }},
+  "url": "{{ .Permalink }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "image": "{{ with .Params.thumb }}https://i.imgur.com/{{ . }}.jpg{{ else }}https://assettolab.com/og-default.jpg{{ end }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Assetto Lab",
+    "url": "https://assettolab.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://assettolab.com/images/logo-darkmode_hu_6ed33f9860d095bb.webp"
+    }
+  }
+}
+</script>
+{{ end }}

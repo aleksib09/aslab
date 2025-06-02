@@ -32,7 +32,7 @@
   <base href="{{ .Permalink }}" />
 {{ end }}
 
-<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }} Best place to find quality Assetto Corsa mods, tracks and liveries by Assetto Lab. Download high-quality AC mods for free.{{ end }}" />
+<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }} Enjoy top quality and free Assetto Corsa mods of cars, tracks, csp, liveries on Assetto Lab. Elevate your racing experience with our mods collection.{{ end }}" />
 
 <!-- title -->
 {{ $title := site.Title }}
@@ -81,9 +81,9 @@
 
 
 <!-- meta description -->
-<meta
+{{/*  <meta
   name="description"
-  content="{{ .Params.description | default site.Params.metadata.description }}" />
+  content="{{ .Params.description | default site.Params.metadata.description }}" />  */}}
 
 <!-- meta author -->
 {{ with site.Params.metadata.author }}
@@ -235,3 +235,7 @@
 
 <!-- Mermaid -->
 {{ partial "mermaid/assets/js" . }}
+
+
+
+{{ partial "essentials/schema.html" . }}
