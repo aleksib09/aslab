@@ -32,6 +32,7 @@
   <base href="{{ .Permalink }}" />
 {{ end }}
 
+<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }} Best place to find quality Assetto Corsa mods, tracks and liveries by Assetto Lab. Download high-quality AC mods for free.{{ end }}" />
 
 <!-- title -->
 {{ $title := site.Title }}
@@ -42,7 +43,7 @@
 {{ else if eq .Page.Title "All liveries available"}}
 <title>All skins availabe for Asseto Corsa - Assetto Lab</title>
 {{ else if or (eq .Section "cars") (eq .Section "tracks") (eq .Section "skins") (eq .Section "misc") (eq .Section "pages")}} 
-  <title>{{ .Page.Title }}</title>
+  <title>{{ .Page.Title }} - Free Assetto Corsa Mods by Assetto Lab</title>
 {{ else if eq .Page.Title "404 Page not found"}}
 <title>404 Not Found - Assetto Lab</title>
 {{else}}
