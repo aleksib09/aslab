@@ -36,13 +36,15 @@
 <!-- title -->
 {{ $title := site.Title }}
 {{ if eq .Page.Title "All cars"}}
-<title>All cars mods availabe for Assetto Corsa</title>
+<title>All cars mods availabe for Assetto Corsa - Assetto Lab</title>
 {{ else if eq .Page.Title "All tracks"}}
-<title>All tracks available for Assetto Corsa</title>
+<title>All tracks available for Assetto Corsa - Assetto Lab</title>
 {{ else if eq .Page.Title "All liveries available"}}
-<title>All skins availabe for Asseto Corsa</title>
+<title>All skins availabe for Asseto Corsa - Assetto Lab</title>
 {{ else if or (eq .Section "cars") (eq .Section "tracks") (eq .Section "skins") (eq .Section "misc") (eq .Section "pages")}} 
   <title>{{ .Page.Title }}</title>
+{{ else if eq .Page.Title "404 Page not found"}}
+<title>404 Not Found - Assetto Lab</title>
 {{else}}
 <title>{{ if .IsHome }}{{ .Site.Title }} {{ else if .Page.Title }}Mods tagged with {{ .Page.Title }} {{ end }}</title>
 {{end}}
