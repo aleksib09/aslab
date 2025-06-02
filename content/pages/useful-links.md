@@ -10,3 +10,4 @@ draft: false
 
 #### List of useful resources for you will need!
 - [Assetto Corsa Modding Guide 2024](/modding-guide-2024)
+- [How to download mods guide 2024](/how-to-download)

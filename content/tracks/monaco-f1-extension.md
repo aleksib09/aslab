@@ -14,7 +14,7 @@ tracklink: "https://s10.assettolab.com/files/29328327321ab23/Monaco F1 2025 Exte
 tracklocation: Monaco
 tracklogo: ghHVjWk
 trackcity: Monte-Carlo
-trackhosted: ["F1","Miami GP"]
+trackhosted: ["F1","Monaco GP"]
 tracktype: ["Street", "Loop"]
 eventyear: ["2025"]
 event: Monaco Grand Prix

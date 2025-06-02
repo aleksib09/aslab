@@ -252,11 +252,21 @@ weight = 5
 # footer menu
 
 [[footer]]
-name = "How To Download"
-url = "/how-to-download"
-weight = 1
+name = "Privacy Policy"
+url = "/privacy"
+weight = 2
 
 [[footer]]
 name = "Useful Links"
 url = "/useful-links"
-weight = 2
+weight = 1
+
+[[footer]]
+name = "Terms of Service"
+url = "/terms/"
+weight = 3
+
+[[footer]]
+name = "Cookie Policy"
+url = "/cookie-policy/"
+weight = 4

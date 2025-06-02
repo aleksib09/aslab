@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{ $image:= .Params.image }}
+
+<style>
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+  }</style>
+
+  <div class="text-center" style="padding-top: 50px;">
+    <h1>{{ .Params.Title}}
+    </h1>
+     </div>
+    </div>
+  </div>
+
+  <section class="section" style="padding-top: 0px;">
+    <div class="container">
+      <div class="row justify-center">
+        <article class="lg:col-10">
+          </h1>
+          <hr style="margin-bottom:0px;">
+          <div class="content mb-10">
+            {{/*  {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }}  */}}
+            {{ .Content }}
+          </div>
+        <!-- Related posts -->
+      {{ $related := .Site.RegularPages.Related . | first 10 }}
+      {{ $related = $related | shuffle | first 3 }}
+      {{ with $related }}
+        <div class="section pb-0">
+          <h2 class="h3 mb-12"><i class="fa fa-heart"></i> Other similar mods</h2>
+          <div class="row">
+            {{ range . }}
+              <div class="lg:col-4 md:col-6 mb-14">
+                {{ partial "components/blog-card" . }}
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
