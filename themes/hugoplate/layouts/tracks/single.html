@@ -185,7 +185,7 @@
                           </div>
                         </div>
                         <div class="text-center rounded-lg border flex items-center justify-center w-1/5" style="border-radius: var(--radius-sm)">
-                          <a href="{{ .Params.tracklink }}" target="_blank"><img alt={{ .Params.host }} class="mx-auto" src="/images/{{ .Params.trackhost | urlize }}.png" width="135"></a>
+                          <a href="{{ .Params.tracklink }}" title="Download via {{ .Params.host }}" rel="noopener noreferrer" target="_blank"><img alt={{ .Params.host }} title="Download via {{ .Params.host }}" class="mx-auto" src="/images/{{ .Params.trackhost | urlize }}.png" width="135"></a>
                       </div>
                     </div>
                 </div>
