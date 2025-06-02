@@ -185,17 +185,6 @@ weight = 9
 name = "Creators"
 weight = 2
 
-[[main]]
-parent = "Creators"
-name = "URD - United Racing Design"
-url = "/tags/urd/"
-weight = 2
-
-[[main]]
-parent = "Creators"
-name = "VRC - Virtual Racing Cars"
-url = "/tags/vrc/"
-weight = 1
 
 [[main]]
 parent = "Creators"
@@ -221,11 +210,6 @@ name = "Fenryr"
 url = "/tags/fenryr/"
 weight = 6
 
-[[main]]
-parent = "Creators"
-name = "Pyyer"
-url = "/tags/pyyer/"
-weight = 7
 
 
 
@@ -270,3 +254,8 @@ weight = 3
 name = "Cookie Policy"
 url = "/cookie-policy/"
 weight = 4
+
+[[footer]]
+name = "Contact Us"
+url = "/contact-us/"
+weight = 5

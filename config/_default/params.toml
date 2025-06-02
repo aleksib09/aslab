@@ -63,7 +63,7 @@ content = "Dont worry guys, all files will be available soon!"
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["AssettoLab", "assetto corsa", "urd", "vrc", "fsr"]
+keywords = ["AssettoLab", "assetto corsa", "ceky", "fsr"]
 description = "Best Free Assetto Corsa Mods - Cars, Tracks, Skins | Assetto Lab"
 author = "Assetto Lab"
 twitter = "Assetto Lab"
