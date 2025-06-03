@@ -43,7 +43,17 @@
 {{ else if eq .Page.Title "All liveries available"}}
 <title>All skins availabe for Asseto Corsa - Assetto Lab</title>
 {{ else if or (eq .Section "cars") (eq .Section "tracks") (eq .Section "skins") (eq .Section "misc") (eq .Section "pages")}} 
-  <title>{{ .Page.Title }} - Free Assetto Corsa Mods by Assetto Lab</title>
+  <title>{{ .Page.Title }} - Free Download Assetto Corsa Mods</title>
+{{ else if eq .Page.Title "404 Page not found"}}
+<title>404 Not Found - Assetto Lab</title>
+{{ else if eq .Page.Title "Privacy Policy"}}
+<title>Privacy Policy - Assetto Lab</title>
+{{ else if eq .Page.Title "Terms of Use"}}
+<title>Terms of Service - Assetto Lab</title>
+{{ else if eq .Page.Title "Cookie Policy"}}
+<title>Cookie Policy</title>
+{{ else if eq .Page.Title "Contact Us"}}
+<title>Contact Us - Assetto Lab</title>
 {{ else if eq .Page.Title "404 Page not found"}}
 <title>404 Not Found - Assetto Lab</title>
 {{else}}
