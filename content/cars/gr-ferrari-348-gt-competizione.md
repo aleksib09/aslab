@@ -9,7 +9,7 @@ categories: ["Car"]
 author: "Theodora"
 tags: ["Ferrari", "GeroDa74", "Sport cars", "Italy", "1993"]
 draft: false
-link: https://mods.to/7F9u68306719d34c7
+link: https://mods.to/M27g68418502afd41
 zipsize: "40 MB"
 manu: Ferrari
 country: Italy
